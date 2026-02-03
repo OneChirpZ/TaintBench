@@ -1,0 +1,8 @@
+# 数据文件
+TaintBenchApks/
+TaintBenchRepos/
+
+# 临时文件
+*.pyc
+__pycache__/
+*.log
