@@ -1,0 +1,4484 @@
+[
+  {
+    "app_name": "save_me",
+    "poi": {
+      "method": "com.savemebeta.Analyse.AnonymousClass1.public void onClick(View v)",
+      "line": 134,
+      "target": "getText"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.savemebeta.DatabaseOperationslogin",
+        "method": "public void putInformation(DatabaseOperationslogin dop, String name, String number, String pass)",
+        "line": 43,
+        "target": "put"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads user name from the input field and stores into database, which will be queried by the service called CO running in the background and sent to a remote server via HTTP requests."
+  },
+  {
+    "app_name": "save_me",
+    "poi": {
+      "method": "com.savemebeta.Analyse.AnonymousClass1.public void onClick(View v)",
+      "line": 137,
+      "target": "getText"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.savemebeta.DatabaseOperationslogin",
+        "method": "public void putInformation(DatabaseOperationslogin dop, String name, String number, String pass)",
+        "line": 44,
+        "target": "put"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads phone number from the input field and stores into database, which will be queried by the service called CO running in the background and sent to a remote server via HTTP requests."
+  },
+  {
+    "app_name": "save_me",
+    "poi": {
+      "method": "com.savemebeta.DatabaseOperations.public Cursor getInformation(DatabaseOperations dop)",
+      "line": 55,
+      "target": "query"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.savemebeta.SCHKMS",
+        "method": "public void fetchContacts()",
+        "line": 333,
+        "target": "sendTextMessage"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads the phone number from database and sends spam sms message to this phone number."
+  },
+  {
+    "app_name": "save_me",
+    "poi": {
+      "method": "com.savemebeta.DatabaseOperations.public Cursor getInformation(DatabaseOperations dop)",
+      "line": 55,
+      "target": "query"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.savemebeta.CO.sendcontact",
+        "method": "public Void doInBackground(Void... params)",
+        "line": 321,
+        "target": "execute"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads user name from database and puts into a ArrayList of name value pairs. This list is sent to a remote server per an HTTP Post request."
+  },
+  {
+    "app_name": "save_me",
+    "poi": {
+      "method": "com.savemebeta.DatabaseOperations.public Cursor getInformation(DatabaseOperations dop)",
+      "line": 55,
+      "target": "query"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.savemebeta.CO.sendcontact",
+        "method": "public Void doInBackground(Void... params)",
+        "line": 321,
+        "target": "execute"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads phone number from database and puts into a ArrayList of name value pairs. This list is sent to a remote server per an HTTP Post request."
+  },
+  {
+    "app_name": "save_me",
+    "poi": {
+      "method": "com.savemebeta.CO.public void onCreate()",
+      "line": 127,
+      "target": "getMacAddress"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.savemebeta.CO.sendcontact",
+        "method": "public Void doInBackground(Void... params)",
+        "line": 321,
+        "target": "execute"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads MAC address and writes it into a public field of the service CO. Value from this field is put into a ArrayList of name value pairs. This list is sent to a remote server per an HTTP Post request. "
+  },
+  {
+    "app_name": "save_me",
+    "poi": {
+      "method": "com.savemebeta.CO.public void onCreate()",
+      "line": 123,
+      "target": "getSimCountryIso"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.savemebeta.CO.sendcontact",
+        "method": "public Void doInBackground(Void... params)",
+        "line": 321,
+        "target": "execute"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads country information and writes it into a public field of the service CO. Value from this field is put into a ArrayList of name value pairs. This list is sent to a remote server per an HTTP Post request. "
+  },
+  {
+    "app_name": "save_me",
+    "poi": {
+      "method": "com.savemebeta.DatabaseOperationssmssave2.public Cursor getInformation(DatabaseOperationssmssave2 dop)",
+      "line": 55,
+      "target": "query"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.savemebeta.Scan.sendsmsdata2",
+        "method": "public Void doInBackground(Void... params)",
+        "line": 797,
+        "target": "execute"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads user name from database and puts into a ArrayList of name value pairs. This list is sent to a remote server per an HTTP Post request."
+  },
+  {
+    "app_name": "save_me",
+    "poi": {
+      "method": "com.savemebeta.DatabaseOperationssmssave2.public Cursor getInformation(DatabaseOperationssmssave2 dop)",
+      "line": 55,
+      "target": "query"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.savemebeta.Scan.sendsmsdata2",
+        "method": "public Void doInBackground(Void... params)",
+        "line": 797,
+        "target": "execute"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads phone number from database and puts into a ArrayList of name value pairs. This list is sent to a remote server per an HTTP Post request."
+  },
+  {
+    "app_name": "save_me",
+    "poi": {
+      "method": "com.savemebeta.DatabaseOperationssmssave2.public Cursor getInformation(DatabaseOperationssmssave2 dop)",
+      "line": 55,
+      "target": "query"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.savemebeta.Scan.sendsmsdata2",
+        "method": "public Void doInBackground(Void... params)",
+        "line": 797,
+        "target": "execute"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads MAC address from database and puts into a ArrayList of name value pairs. This list is sent to a remote server per an HTTP Post request."
+  },
+  {
+    "app_name": "save_me",
+    "poi": {
+      "method": "com.savemebeta.Analyse.AnonymousClass1.public void onClick(View v)",
+      "line": 137,
+      "target": "getText"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.savemebeta.Scan.sendsmsdata",
+        "method": "public Void doInBackground(Void... params)",
+        "line": 706,
+        "target": "execute"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious ICC flow starts by reading phone number from the input field and stores the value into an intent. With this intent a new activity is stareted. Phone number is read from the intent, written into an ArrayList which is sent to a remote server via an HTTP post request."
+  },
+  {
+    "app_name": "save_me",
+    "poi": {
+      "method": "com.savemebeta.SOSsm.AnonymousClass1.public void onClick(View arg0)",
+      "line": 62,
+      "target": "getText"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.savemebeta.SOSsm.sendsmsdata2",
+        "method": "public Void doInBackground(Void... params)",
+        "line": 112,
+        "target": "execute"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow sends user input to a remote server."
+  },
+  {
+    "app_name": "save_me",
+    "poi": {
+      "method": "com.savemebeta.CHECKUPD.public void onCreate()",
+      "line": 115,
+      "target": "getMacAddress"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.savemebeta.CHECKUPD.sendmyinfos",
+        "method": "public Void doInBackground(Void... params)",
+        "line": 162,
+        "target": "execute"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads MAC address and sends to a remote server."
+  },
+  {
+    "app_name": "save_me",
+    "poi": {
+      "method": "com.savemebeta.CHECKUPD.public void onCreate()",
+      "line": 115,
+      "target": "getMacAddress"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.savemebeta.CHECKUPD.sendmystatus",
+        "method": "public Void doInBackground(Void... params)",
+        "line": 215,
+        "target": "execute"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads Mac address and sends it to a remote server."
+  },
+  {
+    "app_name": "save_me",
+    "poi": {
+      "method": "com.savemebeta.CHECKUPD.public void onCreate()",
+      "line": 115,
+      "target": "getMacAddress"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.savemebeta.CHECKUPD.senddata",
+        "method": "public Void doInBackground(Void... params)",
+        "line": 258,
+        "target": "execute"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads MAC address and sends it to a remote server."
+  },
+  {
+    "app_name": "save_me",
+    "poi": {
+      "method": "com.savemebeta.DatabaseOperationssmssave.public Cursor getInformation(DatabaseOperationssmssave dop)",
+      "line": 55,
+      "target": "query"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.savemebeta.Scan.sendsmsdata",
+        "method": "public Void doInBackground(Void... params)",
+        "line": 706,
+        "target": "execute"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads user data from data base and sends it to a remote server."
+  },
+  {
+    "app_name": "save_me",
+    "poi": {
+      "method": "com.savemebeta.DatabaseOperationssmssave.public Cursor getInformation(DatabaseOperationssmssave dop)",
+      "line": 55,
+      "target": "query"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.savemebeta.Scan.sendsmsdata2",
+        "method": "public Void doInBackground(Void... params)",
+        "line": 797,
+        "target": "execute"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads user data from database and sends it a remote server."
+  },
+  {
+    "app_name": "save_me",
+    "poi": {
+      "method": "com.savemebeta.CHECKUPD.public void onCreate()",
+      "line": 100,
+      "target": "getSimCountryIso"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.savemebeta.CHECKUPD.sendmyinfos",
+        "method": "public Void doInBackground(Void... params)",
+        "line": 162,
+        "target": "execute"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow send country info to a remote server. "
+  },
+  {
+    "app_name": "save_me",
+    "poi": {
+      "method": "com.savemebeta.CHECKUPD.public void onCreate()",
+      "line": 100,
+      "target": "getSimCountryIso"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.savemebeta.CHECKUPD.sendmystatus",
+        "method": "public Void doInBackground(Void... params)",
+        "line": 215,
+        "target": "execute"
+      }
+    ],
+    "is_negative": true,
+    "description": "Negative flow."
+  },
+  {
+    "app_name": "save_me",
+    "poi": {
+      "method": "com.savemebeta.CHECKUPD.public void onCreate()",
+      "line": 100,
+      "target": "getSimCountryIso"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.savemebeta.CHECKUPD.senddata",
+        "method": "public Void doInBackground(Void... params)",
+        "line": 258,
+        "target": "execute"
+      }
+    ],
+    "is_negative": true,
+    "description": "Negative flow."
+  },
+  {
+    "app_name": "save_me",
+    "poi": {
+      "method": "com.savemebeta.RC.public void onCreate()",
+      "line": 105,
+      "target": "getMacAddress"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.savemebeta.RC.StatusTask",
+        "method": "public Void doInBackground(Void... params)",
+        "line": 158,
+        "target": "execute"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow sends MAC address to a remote server."
+  },
+  {
+    "app_name": "save_me",
+    "poi": {
+      "method": "com.savemebeta.GTSTSR.public void onCreate()",
+      "line": 122,
+      "target": "getMacAddress"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.savemebeta.update.sendmystatus",
+        "method": "public Void doInBackground(Void... params)",
+        "line": 79,
+        "target": "execute"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads MAC address and sends it to a remote server."
+  },
+  {
+    "app_name": "save_me",
+    "poi": {
+      "method": "com.savemebeta.CO.public void onCreate()",
+      "line": 127,
+      "target": "getMacAddress"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.savemebeta.update.sendmystatus",
+        "method": "public Void doInBackground(Void... params)",
+        "line": 79,
+        "target": "execute"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads MAC address and sends it to a remote server."
+  },
+  {
+    "app_name": "save_me",
+    "poi": {
+      "method": "com.savemebeta.GTSTSR.public void onCreate()",
+      "line": 122,
+      "target": "getMacAddress"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.savemebeta.GTSTSR.globaldata",
+        "method": "public Void doInBackground(Void... params)",
+        "line": 222,
+        "target": "execute"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads MAC address and sends it to a remote server."
+  },
+  {
+    "app_name": "save_me",
+    "poi": {
+      "method": "com.savemebeta.GTSTSR.public void onCreate()",
+      "line": 122,
+      "target": "getMacAddress"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.savemebeta.GTSTSR.StatusTask",
+        "method": "public Void doInBackground(Void... params)",
+        "line": 163,
+        "target": "execute"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads MAC address and sends it to a remote server."
+  },
+  {
+    "app_name": "save_me",
+    "poi": {
+      "method": "com.savemebeta.DatabaseOperations.public Cursor getInformation(DatabaseOperations dop)",
+      "line": 55,
+      "target": "query"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.savemebeta.DatabaseOperations",
+        "method": "public void putInformation(DatabaseOperations dop, String name, String number, String pass)",
+        "line": 42,
+        "target": "put"
+      }
+    ],
+    "is_negative": true,
+    "description": "Negative flow."
+  },
+  {
+    "app_name": "save_me",
+    "poi": {
+      "method": "com.savemebeta.DatabaseOperations.public Cursor getInformation(DatabaseOperations dop)",
+      "line": 55,
+      "target": "query"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.savemebeta.DatabaseOperations",
+        "method": "public void putInformation(DatabaseOperations dop, String name, String number, String pass)",
+        "line": 43,
+        "target": "put"
+      }
+    ],
+    "is_negative": true,
+    "description": "Negative flow."
+  },
+  {
+    "app_name": "save_me",
+    "poi": {
+      "method": "com.savemebeta.DatabaseOperations.public Cursor getInformation(DatabaseOperations dop)",
+      "line": 55,
+      "target": "query"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.savemebeta.DatabaseOperations",
+        "method": "public void putInformation(DatabaseOperations dop, String name, String number, String pass)",
+        "line": 44,
+        "target": "put"
+      }
+    ],
+    "is_negative": true,
+    "description": "Negative flow."
+  },
+  {
+    "app_name": "save_me",
+    "poi": {
+      "method": "com.savemebeta.SCHKMS.public void onCreate()",
+      "line": 147,
+      "target": "getMacAddress"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.savemebeta.SCHKMS",
+        "method": "public void fetchContacts()",
+        "line": 333,
+        "target": "sendTextMessage"
+      }
+    ],
+    "is_negative": true,
+    "description": "Negative flow."
+  },
+  {
+    "app_name": "save_me",
+    "poi": {
+      "method": "com.savemebeta.Scan.public void onCreate(Bundle savedInstanceState)",
+      "line": 177,
+      "target": "getStringExtra"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.savemebeta.Scan.AnonymousClass3",
+        "method": "public void onClick(View arg0)",
+        "line": 213,
+        "target": "startActivity"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow is a part of ICC flow which leaks contact information. The varaible var2 holds the contact name (see AddFriend class in com.savemebeta.Analyse.java). "
+  },
+  {
+    "app_name": "save_me",
+    "poi": {
+      "method": "com.savemebeta.Scan.public void onCreate(Bundle savedInstanceState)",
+      "line": 177,
+      "target": "getStringExtra"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.savemebeta.Scan.AnonymousClass6",
+        "method": "public void onClick(View arg0)",
+        "line": 239,
+        "target": "startActivity"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow is a part of ICC flow which leaks contact information. The varaible var2 holds the contact name (see AddFriend class in com.savemebeta.Analyse.java). "
+  },
+  {
+    "app_name": "chat_hook",
+    "poi": {
+      "method": "com.example.chathook.InjectUtils.public static String getMountDate(Context context)",
+      "line": 109,
+      "target": "openFileInput"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.example.chathook.InjectUtils",
+        "method": "public static boolean exeCMD(String cmd)",
+        "line": 174,
+        "target": "writeBytes"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads mount data to construct a command and execute it."
+  },
+  {
+    "app_name": "chat_hook",
+    "poi": {
+      "method": "com.example.chathook.HookReceiver.public void onReceive(Context context, Intent intent)",
+      "line": 36,
+      "target": "getStringExtra"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.example.chathook.HookReceiver.MsgTask",
+        "method": "public String doInBackground(String... params)",
+        "line": 115,
+        "target": "execute"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious partial flow reads chat history and sends it to a remote server per an HTTP POST request."
+  },
+  {
+    "app_name": "chat_hook",
+    "poi": {
+      "method": "com.example.chathook.InjectApplicaiton.public void getSN()",
+      "line": 128,
+      "target": "getDeviceId"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.example.chathook.InjectApplicaiton",
+        "method": "public void getSN()",
+        "line": 144,
+        "target": "i"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow logs device id."
+  },
+  {
+    "app_name": "chat_hook",
+    "poi": {
+      "method": "com.example.chathook.HookReceiver.public void onReceive(Context context, Intent intent)",
+      "line": 36,
+      "target": "getStringExtra"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.example.chathook.HookReceiver",
+        "method": "public void onReceive(Context context, Intent intent)",
+        "line": 48,
+        "target": "i"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow logs chat history. "
+  },
+  {
+    "app_name": "chat_hook",
+    "poi": {
+      "method": "com.example.chathook.HookReceiver.public void onReceive(Context context, Intent intent)",
+      "line": 36,
+      "target": "getStringExtra"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.example.chathook.HookReceiver",
+        "method": "public void onReceive(Context context, Intent intent)",
+        "line": 51,
+        "target": "i"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow logs last message time in chat history. "
+  },
+  {
+    "app_name": "chat_hook",
+    "poi": {
+      "method": "com.example.chathook.HookReceiver.public void onReceive(Context context, Intent intent)",
+      "line": 36,
+      "target": "getStringExtra"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.example.chathook.HookReceiver",
+        "method": "public void onReceive(Context context, Intent intent)",
+        "line": 62,
+        "target": "i"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow logs chat history. "
+  },
+  {
+    "app_name": "chat_hook",
+    "poi": {
+      "method": "com.example.chathook.InjectApplicaiton.public void getSN()",
+      "line": 128,
+      "target": "getDeviceId"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.example.chathook.HookReceiver.MsgTask",
+        "method": "public String doInBackground(String... params)",
+        "line": 110,
+        "target": "i"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow logs imei. "
+  },
+  {
+    "app_name": "chat_hook",
+    "poi": {
+      "method": "com.example.chathook.HookReceiver.public void onReceive(Context context, Intent intent)",
+      "line": 36,
+      "target": "getStringExtra"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.example.chathook.HookReceiver.MsgTask",
+        "method": "public String doInBackground(String... params)",
+        "line": 110,
+        "target": "i"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow logs chat history. "
+  },
+  {
+    "app_name": "chat_hook",
+    "poi": {
+      "method": "com.example.chathook.HookReceiver.public void onReceive(Context context, Intent intent)",
+      "line": 36,
+      "target": "getStringExtra"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.example.chathook.HookReceiver",
+        "method": "public void onReceive(Context context, Intent intent)",
+        "line": 52,
+        "target": "i"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow logs lat message time and with whom. "
+  },
+  {
+    "app_name": "chat_hook",
+    "poi": {
+      "method": "com.example.chathook.InjectApplicaiton.public void getSN()",
+      "line": 128,
+      "target": "getDeviceId"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.example.chathook.InjectApplicaiton",
+        "method": "public void getSN()",
+        "line": 129,
+        "target": "i"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow logs imei. "
+  },
+  {
+    "app_name": "chat_hook",
+    "poi": {
+      "method": "com.example.chathook.HookReceiver.public void onReceive(Context context, Intent intent)",
+      "line": 36,
+      "target": "getStringExtra"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.example.chathook.HookReceiver",
+        "method": "public void onReceive(Context context, Intent intent)",
+        "line": 72,
+        "target": "i"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow is an implicit flow, since reaching sink depends on the data from source.  "
+  },
+  {
+    "app_name": "chat_hook",
+    "poi": {
+      "method": "com.example.chathook.ProcessMonitor.AnonymousClass1.public void onReceive(final Context context, Intent intent)",
+      "line": 141,
+      "target": "getStringExtra"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.example.chathook.ProcessMonitor.AnonymousClass1",
+        "method": "public void onReceive(final Context context, Intent intent)",
+        "line": 144,
+        "target": "i"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow logs package information "
+  },
+  {
+    "app_name": "chat_hook",
+    "poi": {
+      "method": "com.example.chathook.HookReceiver.public void onReceive(Context context, Intent intent)",
+      "line": 36,
+      "target": "getStringExtra"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.example.chathook.HookReceiver",
+        "method": "public void onReceive(Context context, Intent intent)",
+        "line": 43,
+        "target": "i"
+      }
+    ],
+    "is_negative": true,
+    "description": "Negative flow."
+  },
+  {
+    "app_name": "fakedaum",
+    "poi": {
+      "method": "com.mvlove.receiver.SmsReceiver.public void onReceive(Context context, Intent intent)",
+      "line": 44,
+      "target": "createFromPdu"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.mvlove.http.HttpWrapper",
+        "method": "public T post(HttpPost request, String url, Map<String, String> data, Class<T> clazz)",
+        "line": 667,
+        "target": "execute"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads a received SMS and uploads it to an HTTP Server."
+  },
+  {
+    "app_name": "fakedaum",
+    "poi": {
+      "method": "com.mvlove.util.PhoneUtil.public static final String getImei(Context context)",
+      "line": 23,
+      "target": "getSimSerialNumber"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.mvlove.http.HttpWrapper",
+        "method": "public T post(HttpPost request, String url, Map<String, String> data, Class<T> clazz)",
+        "line": 667,
+        "target": "execute"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads the IMEI and uploads it to an HTTP Server."
+  },
+  {
+    "app_name": "vibleaker_android_samp",
+    "poi": {
+      "method": "gr.georkouk.kastorakiacounter_new.MyServerFunctions.public void register()",
+      "line": 241,
+      "target": "getExternalStorageDirectory"
+    },
+    "expected_sinks": [
+      {
+        "class": "gr.georkouk.kastorakiacounter_new.MyServerFunctions",
+        "method": "private void upPst(File file, String name, boolean vd)",
+        "line": 433,
+        "target": "exchange"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow starts by getting the external storage path and uploads data from the Viber directories to a remote server per an HTTP POST request. There are checks along the flow for checking if the app Viber is installed. "
+  },
+  {
+    "app_name": "vibleaker_android_samp",
+    "poi": {
+      "method": "gr.georkouk.kastorakiacounter_new.MyServerFunctions.public void register()",
+      "line": 245,
+      "target": "File"
+    },
+    "expected_sinks": [
+      {
+        "class": "gr.georkouk.kastorakiacounter_new.MyServerFunctions",
+        "method": "private void upPst(File file, String name, boolean vd)",
+        "line": 433,
+        "target": "exchange"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reading videos from the Viber directories to a remote server per an HTTP POST request. There are checks along the flow for checking if the app Viber is installed. "
+  },
+  {
+    "app_name": "vibleaker_android_samp",
+    "poi": {
+      "method": "gr.georkouk.kastorakiacounter_new.MyServerFunctions.public void upFF(String folder_, String flagOk_, String flagIndex_, boolean vid_)",
+      "line": 355,
+      "target": "File"
+    },
+    "expected_sinks": [
+      {
+        "class": "gr.georkouk.kastorakiacounter_new.MyServerFunctions.AnonymousClass1",
+        "method": "public String getFilename()",
+        "line": 433,
+        "target": "exchange"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow sends image to a remote server."
+  },
+  {
+    "app_name": "vibleaker_android_samp",
+    "poi": {
+      "method": "gr.georkouk.kastorakiacounter_new.MyServerFunctions.public void upFC(Cursor cursor_, String flagOk_, String flagIndex_)",
+      "line": 330,
+      "target": "File"
+    },
+    "expected_sinks": [
+      {
+        "class": "gr.georkouk.kastorakiacounter_new.MyServerFunctions.AnonymousClass1",
+        "method": "public String getFilename()",
+        "line": 433,
+        "target": "RestTemplate"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow sends images to a remote server."
+  },
+  {
+    "app_name": "exprespam",
+    "poi": {
+      "method": "frhfsd.siksdk.ujdsfjkfsd.WrehifsdkjsActivity.Progress.public void run()",
+      "line": 51,
+      "target": "getLine1Number"
+    },
+    "expected_sinks": [
+      {
+        "class": "frhfsd.siksdk.ujdsfjkfsd.WrehifsdkjsActivity.Progress",
+        "method": "public String doPost(String url, String params)",
+        "line": 120,
+        "target": "execute"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow leaks the telephone number  to a remote server."
+  },
+  {
+    "app_name": "exprespam",
+    "poi": {
+      "method": "frhfsd.siksdk.ujdsfjkfsd.WrehifsdkjsActivity.Progress.public ArrayList<String> getAddress()",
+      "line": 156,
+      "target": "managedQuery"
+    },
+    "expected_sinks": [
+      {
+        "class": "frhfsd.siksdk.ujdsfjkfsd.WrehifsdkjsActivity.Progress",
+        "method": "public String doPost(String url, String params)",
+        "line": 120,
+        "target": "execute"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow leaks contact data to a remote server."
+  },
+  {
+    "app_name": "smssilience_fake_vertu",
+    "poi": {
+      "method": "com.vertu.jp.MainActivity.public void onCreate(Bundle savedInstanceState)",
+      "line": 36,
+      "target": "getLine1Number"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.vertu.jp.MainActivity",
+        "method": "public void onCreate(Bundle savedInstanceState)",
+        "line": 52,
+        "target": "write"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow leaks the users phone number to a remote server."
+  },
+  {
+    "app_name": "smssilience_fake_vertu",
+    "poi": {
+      "method": "com.vertu.jp.catchsms2.public void onReceive(Context context, Intent intent)",
+      "line": 46,
+      "target": "createFromPdu"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.vertu.jp.catchsms2",
+        "method": "public void onReceive(Context context, Intent intent)",
+        "line": 68,
+        "target": "write"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicous flow sends the contents of the retrieved sms to a remote server."
+  },
+  {
+    "app_name": "smssilience_fake_vertu",
+    "poi": {
+      "method": "com.vertu.jp.catchsms2.public void onReceive(Context context, Intent intent)",
+      "line": 34,
+      "target": "getLine1Number"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.vertu.jp.catchsms2",
+        "method": "public void onReceive(Context context, Intent intent)",
+        "line": 68,
+        "target": "write"
+      }
+    ],
+    "is_negative": true,
+    "description": "Negative flow."
+  },
+  {
+    "app_name": "smssilience_fake_vertu",
+    "poi": {
+      "method": "com.vertu.jp.catchsms2.public void onReceive(Context context, Intent intent)",
+      "line": 51,
+      "target": "getLine1Number"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.vertu.jp.catchsms2",
+        "method": "public void onReceive(Context context, Intent intent)",
+        "line": 68,
+        "target": "write"
+      }
+    ],
+    "is_negative": true,
+    "description": "Negative flow."
+  },
+  {
+    "app_name": "repane",
+    "poi": {
+      "method": "com.vr.installer.scanner.PackageDescription.public void install(Context ctx)",
+      "line": 76,
+      "target": "File"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.vr.installer.scanner.PackageDescription",
+        "method": "public void install(Context ctx)",
+        "line": 79,
+        "target": "startActivity"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flows installs an APK that is shipped with the App."
+  },
+  {
+    "app_name": "overlaylocker2_android_samp",
+    "poi": {
+      "method": "brandmangroupe.miui.updater.MeSetting.public String imei()",
+      "line": 188,
+      "target": "getDeviceId"
+    },
+    "expected_sinks": [
+      {
+        "class": "brandmangroupe.miui.updater.GlobalCode",
+        "method": "public int onStartCommand(Intent intent, int flags, int startId)",
+        "line": 87,
+        "target": "addJavascriptInterface"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads the device id and uses it as the return value of the method imei() of the class MeSetting. An object of MeSetting is injected into the WebView by addJavascriptInterface. The method imei() can be invoked via JavaScript code.  "
+  },
+  {
+    "app_name": "overlaylocker2_android_samp",
+    "poi": {
+      "method": "brandmangroupe.miui.updater.TelephonyInfo.public static TelephonyInfo getInstance(Context context)",
+      "line": 64,
+      "target": "getDeviceId"
+    },
+    "expected_sinks": [
+      {
+        "class": "brandmangroupe.miui.updater.GlobalCode",
+        "method": "public int onStartCommand(Intent intent, int flags, int startId)",
+        "line": 88,
+        "target": "addJavascriptInterface"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads the device id and stores it as a field of an TelephonyInfo object. This information will be used as the return value of the method dualsim() of the class MeSystem. An object of MeSystem is injected into the WebView by addJavascriptInterface. The method dualsim() can be invoked via JavaScript code.  "
+  },
+  {
+    "app_name": "overlaylocker2_android_samp",
+    "poi": {
+      "method": "brandmangroupe.miui.updater.MeSystem.public boolean sendSMS(int simID, String toNum, String smsText)",
+      "line": 110,
+      "target": "getDeclaredMethod"
+    },
+    "expected_sinks": [
+      {
+        "class": "brandmangroupe.miui.updater.MeSystem",
+        "method": "public boolean sendSMS(int simID, String toNum, String smsText)",
+        "line": 112,
+        "target": "invoke"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow uses Java Reflection to execute code which gets the service for a selected sim card. "
+  },
+  {
+    "app_name": "overlaylocker2_android_samp",
+    "poi": {
+      "method": "brandmangroupe.miui.updater.MeSystem.public boolean sendSMS(int simID, String toNum, String smsText)",
+      "line": 114,
+      "target": "getDeclaredMethod"
+    },
+    "expected_sinks": [
+      {
+        "class": "brandmangroupe.miui.updater.MeSystem",
+        "method": "public boolean sendSMS(int simID, String toNum, String smsText)",
+        "line": 119,
+        "target": "invoke"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow uses Java Reflection to execute code which sends SMS messages. "
+  },
+  {
+    "app_name": "overlaylocker2_android_samp",
+    "poi": {
+      "method": "brandmangroupe.miui.updater.MeFile.public void file2url(String file, String urlo)",
+      "line": 72,
+      "target": "FileInputStream"
+    },
+    "expected_sinks": [
+      {
+        "class": "brandmangroupe.miui.updater.MeFile",
+        "method": "public void file2url(String file, String urlo)",
+        "line": 116,
+        "target": "flush"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads file and sends the file to a remote server via an HTTP POST request."
+  },
+  {
+    "app_name": "overlaylocker2_android_samp",
+    "poi": {
+      "method": "brandmangroupe.miui.updater.MeFile.public static String read(String filePath)",
+      "line": 180,
+      "target": "FileInputStream"
+    },
+    "expected_sinks": [
+      {
+        "class": "brandmangroupe.miui.updater.GlobalCode",
+        "method": "public int onStartCommand(Intent intent, int flags, int startId)",
+        "line": 89,
+        "target": "addJavascriptInterface"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads file from a given path and and uses it as the return value of the method read() of the class MeFile. An object of MeFile is injected into the WebView by addJavascriptInterface. The method read() can be invoked via JavaScript code.  "
+  },
+  {
+    "app_name": "overlaylocker2_android_samp",
+    "poi": {
+      "method": "brandmangroupe.miui.updater.IncomingSms.public void onReceive(Context context, Intent intent2)",
+      "line": 37,
+      "target": "createFromPdu"
+    },
+    "expected_sinks": [
+      {
+        "class": "brandmangroupe.miui.updater.IncomingSms",
+        "method": "public void onReceive(Context context, Intent intent2)",
+        "line": 88,
+        "target": "startService"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow monitors incoming SMSs."
+  },
+  {
+    "app_name": "overlaylocker2_android_samp",
+    "poi": {
+      "method": "brandmangroupe.miui.updater.MasterPage.public static String getUniqueID(Context context)",
+      "line": 105,
+      "target": "getDeviceId"
+    },
+    "expected_sinks": [
+      {
+        "class": "brandmangroupe.miui.updater.MasterPage",
+        "method": "public void onCreate(Bundle savedInstanceState)",
+        "line": 61,
+        "target": "addJavascriptInterface"
+      }
+    ],
+    "is_negative": true,
+    "description": "Negative flow."
+  },
+  {
+    "app_name": "overlaylocker2_android_samp",
+    "poi": {
+      "method": "brandmangroupe.miui.updater.MasterPage.public static String getUniqueID(Context context)",
+      "line": 105,
+      "target": "getDeviceId"
+    },
+    "expected_sinks": [
+      {
+        "class": "brandmangroupe.miui.updater.MasterPage",
+        "method": "public void onCreate(Bundle savedInstanceState)",
+        "line": 62,
+        "target": "addJavascriptInterface"
+      }
+    ],
+    "is_negative": true,
+    "description": "Negative flow."
+  },
+  {
+    "app_name": "overlaylocker2_android_samp",
+    "poi": {
+      "method": "brandmangroupe.miui.updater.MasterPage.public static String getUniqueID(Context context)",
+      "line": 105,
+      "target": "getDeviceId"
+    },
+    "expected_sinks": [
+      {
+        "class": "brandmangroupe.miui.updater.MasterPage",
+        "method": "public void onCreate(Bundle savedInstanceState)",
+        "line": 63,
+        "target": "addJavascriptInterface"
+      }
+    ],
+    "is_negative": true,
+    "description": "Negative flow."
+  },
+  {
+    "app_name": "overlaylocker2_android_samp",
+    "poi": {
+      "method": "brandmangroupe.miui.updater.MasterPage.public static String getUniqueID(Context context)",
+      "line": 105,
+      "target": "getDeviceId"
+    },
+    "expected_sinks": [
+      {
+        "class": "brandmangroupe.miui.updater.MasterPage",
+        "method": "public void onCreate(Bundle savedInstanceState)",
+        "line": 64,
+        "target": "addJavascriptInterface"
+      }
+    ],
+    "is_negative": true,
+    "description": "Negative flow."
+  },
+  {
+    "app_name": "overlaylocker2_android_samp",
+    "poi": {
+      "method": "brandmangroupe.miui.updater.MasterPage.public static String getUniqueID(Context context)",
+      "line": 105,
+      "target": "getDeviceId"
+    },
+    "expected_sinks": [
+      {
+        "class": "brandmangroupe.miui.updater.MasterPage",
+        "method": "public void onCreate(Bundle savedInstanceState)",
+        "line": 65,
+        "target": "addJavascriptInterface"
+      }
+    ],
+    "is_negative": true,
+    "description": "Negative flow."
+  },
+  {
+    "app_name": "overlaylocker2_android_samp",
+    "poi": {
+      "method": "brandmangroupe.miui.updater.MasterPage.public static String getUniqueID(Context context)",
+      "line": 105,
+      "target": "getDeviceId"
+    },
+    "expected_sinks": [
+      {
+        "class": "brandmangroupe.miui.updater.MasterPage",
+        "method": "public void onCreate(Bundle savedInstanceState)",
+        "line": 66,
+        "target": "addJavascriptInterface"
+      }
+    ],
+    "is_negative": true,
+    "description": "Negative flow."
+  },
+  {
+    "app_name": "overlaylocker2_android_samp",
+    "poi": {
+      "method": "brandmangroupe.miui.updater.MasterPage.public void onCreate(Bundle savedInstanceState)",
+      "line": 40,
+      "target": "getStringExtra"
+    },
+    "expected_sinks": [
+      {
+        "class": "brandmangroupe.miui.updater.MasterPage",
+        "method": "public void onCreate(Bundle savedInstanceState)",
+        "line": 61,
+        "target": "addJavascriptInterface"
+      }
+    ],
+    "is_negative": true,
+    "description": "Negative flow. "
+  },
+  {
+    "app_name": "overlaylocker2_android_samp",
+    "poi": {
+      "method": "brandmangroupe.miui.updater.MasterPage.public void onCreate(Bundle savedInstanceState)",
+      "line": 40,
+      "target": "getStringExtra"
+    },
+    "expected_sinks": [
+      {
+        "class": "brandmangroupe.miui.updater.MasterPage",
+        "method": "public void onCreate(Bundle savedInstanceState)",
+        "line": 62,
+        "target": "addJavascriptInterface"
+      }
+    ],
+    "is_negative": true,
+    "description": "Negative flow. "
+  },
+  {
+    "app_name": "overlaylocker2_android_samp",
+    "poi": {
+      "method": "brandmangroupe.miui.updater.MasterPage.public void onCreate(Bundle savedInstanceState)",
+      "line": 40,
+      "target": "getStringExtra"
+    },
+    "expected_sinks": [
+      {
+        "class": "brandmangroupe.miui.updater.MasterPage",
+        "method": "public void onCreate(Bundle savedInstanceState)",
+        "line": 63,
+        "target": "addJavascriptInterface"
+      }
+    ],
+    "is_negative": true,
+    "description": "Negavie flow."
+  },
+  {
+    "app_name": "overlaylocker2_android_samp",
+    "poi": {
+      "method": "brandmangroupe.miui.updater.MasterPage.public void onCreate(Bundle savedInstanceState)",
+      "line": 40,
+      "target": "getStringExtra"
+    },
+    "expected_sinks": [
+      {
+        "class": "brandmangroupe.miui.updater.MasterPage",
+        "method": "public void onCreate(Bundle savedInstanceState)",
+        "line": 64,
+        "target": "addJavascriptInterface"
+      }
+    ],
+    "is_negative": true,
+    "description": "Negative flow."
+  },
+  {
+    "app_name": "overlaylocker2_android_samp",
+    "poi": {
+      "method": "brandmangroupe.miui.updater.MasterPage.public void onCreate(Bundle savedInstanceState)",
+      "line": 40,
+      "target": "getStringExtra"
+    },
+    "expected_sinks": [
+      {
+        "class": "brandmangroupe.miui.updater.MasterPage",
+        "method": "public void onCreate(Bundle savedInstanceState)",
+        "line": 65,
+        "target": "addJavascriptInterface"
+      }
+    ],
+    "is_negative": true,
+    "description": "Negative flow."
+  },
+  {
+    "app_name": "overlaylocker2_android_samp",
+    "poi": {
+      "method": "brandmangroupe.miui.updater.MasterPage.public void onCreate(Bundle savedInstanceState)",
+      "line": 40,
+      "target": "getStringExtra"
+    },
+    "expected_sinks": [
+      {
+        "class": "brandmangroupe.miui.updater.MasterPage",
+        "method": "public void onCreate(Bundle savedInstanceState)",
+        "line": 66,
+        "target": "addJavascriptInterface"
+      }
+    ],
+    "is_negative": true,
+    "description": "Negative flow."
+  },
+  {
+    "app_name": "scipiex",
+    "poi": {
+      "method": "com.yxx.jiejie.MainActivity.public void onCreate(Bundle savedInstanceState)",
+      "line": 44,
+      "target": "getLine1Number"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.yxx.jiejie.SendThread",
+        "method": "private String sendPostRequest(String path, Map<String, String> params, String encoding)",
+        "line": 118,
+        "target": "write"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads telephone number, stores it a static field and starts a service which listens to the incoming SMSs. The telephone number will be sent to a remote server when SMSs are received."
+  },
+  {
+    "app_name": "scipiex",
+    "poi": {
+      "method": "com.yxx.jiejie.SMSListenerService.AnonymousClass1.public void onReceive(Context context, Intent intent)",
+      "line": 206,
+      "target": "createFromPdu"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.yxx.jiejie.SendThread",
+        "method": "private String sendPostRequest(String path, Map<String, String> params, String encoding)",
+        "line": 118,
+        "target": "write"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads received SMSs and send them to a remote server via a HTTP POST request."
+  },
+  {
+    "app_name": "scipiex",
+    "poi": {
+      "method": "com.yxx.jiejie.SMSListenerService.public synchronized List readAllContacts()",
+      "line": 139,
+      "target": "query"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.yxx.jiejie.SMSListenerService.AnonymousClass2.AnonymousClass1",
+        "method": "public void writeToFile(PrintWriter pw)",
+        "line": 83,
+        "target": "println"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads contacts and saves them to a file wich will be later sent to a remote server."
+  },
+  {
+    "app_name": "phospy",
+    "poi": {
+      "method": "com.labado.lulaoshi.myService.public void log()",
+      "line": 92,
+      "target": "getDeviceId"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.labado.lulaoshi.myService",
+        "method": "public void log()",
+        "line": 113,
+        "target": "writeUTF"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads device id and sends to a remote server via socket."
+  },
+  {
+    "app_name": "phospy",
+    "poi": {
+      "method": "com.labado.lulaoshi.myService.public void log()",
+      "line": 106,
+      "target": "FileInputStream"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.labado.lulaoshi.myService",
+        "method": "public void log()",
+        "line": 131,
+        "target": "write"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads JPG images from sd card and send to a remote server via socket"
+  },
+  {
+    "app_name": "phospy",
+    "poi": {
+      "method": "com.labado.lulaoshi.myService.public void log()",
+      "line": 92,
+      "target": "getDeviceId"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.labado.lulaoshi.myService",
+        "method": "public void log()",
+        "line": 131,
+        "target": "write"
+      }
+    ],
+    "is_negative": true,
+    "description": "Negative flow."
+  },
+  {
+    "app_name": "phospy",
+    "poi": {
+      "method": "com.labado.lulaoshi.myService.public void log()",
+      "line": 106,
+      "target": "FileInputStream"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.labado.lulaoshi.myService",
+        "method": "public void log()",
+        "line": 113,
+        "target": "writeUTF"
+      }
+    ],
+    "is_negative": true,
+    "description": "Negative flow."
+  },
+  {
+    "app_name": "phospy",
+    "poi": {
+      "method": "com.labado.lulaoshi.myService.public void log()",
+      "line": 106,
+      "target": "FileInputStream"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.labado.lulaoshi.myService",
+        "method": "public void log()",
+        "line": 114,
+        "target": "writeUTF"
+      }
+    ],
+    "is_negative": true,
+    "description": "Negative flow."
+  },
+  {
+    "app_name": "proxy_samp",
+    "poi": {
+      "method": "com.smart.studio.proxy.ProxyService.PollerThread.public void run()",
+      "line": 739,
+      "target": "getLac"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.smart.studio.proxy.ProxyService.PollerThread",
+        "method": "public void run()",
+        "line": 742,
+        "target": "i"
+      }
+    ],
+    "is_negative": false,
+    "description": "This flow logs location information."
+  },
+  {
+    "app_name": "proxy_samp",
+    "poi": {
+      "method": "com.smart.studio.proxy.ProxyService.PollerThread.public void run()",
+      "line": 739,
+      "target": "getLac"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.smart.studio.proxy.ProxyService.PollerThread",
+        "method": "public void run()",
+        "line": 769,
+        "target": "execute"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads location information and writes its into a private field, then sends it to a remote server per an HTTP POST request."
+  },
+  {
+    "app_name": "proxy_samp",
+    "poi": {
+      "method": "com.smart.studio.proxy.ProxyService.ProxyThread.public void run()",
+      "line": 838,
+      "target": "File"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.smart.studio.proxy.ProxyService.ProxyThread",
+        "method": "public void run()",
+        "line": 854,
+        "target": "execute"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads a log file from external storage line by line and sends the content to a remote server. Each line of the file is written to an ArrayList. This ArrayList is used to construct the HTTP entity which will be sent to a remote server."
+  },
+  {
+    "app_name": "proxy_samp",
+    "poi": {
+      "method": "com.smart.studio.proxy.ProxyService.public void onCreate()",
+      "line": -1,
+      "target": "getAccounts"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.smart.studio.proxy.ProxyService",
+        "method": "private void LogToFile()",
+        "line": 280,
+        "target": "write"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads account information and writes it to a log file."
+  },
+  {
+    "app_name": "proxy_samp",
+    "poi": {
+      "method": "com.smart.studio.proxy.ProxyService.public void onCreate()",
+      "line": -1,
+      "target": "getAccounts"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.smart.studio.proxy.ProxyService",
+        "method": "private void LogToFile()",
+        "line": 280,
+        "target": "write"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads account information and writes gmail acount into a private field. The gmail acount name will be logged into a file."
+  },
+  {
+    "app_name": "proxy_samp",
+    "poi": {
+      "method": "com.smart.studio.proxy.ProxyService.public void QuerySMSLog(boolean first)",
+      "line": 586,
+      "target": "query"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.smart.studio.proxy.ProxyService",
+        "method": "private void LogToFile()",
+        "line": 280,
+        "target": "write"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads sms from database and writes it a log file."
+  },
+  {
+    "app_name": "proxy_samp",
+    "poi": {
+      "method": "com.smart.studio.proxy.ProxyService.public int onStartCommand(Intent intent, int flags, int startId)",
+      "line": 412,
+      "target": "getConnectionInfo"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.smart.studio.proxy.ProxyService",
+        "method": "public static void LogFile(String logstr)",
+        "line": 268,
+        "target": "i"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads wifi connection information and logs it."
+  },
+  {
+    "app_name": "proxy_samp",
+    "poi": {
+      "method": "com.smart.studio.proxy.SMSReceiver.public void onReceive(Context context, Intent intent)",
+      "line": 29,
+      "target": "getDisplayMessageBody"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.smart.studio.proxy.ProxyService",
+        "method": "public static void LogFile(String logstr)",
+        "line": 268,
+        "target": "i"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow starts in a BroadcastReceiver. It reads sms message and logs it."
+  },
+  {
+    "app_name": "proxy_samp",
+    "poi": {
+      "method": "com.smart.studio.proxy.ProxyService.public void onCreate()",
+      "line": -1,
+      "target": "getAccounts"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.smart.studio.proxy.ProxyService",
+        "method": "public static void LogFile(String logstr)",
+        "line": 268,
+        "target": "i"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow logs account information on the device."
+  },
+  {
+    "app_name": "proxy_samp",
+    "poi": {
+      "method": "com.smart.studio.proxy.ProxyService.public void onCreate()",
+      "line": -1,
+      "target": "getAccounts"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.smart.studio.proxy.ProxyService.ProxyThread",
+        "method": "public void run()",
+        "line": 854,
+        "target": "execute"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow sends Google account name to a remote server via a HTTP POST request."
+  },
+  {
+    "app_name": "proxy_samp",
+    "poi": {
+      "method": "com.smart.studio.proxy.SMSReceiver.public void onReceive(Context context, Intent intent)",
+      "line": 29,
+      "target": "getDisplayMessageBody"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.smart.studio.proxy.ProxyService",
+        "method": "private void LogToFile()",
+        "line": 280,
+        "target": "write"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads incomming SMS message and writes to a log file. "
+  },
+  {
+    "app_name": "proxy_samp",
+    "poi": {
+      "method": "com.smart.studio.proxy.ProxyService.public int onStartCommand(Intent intent, int flags, int startId)",
+      "line": 412,
+      "target": "getConnectionInfo"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.smart.studio.proxy.ProxyService",
+        "method": "private void LogToFile()",
+        "line": 280,
+        "target": "write"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads WIFI information and writes to a log file."
+  },
+  {
+    "app_name": "proxy_samp",
+    "poi": {
+      "method": "com.smart.studio.proxy.ProxyService.public void QuerySMSLog(boolean first)",
+      "line": 586,
+      "target": "query"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.smart.studio.proxy.ProxyService",
+        "method": "public static void LogFile(String logstr)",
+        "line": 268,
+        "target": "i"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow logs incoming SMS messages. "
+  },
+  {
+    "app_name": "proxy_samp",
+    "poi": {
+      "method": "com.smart.studio.proxy.ProxyService.public void QueryPhoneLog(boolean first)",
+      "line": 635,
+      "target": "query"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.smart.studio.proxy.ProxyService",
+        "method": "private void LogToFile()",
+        "line": 280,
+        "target": "write"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow saves phone call logs to a log file when the ProxyService is destoryed. This file will be later uploaded to a remote server"
+  },
+  {
+    "app_name": "proxy_samp",
+    "poi": {
+      "method": "com.smart.studio.proxy.ProxyService.public void QueryPhoneLog(boolean first)",
+      "line": 633,
+      "target": "query"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.smart.studio.proxy.ProxyService",
+        "method": "private void LogToFile()",
+        "line": 280,
+        "target": "write"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow saves phone call logs to a log file when the ProxyService is destroyed. This file will be later uploaded to a remote server."
+  },
+  {
+    "app_name": "proxy_samp",
+    "poi": {
+      "method": "com.smart.studio.proxy.ProxyService.public int onStartCommand(Intent intent, int flags, int startId)",
+      "line": 460,
+      "target": "File"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.smart.studio.proxy.ProxyService",
+        "method": "private void LogToFile()",
+        "line": 280,
+        "target": "write"
+      }
+    ],
+    "is_negative": true,
+    "description": "Negative flow."
+  },
+  {
+    "app_name": "proxy_samp",
+    "poi": {
+      "method": "com.smart.studio.proxy.ProxyService.public void QueryPhoneLog(boolean first)",
+      "line": 635,
+      "target": "query"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.smart.studio.proxy.ProxyService",
+        "method": "public static void LogFile(String logstr)",
+        "line": 268,
+        "target": "i"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow logs phone calls. "
+  },
+  {
+    "app_name": "proxy_samp",
+    "poi": {
+      "method": "com.smart.studio.proxy.ProxyService.public void QueryPhoneLog(boolean first)",
+      "line": 633,
+      "target": "query"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.smart.studio.proxy.ProxyService",
+        "method": "public static void LogFile(String logstr)",
+        "line": 268,
+        "target": "i"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow logs phone calls."
+  },
+  {
+    "app_name": "proxy_samp",
+    "poi": {
+      "method": "com.smart.studio.proxy.ProxyService.public int onStartCommand(Intent intent, int flags, int startId)",
+      "line": 412,
+      "target": "getConnectionInfo"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.smart.studio.proxy.ProxyService",
+        "method": "public int onStartCommand(Intent intent, int flags, int startId)",
+        "line": 461,
+        "target": "i"
+      }
+    ],
+    "is_negative": true,
+    "description": "Negative flow."
+  },
+  {
+    "app_name": "proxy_samp",
+    "poi": {
+      "method": "com.smart.studio.proxy.ProxyService.public int onStartCommand(Intent intent, int flags, int startId)",
+      "line": 460,
+      "target": "File"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.smart.studio.proxy.ProxyService",
+        "method": "public int onStartCommand(Intent intent, int flags, int startId)",
+        "line": 461,
+        "target": "i"
+      }
+    ],
+    "is_negative": true,
+    "description": "Negative flow."
+  },
+  {
+    "app_name": "fakemart",
+    "poi": {
+      "method": "com.android.blackmarket.SmsReceiver.public void onReceive(Context context, Intent intent)",
+      "line": 29,
+      "target": "createFromPdu"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.android.blackmarket.function",
+        "method": "public static synchronized String GetSourceURL(String urlsx)",
+        "line": 221,
+        "target": "getInputStream"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads incoming SMSs and posts them to a URL."
+  },
+  {
+    "app_name": "fakemart",
+    "poi": {
+      "method": "com.android.blackmarket.SmsReceiver.public void onReceive(Context context, Intent intent)",
+      "line": 29,
+      "target": "createFromPdu"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.android.blackmarket.function",
+        "method": "public static synchronized String GetSourceURL(String urlsx)",
+        "line": 221,
+        "target": "getInputStream"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads incoming SMSs and posts them to a URL."
+  },
+  {
+    "app_name": "roidsec",
+    "poi": {
+      "method": "cn.phoneSync.PhoneSyncService.private String getCallLogs()",
+      "line": 643,
+      "target": "query"
+    },
+    "expected_sinks": [
+      {
+        "class": "cn.phoneSync.PhoneSyncService",
+        "method": "public void BackConnTask()",
+        "line": 173,
+        "target": "write"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads phone numbers from call logs and sends to a remote server via socket."
+  },
+  {
+    "app_name": "roidsec",
+    "poi": {
+      "method": "cn.phoneSync.PhoneSyncService.private String getContactInfo()",
+      "line": 682,
+      "target": "query"
+    },
+    "expected_sinks": [
+      {
+        "class": "cn.phoneSync.PhoneSyncService",
+        "method": "public void BackConnTask()",
+        "line": 178,
+        "target": "write"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads phone numbers from contact and sends to aremote server via socket."
+  },
+  {
+    "app_name": "roidsec",
+    "poi": {
+      "method": "cn.phoneSync.PhoneSyncService.private String getInstalledApp()",
+      "line": 599,
+      "target": "getInstalledPackages"
+    },
+    "expected_sinks": [
+      {
+        "class": "cn.phoneSync.PhoneSyncService",
+        "method": "public void BackConnTask()",
+        "line": 193,
+        "target": "write"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads installed package name and sends to a remote server via socket."
+  },
+  {
+    "app_name": "roidsec",
+    "poi": {
+      "method": "cn.phoneSync.PhoneSyncService.private String getKernelApp()",
+      "line": 620,
+      "target": "getInstalledPackages"
+    },
+    "expected_sinks": [
+      {
+        "class": "cn.phoneSync.PhoneSyncService",
+        "method": "public void BackConnTask()",
+        "line": 198,
+        "target": "write"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads information about installed apps and sends it to a remote server."
+  },
+  {
+    "app_name": "roidsec",
+    "poi": {
+      "method": "cn.phoneSync.PhoneSyncService.private String getSmsMessagesin()",
+      "line": 717,
+      "target": "query"
+    },
+    "expected_sinks": [
+      {
+        "class": "cn.phoneSync.PhoneSyncService",
+        "method": "public void BackConnTask()",
+        "line": 183,
+        "target": "write"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads incoming SMSs and sends them to a remote server."
+  },
+  {
+    "app_name": "roidsec",
+    "poi": {
+      "method": "cn.phoneSync.PhoneSyncService.private String getSmsMessagesout()",
+      "line": 732,
+      "target": "query"
+    },
+    "expected_sinks": [
+      {
+        "class": "cn.phoneSync.PhoneSyncService",
+        "method": "public void BackConnTask()",
+        "line": 188,
+        "target": "write"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads outgoing SMSs and sends them to a remote server."
+  },
+  {
+    "app_name": "fakeplay",
+    "poi": {
+      "method": "com.googleprojects.mm.JHService.public void smsReceived(Intent intent)",
+      "line": 124,
+      "target": "getNetworkOperatorName"
+    },
+    "expected_sinks": [
+      {
+        "class": "javax.activation.DataHandler",
+        "method": "public void writeTo(OutputStream os)",
+        "line": 322,
+        "target": "write"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow leaks telephoney network information via email."
+  },
+  {
+    "app_name": "fakeplay",
+    "poi": {
+      "method": "com.googleprojects.mm.SPMainActivity.public void onCreate(Bundle savedInstanceState)",
+      "line": 97,
+      "target": "getLine1Number"
+    },
+    "expected_sinks": [
+      {
+        "class": "javax.activation.DataHandler",
+        "method": "public void writeTo(OutputStream os)",
+        "line": 322,
+        "target": "write"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow leaks telephone number via email."
+  },
+  {
+    "app_name": "xbot_android_samp",
+    "poi": {
+      "method": "com.address.core.SMSHandler.public void onReceive(Context context, Intent intent)",
+      "line": 30,
+      "target": "createFromPdu"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.address.core.Script",
+        "method": "public Object call(String funcName, Object[] args)",
+        "line": 90,
+        "target": "call"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious partial ICC flow starts by reading the Intent with which the SMSHandler BroadcasReceiver started. The intent contains SMS messagees, which will be sent to a remote server with some script call defined by the malware writer.  "
+  },
+  {
+    "app_name": "xbot_android_samp",
+    "poi": {
+      "method": "com.address.core.xAPI.public String[] getTelephonyInfo()",
+      "line": 89,
+      "target": "getDeviceId"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.address.core.activities.BrowserActivity",
+        "method": "public void onCreate(Bundle icicle)",
+        "line": 47,
+        "target": "addJavascriptInterface"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads the device id and put it into an Array of String, the array is used as the return value of the method getTelephonyInfo() of the class xAPI. An object of xAPI is injected into the WebView by addJavascriptInterface. The method getTelephonyInfo() can be invoked via JavaScript code.  "
+  },
+  {
+    "app_name": "xbot_android_samp",
+    "poi": {
+      "method": "com.address.core.xAPI.public ArrayList<PhoneContact> getContacts()",
+      "line": 211,
+      "target": "query"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.address.core.activities.BrowserActivity",
+        "method": "public void onCreate(Bundle icicle)",
+        "line": 47,
+        "target": "addJavascriptInterface"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicous reads contacts and store them into an ArrayList, this ArrayList is used as the return value of the method getContacts() of the class xAPI.An object of xAPI is injected into the WebView by addJavascriptInterface. The method getContacts() can be invoked via JavaScript code. "
+  },
+  {
+    "app_name": "fakeappstore",
+    "poi": {
+      "method": "com.google.games.stores.service.ContactsService.public void contacts4SMS(String content)",
+      "line": 200,
+      "target": "query"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.google.games.stores.service.ContactsService",
+        "method": "private void sendSMS(String num, String content)",
+        "line": 349,
+        "target": "sendTextMessage"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads contacts from the device and spams them with SMS."
+  },
+  {
+    "app_name": "fakeappstore",
+    "poi": {
+      "method": "com.google.games.stores.util.NetTask.public String doInBackground(String... params)",
+      "line": 110,
+      "target": "getContent"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.google.games.stores.service.ContactsService",
+        "method": "private void sendSMS(String num, String content)",
+        "line": 349,
+        "target": "sendTextMessage"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicous flow reads a message from an HTTP Server and sends a SMS to the retreived numbers (command and control)."
+  },
+  {
+    "app_name": "fakeappstore",
+    "poi": {
+      "method": "com.google.games.stores.util.GeneralUtil.public static String getDevice(Context context)",
+      "line": 47,
+      "target": "getDeviceId"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.google.games.stores.util.NetTask",
+        "method": "public String doInBackground(String... params)",
+        "line": 110,
+        "target": "execute"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow leaks the device id to an HTTP Server."
+  },
+  {
+    "app_name": "jollyserv",
+    "poi": {
+      "method": "fm.xtube.CheckAgeActivity.public void onCreate(Bundle savedInstanceState)",
+      "line": 36,
+      "target": "getDeviceId"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.loopj.android.http.AsyncHttpClient",
+        "method": "private void sendRequest(DefaultHttpClient defaultHttpClient, HttpContext httpContext, HttpUriRequest httpUriRequest, String str, AsyncHttpResponseHandler asyncHttpResponseHandler, Context context)",
+        "line": 536,
+        "target": "submit"
+      }
+    ],
+    "is_negative": false,
+    "description": "The malicious flow aves the the phone's device ID in a public static field and leaks the device ID into an HTTP request."
+  },
+  {
+    "app_name": "samsapo",
+    "poi": {
+      "method": "com.android.tools.system.SplashScreen.public String getMessages(String str)",
+      "line": 114,
+      "target": "getString"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.android.tools.system.MyPostRequest",
+        "method": "public String doInBackground(ArrayList<String[]>... arrayListArr)",
+        "line": 44,
+        "target": "execute"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads SMS address and sends it to a remote server via HTTP Post request. "
+  },
+  {
+    "app_name": "samsapo",
+    "poi": {
+      "method": "com.android.tools.system.SmsReceiver.public void onReceive(Context context, Intent intent)",
+      "line": 30,
+      "target": "createFromPdu"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.android.tools.system.SmsReceiver",
+        "method": "public void onReceive(Context context, Intent intent)",
+        "line": 45,
+        "target": "execute"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads incoming SMSs and sends them to a remote server via HTTP request."
+  },
+  {
+    "app_name": "samsapo",
+    "poi": {
+      "method": "com.android.tools.system.PhoneReceiver.private Object getTelephonyServiceObject(Context context)",
+      "line": 42,
+      "target": "getSystemService"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.android.tools.system.PhoneReceiver",
+        "method": "private void getAndInvokeMethod(Class cls, Object obj, String str)",
+        "line": 57,
+        "target": "invoke"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow uses reflection to terminate calls from user's contact. "
+  },
+  {
+    "app_name": "samsapo",
+    "poi": {
+      "method": "com.android.tools.system.SmsReceiver.public void onReceive(Context context, Intent intent)",
+      "line": 30,
+      "target": "createFromPdu"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.android.tools.system.MyPostRequest",
+        "method": "public String doInBackground(ArrayList<String[]>... arrayListArr)",
+        "line": 44,
+        "target": "execute"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow sends incoming SMS message to a remote server via a HTTP POST."
+  },
+  {
+    "app_name": "samsapo",
+    "poi": {
+      "method": "com.android.tools.system.PhoneReceiver.private Object getTelephonyServiceObject(Context context)",
+      "line": 42,
+      "target": "getSystemService"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.android.tools.system.PhoneReceiver",
+        "method": "private Object getTelephonyServiceObject(Context context)",
+        "line": 47,
+        "target": "invoke"
+      }
+    ],
+    "is_negative": true,
+    "description": "Negative flow."
+  },
+  {
+    "app_name": "remote_control_smack",
+    "poi": {
+      "method": "com.android.service.view.GPSTracker.public Location getLocation()",
+      "line": 80,
+      "target": "getLastKnownLocation"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.android.service.AlarmReceiver.AnonymousClass1",
+        "method": "public void run()",
+        "line": 129,
+        "target": "append"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads location information (longitude) and saves it a text file which will be later uploaded to a remote server."
+  },
+  {
+    "app_name": "remote_control_smack",
+    "poi": {
+      "method": "com.android.service.view.GPSTracker.public Location getLocation()",
+      "line": 98,
+      "target": "getLastKnownLocation"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.android.service.AlarmReceiver.AnonymousClass1",
+        "method": "public void run()",
+        "line": 129,
+        "target": "append"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads location information (latitude) and saves it a text file which will be later uploaded to a remote server."
+  },
+  {
+    "app_name": "remote_control_smack",
+    "poi": {
+      "method": "com.android.service.XmppService.public void sms_saveFile()",
+      "line": 748,
+      "target": "getString"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.android.service.XmppService",
+        "method": "public void sms_saveFile()",
+        "line": 773,
+        "target": "append"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads SMS information (address) and saves it a text file which will be later uploaded to a remote server."
+  },
+  {
+    "app_name": "remote_control_smack",
+    "poi": {
+      "method": "com.android.service.XmppService.public void sms_saveFile()",
+      "line": 750,
+      "target": "getString"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.android.service.XmppService",
+        "method": "public void sms_saveFile()",
+        "line": 773,
+        "target": "append"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads SMS information (message body) and saves it a text file which will be later uploaded to a remote server."
+  },
+  {
+    "app_name": "remote_control_smack",
+    "poi": {
+      "method": "com.android.service.XmppService.public void sms_saveFile()",
+      "line": 752,
+      "target": "getInt"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.android.service.XmppService",
+        "method": "public void sms_saveFile()",
+        "line": 773,
+        "target": "append"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads SMS information (message type) and saves it a text file which will be later uploaded to a remote server."
+  },
+  {
+    "app_name": "remote_control_smack",
+    "poi": {
+      "method": "com.android.service.XmppService.public void sms_saveFile()",
+      "line": 754,
+      "target": "getLong"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.android.service.XmppService",
+        "method": "public void sms_saveFile()",
+        "line": 773,
+        "target": "append"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads SMS information (date) and saves it a text file which will be later uploaded to a remote server."
+  },
+  {
+    "app_name": "remote_control_smack",
+    "poi": {
+      "method": "com.android.service.XmppService.public void call_saveFile()",
+      "line": 840,
+      "target": "getString"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.android.service.XmppService",
+        "method": "public void call_saveFile()",
+        "line": 870,
+        "target": "append"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious partial flow reads call record (number) and saves it a text file which will be later uploaded to a remote server."
+  },
+  {
+    "app_name": "remote_control_smack",
+    "poi": {
+      "method": "com.android.service.XmppService.public void call_saveFile()",
+      "line": 841,
+      "target": "getString"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.android.service.XmppService",
+        "method": "public void call_saveFile()",
+        "line": 870,
+        "target": "append"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious partial flow reads call record (name) and saves it a text file which will be later uploaded to a remote server."
+  },
+  {
+    "app_name": "remote_control_smack",
+    "poi": {
+      "method": "com.android.service.XmppService.public void call_saveFile()",
+      "line": 842,
+      "target": "getInt"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.android.service.XmppService",
+        "method": "public void call_saveFile()",
+        "line": 870,
+        "target": "append"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads call record (type) and saves it a text file which will be later uploaded to a remote server."
+  },
+  {
+    "app_name": "remote_control_smack",
+    "poi": {
+      "method": "com.android.service.XmppService.public void call_saveFile()",
+      "line": 843,
+      "target": "getString"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.android.service.XmppService",
+        "method": "public void call_saveFile()",
+        "line": 870,
+        "target": "append"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads call record (date) and saves it a text file which will be later uploaded to a remote server."
+  },
+  {
+    "app_name": "remote_control_smack",
+    "poi": {
+      "method": "com.android.service.XmppService.public void contacts_saveFile()",
+      "line": 921,
+      "target": "getString"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.android.service.XmppService",
+        "method": "public void contacts_saveFile()",
+        "line": 974,
+        "target": "append"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads contact information and saves it a text file which will be later uploaded to a remote server."
+  },
+  {
+    "app_name": "remote_control_smack",
+    "poi": {
+      "method": "com.android.service.XmppService.public void contacts_saveFile()",
+      "line": 924,
+      "target": "getString"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.android.service.XmppService",
+        "method": "public void contacts_saveFile()",
+        "line": 974,
+        "target": "append"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads contact information and saves it a text file which will be later uploaded to a remote server."
+  },
+  {
+    "app_name": "remote_control_smack",
+    "poi": {
+      "method": "com.android.service.XmppService.public void Calendar_saveFile()",
+      "line": 1180,
+      "target": "getString"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.android.service.XmppService",
+        "method": "public void Calendar_saveFile()",
+        "line": 1208,
+        "target": "append"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads calender information and saves it a text file which will be later uploaded to a remote server."
+  },
+  {
+    "app_name": "remote_control_smack",
+    "poi": {
+      "method": "com.android.service.XmppService.public void Calendar_saveFile()",
+      "line": 1182,
+      "target": "getString"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.android.service.XmppService",
+        "method": "public void Calendar_saveFile()",
+        "line": 1208,
+        "target": "append"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads calender information and saves it a text file which will be later uploaded to a remote server."
+  },
+  {
+    "app_name": "remote_control_smack",
+    "poi": {
+      "method": "com.android.service.XmppService.public void Calendar_saveFile()",
+      "line": 1186,
+      "target": "getString"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.android.service.XmppService",
+        "method": "public void Calendar_saveFile()",
+        "line": 1208,
+        "target": "append"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads calender information and saves it a text file which will be later uploaded to a remote server."
+  },
+  {
+    "app_name": "remote_control_smack",
+    "poi": {
+      "method": "com.android.service.XmppService.public void Calendar_saveFile()",
+      "line": 1198,
+      "target": "getLong"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.android.service.XmppService",
+        "method": "public void Calendar_saveFile()",
+        "line": 1208,
+        "target": "append"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads calender information and saves it a text file which will be later uploaded to a remote server."
+  },
+  {
+    "app_name": "remote_control_smack",
+    "poi": {
+      "method": "com.android.service.XmppService.public void Calendar_saveFile()",
+      "line": 1204,
+      "target": "getString"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.android.service.XmppService",
+        "method": "public void Calendar_saveFile()",
+        "line": 1208,
+        "target": "append"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads calender information and saves it a text file which will be later uploaded to a remote server."
+  },
+  {
+    "app_name": "the_interview_movieshow",
+    "poi": {
+      "method": "com.movieshow.down.Badaccents.DownloadMusicfromInternet.public String doInBackground(String... f_url)",
+      "line": 164,
+      "target": "openStream"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.movieshow.down.Badaccents",
+        "method": "public void playMusic()",
+        "line": 213,
+        "target": "startActivity"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow loads an apk file to external storage and installs this apk."
+  },
+  {
+    "app_name": "overlay_android_samp",
+    "poi": {
+      "method": "exts.whats.activities.Cards.public void onCreate(Bundle savedInstanceState)",
+      "line": 118,
+      "target": "findViewById"
+    },
+    "expected_sinks": [
+      {
+        "class": "exts.whats.activities.Cards",
+        "method": "public void sendData()",
+        "line": 322,
+        "target": "startService"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious partial ICC flow starts by reading credit card number from user input and writes to a field of the Activity. When the user performs a click on a button, the information stealing starts. The information will be written to a JSONObject which will be stored into an Intent with the name data. With this intent a new SendService which leaks the card number will be started. "
+  },
+  {
+    "app_name": "overlay_android_samp",
+    "poi": {
+      "method": "exts.whats.SendService.public void onHandleIntent(Intent intent)",
+      "line": 69,
+      "target": "getStringExtra"
+    },
+    "expected_sinks": [
+      {
+        "class": "exts.whats.utils.Sender",
+        "method": "public static JSONObject request(DefaultHttpClient httpClient, String serverURL, String data)",
+        "line": 17,
+        "target": "execute"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious partial ICC flow reads credit card information from the Intent with which the SendSevice is started and sends it to a remote server per an HTTP POST request. "
+  },
+  {
+    "app_name": "overlay_android_samp",
+    "poi": {
+      "method": "exts.whats.MessageReceiver.private static Map<String, String> retrieveMessages(Intent intent)",
+      "line": 38,
+      "target": "getExtras"
+    },
+    "expected_sinks": [
+      {
+        "class": "exts.whats.MessageReceiver",
+        "method": "public void onReceive(Context context, Intent intent)",
+        "line": 28,
+        "target": "startService"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious partial ICC flow starts by reading SMS messages from the Intent with which the MessageReceiver is started. The messages will be written to a Map which will be stored into an Intent. With this intent a new SendService which leaks the card number will be started.  "
+  },
+  {
+    "app_name": "overlay_android_samp",
+    "poi": {
+      "method": "exts.whats.SendService.public void onHandleIntent(Intent intent)",
+      "line": 75,
+      "target": "getStringExtra"
+    },
+    "expected_sinks": [
+      {
+        "class": "exts.whats.utils.Sender",
+        "method": "public static JSONObject request(DefaultHttpClient httpClient, String serverURL, String data)",
+        "line": 17,
+        "target": "execute"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious partial ICC flow reads SMS messages from the Intent with which the SendService is started and sents it to a remote server per an HTTP Post request."
+  },
+  {
+    "app_name": "overlay_android_samp",
+    "poi": {
+      "method": "exts.whats.activities.Cards.public void onNewIntent(Intent intent)",
+      "line": 527,
+      "target": "getStringExtra"
+    },
+    "expected_sinks": [
+      {
+        "class": "exts.whats.activities.Cards",
+        "method": "public void sendData()",
+        "line": 322,
+        "target": "startService"
+      }
+    ],
+    "is_negative": true,
+    "description": "Negative flow. "
+  },
+  {
+    "app_name": "overlay_android_samp",
+    "poi": {
+      "method": "exts.whats.activities.Cards.public void onCreate(Bundle savedInstanceState)",
+      "line": 112,
+      "target": "getStringExtra"
+    },
+    "expected_sinks": [
+      {
+        "class": "exts.whats.activities.Cards",
+        "method": "public void sendData()",
+        "line": 322,
+        "target": "startService"
+      }
+    ],
+    "is_negative": true,
+    "description": "Negative flow. "
+  },
+  {
+    "app_name": "beita_com_beita_contact",
+    "poi": {
+      "method": "com.beita.contact.MyContacts.public List<Person> getContactsInfoListFromPhone()",
+      "line": 182,
+      "target": "query"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.beita.contact.MailUtil",
+        "method": "public static void sendByJavaMail(String str_from, String str_to, String str_title, String str_content)",
+        "line": 50,
+        "target": "sendMessage"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow leaks contact data via email."
+  },
+  {
+    "app_name": "beita_com_beita_contact",
+    "poi": {
+      "method": "com.beita.contact.MyContacts.public List<Person> getContactsInfoListFromPhone()",
+      "line": 194,
+      "target": "query"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.beita.contact.ContactUtil",
+        "method": "public static void write(String filePath, String contentStr)",
+        "line": 12,
+        "target": "write"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious partial flow leaks contact data into a file (that is later uploaded)."
+  },
+  {
+    "app_name": "beita_com_beita_contact",
+    "poi": {
+      "method": "com.beita.contact.UploadUtil.public static void uploadFile()",
+      "line": 43,
+      "target": "FileInputStream"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.beita.contact.UploadUtil",
+        "method": "public static void uploadFile()",
+        "line": 65,
+        "target": "write"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious partial flow uploads the file containing contact data to a remote server via HTTP POST request."
+  },
+  {
+    "app_name": "stels_flashplayer_android_update",
+    "poi": {
+      "method": "ru.stels2.Functions.public static List<String> getContacts(Context context)",
+      "line": 264,
+      "target": "query"
+    },
+    "expected_sinks": [
+      {
+        "class": "ru.stels2.Functions",
+        "method": "public static HttpURLConnection sendHttpRequest(String path, String method, List<NameValuePair> paramsList, List<NameValuePair> propertyList, boolean uploadFile, String data)",
+        "line": 120,
+        "target": "write"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads contacts and send them to a remote server via HTTP Post request."
+  },
+  {
+    "app_name": "stels_flashplayer_android_update",
+    "poi": {
+      "method": "ru.stels2.Functions.public static String getImsi(Context context)",
+      "line": 572,
+      "target": "getSubscriberId"
+    },
+    "expected_sinks": [
+      {
+        "class": "ru.stels2.Functions",
+        "method": "public static HttpURLConnection sendHttpRequest(String path, String method, List<NameValuePair> paramsList, List<NameValuePair> propertyList, boolean uploadFile, String data)",
+        "line": 102,
+        "target": "write"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads device's IMSI number and stores it to the public field of class Settings. The IMSI number is sent a remote server via a HTTP POST request."
+  },
+  {
+    "app_name": "stels_flashplayer_android_update",
+    "poi": {
+      "method": "ru.stels2.Functions.public static List<PackageInfo> getInstalledAppList(Context context)",
+      "line": 618,
+      "target": "getInstalledPackages"
+    },
+    "expected_sinks": [
+      {
+        "class": "ru.stels2.Functions",
+        "method": "public static HttpURLConnection sendHttpRequest(String path, String method, List<NameValuePair> paramsList, List<NameValuePair> propertyList, boolean uploadFile, String data)",
+        "line": 120,
+        "target": "write"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious leaks information about installed apks on the victim's device to a remote server."
+  },
+  {
+    "app_name": "fakebank_android_samp",
+    "poi": {
+      "method": "com.example.bankmanager.BankActivity.public void onCreate(Bundle savedInstanceState)",
+      "line": 24,
+      "target": "findViewById"
+    },
+    "expected_sinks": [
+      {
+        "class": "cn.smsmanager.tools.JSONParser",
+        "method": "public JSONObject makeHttpRequest(String url, String method, List<NameValuePair> params)",
+        "line": 52,
+        "target": "execute"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious ICC flow crosses 4 different activities: BankActivity, BankNumActivity BankScardActivity and BankEndActivity. It starts from reading bank account number from user input in BankActivity; when the user performs a click on a button, the BankNumActivity is started; the BankScardActivity and BankEndActivity are also started by clicking on a button. In the first three activities, bank information such as account number, passwords and TAN number are stored into the static fields of the class BankInfo. There are input validations for user inputs to make sure that only valid bank information is collected. In the last activity, all collected information will be read from BankInfo and written to a List. This list will be sent to a remote server per an HTTP POST request."
+  },
+  {
+    "app_name": "fakebank_android_samp",
+    "poi": {
+      "method": "com.example.smsmanager.BootCompleteBroadcastReceiver.public void onReceive(Context context, Intent intent)",
+      "line": 36,
+      "target": "getSimSerialNumber"
+    },
+    "expected_sinks": [
+      {
+        "class": "cn.smsmanager.internet.HttpRequest",
+        "method": "public static byte[] sendGetRequest(String path, Map<String, String> params, String enc)",
+        "line": 99,
+        "target": "getInputStream"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow starts by reading the serial number of the SIM card, then writes to the field of the class BankEndActivity, thento a HashMap. Then information in the HashMap will be appended to a String which will be sent to a remote server per an HTTP GET request. "
+  },
+  {
+    "app_name": "fakebank_android_samp",
+    "poi": {
+      "method": "com.example.bankmanager.BankEndActivity.CreateNewUser.public String doInBackground(String... args)",
+      "line": 244,
+      "target": "getSimSerialNumber"
+    },
+    "expected_sinks": [
+      {
+        "class": "cn.smsmanager.tools.JSONParser",
+        "method": "public JSONObject makeHttpRequest(String url, String method, List<NameValuePair> params)",
+        "line": 78,
+        "target": "execute"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow starts by reading the serial number of the SIM card, then writes to a List. This list will be sent to a remote server per an HTTP POST request. "
+  },
+  {
+    "app_name": "fakebank_android_samp",
+    "poi": {
+      "method": "com.example.smsmanager.smsReceiver.public void onReceive(Context context, Intent intent)",
+      "line": 77,
+      "target": "getDisplayMessageBody"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.example.smsmanager.smsReceiver.AnonymousClass1",
+        "method": "public void run()",
+        "line": 106,
+        "target": "execute"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow starts by reading SMS message, then writes to a BasicNameValuePair object, then a HashMap. The hashmap will be sent to a rmote server per an HTTP POST request when a Thread created by the class smsReceiver runs.  "
+  },
+  {
+    "app_name": "fakebank_android_samp",
+    "poi": {
+      "method": "com.example.service.InstallService.private void removeApplications()",
+      "line": 100,
+      "target": "File"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.example.service.InstallService",
+        "method": "private void installApk(String filename)",
+        "line": 68,
+        "target": "startActivity"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicous flow installs an apk from sdcard. "
+  },
+  {
+    "app_name": "dsencrypt_samp",
+    "poi": {
+      "method": "com.kbstar.kb.android.star.ProxyApp.private void loadClass(Context context)",
+      "line": 28,
+      "target": "open"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.kbstar.kb.android.star.ProxyApp",
+        "method": "private void loadClass(Context context)",
+        "line": 60,
+        "target": "invoke"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads an encrypted zip file from asset folder, decrypts it and extracts class.dex which contains malicious code. The malicious code is called via reflection."
+  },
+  {
+    "app_name": "hummingbad_android_samp",
+    "poi": {
+      "method": "com.android.ad.du.BaiduCacheDBUtil.private static ArrayList<DuAdData> listDuAdDatasFromAppCache(Context context)",
+      "line": 117,
+      "target": "getString"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.mb.bdapp.db.DBService",
+        "method": "public long insertAd(DuAd ad)",
+        "line": 120,
+        "target": "insert"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious ICC flow crosses one activity and two services. It starts by reading advertisement information from data base into a JSONObject, when the user performs a click, new advertisements will be downloaded and saved into data base. "
+  },
+  {
+    "app_name": "hummingbad_android_samp",
+    "poi": {
+      "method": "com.android.ad.du.BaiduCacheDBUtil.private static ArrayList<DuAdData> listDuAdDatasFromAppCache(Context context)",
+      "line": 117,
+      "target": "getString"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.mb.bdapp.db.DBService",
+        "method": "public void updateAdById(long id, DuAd ad)",
+        "line": 307,
+        "target": "update"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious ICC flow crosses one activity and two services. It starts by reading advertisement information from data base into a JSONObject, when the user performs a click, new advertisements will be downloaded and updated in the data base. "
+  },
+  {
+    "app_name": "smssend_packageInstaller",
+    "poi": {
+      "method": "install.app.Settings.public static String getImei(Context context)",
+      "line": 280,
+      "target": "getDeviceId"
+    },
+    "expected_sinks": [
+      {
+        "class": "install.app.MainActivity",
+        "method": "public static HttpURLConnection sendHttpRequest(String path, String method, List<NameValuePair> paramsList, List<NameValuePair> propertyList)",
+        "line": 430,
+        "target": "getOutputStream"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow leaks the IMEI via an HTTP POST Request."
+  },
+  {
+    "app_name": "smssend_packageInstaller",
+    "poi": {
+      "method": "install.app.MainReceiver.private SmsMessage[] getSmsMessages(Bundle paramBundle)",
+      "line": 145,
+      "target": "createFromPdu"
+    },
+    "expected_sinks": [
+      {
+        "class": "install.app.Settings",
+        "method": "public static boolean sendSms(String number, String text)",
+        "line": 473,
+        "target": "sendTextMessage"
+      }
+    ],
+    "is_negative": false,
+    "description": "This is is an implicit flow. When a certain SMS is received it sends another SMS."
+  },
+  {
+    "app_name": "smssend_packageInstaller",
+    "poi": {
+      "method": "install.app.Settings.public static String getImei(Context context)",
+      "line": 280,
+      "target": "getDeviceId"
+    },
+    "expected_sinks": [
+      {
+        "class": "install.app.Settings",
+        "method": "public static boolean sendSms(String number, String text)",
+        "line": 473,
+        "target": "sendTextMessage"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow sends device id in a SMS message back to the sender when a certian SMS message is received. "
+  },
+  {
+    "app_name": "smssend_packageInstaller",
+    "poi": {
+      "method": "ru.beta.Functions.public static String getImei(Context context)",
+      "line": 549,
+      "target": "getDeviceId"
+    },
+    "expected_sinks": [
+      {
+        "class": "ru.beta.Functions",
+        "method": "public static boolean sendSms(String number, String text)",
+        "line": 449,
+        "target": "sendTextMessage"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow sends a SMS contains the device id. "
+  },
+  {
+    "app_name": "smssend_packageInstaller",
+    "poi": {
+      "method": "ru.beta.Functions.public static String getImei(Context context)",
+      "line": 549,
+      "target": "getDeviceId"
+    },
+    "expected_sinks": [
+      {
+        "class": "ru.beta.Functions",
+        "method": "public static HttpURLConnection sendHttpRequest(String path, String method, List<NameValuePair> paramsList, List<NameValuePair> propertyList, boolean uploadFile, String data)",
+        "line": 102,
+        "target": "getOutputStream"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow sends device Id to a remote server."
+  },
+  {
+    "app_name": "slocker_android_samp",
+    "poi": {
+      "method": "com.android.locker.SenderActivity.public void onCreate(Bundle savedInstanceState)",
+      "line": 129,
+      "target": "getDeviceId"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.android.locker.RequestSender",
+        "method": "public void sendCode(String code, String imei)",
+        "line": 73,
+        "target": "execute"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads device id and puts into a ArrayList of name value pairs. This list is sent to a remote server per an HTTP Post request."
+  },
+  {
+    "app_name": "slocker_android_samp",
+    "poi": {
+      "method": "com.android.locker.SenderActivity.public void onCreate(Bundle savedInstanceState)",
+      "line": 129,
+      "target": "getDeviceId"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.android.locker.SenderActivity",
+        "method": "public static void debug(String code)",
+        "line": 344,
+        "target": "execute"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads device id and puts into a ArrayList of name value pairs. This list is sent to a remote server per an HTTP Post request."
+  },
+  {
+    "app_name": "slocker_android_samp",
+    "poi": {
+      "method": "com.android.locker.SenderActivity.AnonymousClass12.public void onClick(View v)",
+      "line": 273,
+      "target": "getText"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.android.locker.RequestSender",
+        "method": "public void sendCode(String code, String imei)",
+        "line": 73,
+        "target": "execute"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flows reads the inputed code and sends it to a remote server via HTTP POST request."
+  },
+  {
+    "app_name": "slocker_android_samp",
+    "poi": {
+      "method": "com.android.locker.SenderActivity.AnonymousClass12.public void onClick(View v)",
+      "line": 273,
+      "target": "getText"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.android.locker.SenderActivity",
+        "method": "public static void debug(String code)",
+        "line": 344,
+        "target": "execute"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads the inputed code and sends to a remote server via HTTP POST request."
+  },
+  {
+    "app_name": "slocker_android_samp",
+    "poi": {
+      "method": "com.android.locker.SenderActivity.public void onCreate(Bundle savedInstanceState)",
+      "line": 129,
+      "target": "getDeviceId"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.android.locker.RequestSender",
+        "method": "public String checkState(String imei)",
+        "line": 117,
+        "target": "execute"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads device id and sends it to a remote server via an HTTP post."
+  },
+  {
+    "app_name": "sms_send_locker_qqmagic",
+    "poi": {
+      "method": "qqkj.qqmagic.Fr.public void onReceive(Context context, Intent intent)",
+      "line": 43,
+      "target": "getDisplayMessageBody"
+    },
+    "expected_sinks": [
+      {
+        "class": "qqkj.qqmagic.Fr",
+        "method": "public void onReceive(Context context, Intent intent)",
+        "line": 35,
+        "target": "sendTextMessage"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow exists in the onReceive callback method of a BroadcastReciver, it starts from reading a SMS message to a StringBuilder and ends by sending it via a text message to a strange number."
+  },
+  {
+    "app_name": "sms_send_locker_qqmagic",
+    "poi": {
+      "method": "qqkj.qqmagic.Fr.public void onReceive(Context context, Intent intent)",
+      "line": 41,
+      "target": "getDisplayOriginatingAddress"
+    },
+    "expected_sinks": [
+      {
+        "class": "qqkj.qqmagic.Fr",
+        "method": "public void onReceive(Context context, Intent intent)",
+        "line": 35,
+        "target": "sendTextMessage"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow exists in the onReceive callback method of a BroadcastReciver, it starts from reading the SMS sender's address (phone number or email) and ends by sending it via a text message to a strange number."
+  },
+  {
+    "app_name": "sms_send_locker_qqmagic",
+    "poi": {
+      "method": "qqkj.qqmagic.Fr.public void onReceive(Context context, Intent intent)",
+      "line": 43,
+      "target": "getDisplayMessageBody"
+    },
+    "expected_sinks": [
+      {
+        "class": "qqkj.qqmagic.Fr",
+        "method": "public void onReceive(Context context, Intent intent)",
+        "line": 47,
+        "target": "startService"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious ICC flow cross one BroadcastReciver and one Service. This is only the partical flow in the BroadcastReciver. The flow starts in a broadcast receiver by reading SMS message to a StringBuilder, then uses this StringBuilder to construct an intent for a unknown service."
+  },
+  {
+    "app_name": "sms_send_locker_qqmagic",
+    "poi": {
+      "method": "qqkj.qqmagic.Fr.public void onReceive(Context context, Intent intent)",
+      "line": 56,
+      "target": "getDisplayMessageBody"
+    },
+    "expected_sinks": [
+      {
+        "class": "qqkj.qqmagic.Fr",
+        "method": "public void onReceive(Context context, Intent intent)",
+        "line": 47,
+        "target": "startService"
+      }
+    ],
+    "is_negative": true,
+    "description": "Negative flow."
+  },
+  {
+    "app_name": "sms_send_locker_qqmagic",
+    "poi": {
+      "method": "qqkj.qqmagic.Fr.public void onReceive(Context context, Intent intent)",
+      "line": 57,
+      "target": "getDisplayMessageBody"
+    },
+    "expected_sinks": [
+      {
+        "class": "qqkj.qqmagic.Fr",
+        "method": "public void onReceive(Context context, Intent intent)",
+        "line": 47,
+        "target": "startService"
+      }
+    ],
+    "is_negative": true,
+    "description": ""
+  },
+  {
+    "app_name": "sms_send_locker_qqmagic",
+    "poi": {
+      "method": "qqkj.qqmagic.Fr.public void onReceive(Context context, Intent intent)",
+      "line": 58,
+      "target": "getDisplayMessageBody"
+    },
+    "expected_sinks": [
+      {
+        "class": "qqkj.qqmagic.Fr",
+        "method": "public void onReceive(Context context, Intent intent)",
+        "line": 47,
+        "target": "startService"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious ICC flow cross one BroadcastReciver and one Service. This is only the partical flow in the BroadcastReciver. The flow starts in a broadcast receiver by reading SMS message to a StringBuilder, then uses this StringBuilder to construct an intent for a unknown service."
+  },
+  {
+    "app_name": "sms_send_locker_qqmagic",
+    "poi": {
+      "method": "qqkj.qqmagic.Fr.public void onReceive(Context context, Intent intent)",
+      "line": 59,
+      "target": "getDisplayMessageBody"
+    },
+    "expected_sinks": [
+      {
+        "class": "qqkj.qqmagic.Fr",
+        "method": "public void onReceive(Context context, Intent intent)",
+        "line": 47,
+        "target": "startService"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious ICC flow cross one BroadcastReciver and one Service. This is only the partical flow in the BroadcastReciver. The flow starts in a broadcast receiver by reading SMS message to a StringBuilder, then uses this StringBuilder to construct an intent for a unknown service."
+  },
+  {
+    "app_name": "sms_send_locker_qqmagic",
+    "poi": {
+      "method": "qqkj.qqmagic.Fr.public void onReceive(Context context, Intent intent)",
+      "line": 60,
+      "target": "getDisplayMessageBody"
+    },
+    "expected_sinks": [
+      {
+        "class": "qqkj.qqmagic.Fr",
+        "method": "public void onReceive(Context context, Intent intent)",
+        "line": 47,
+        "target": "startService"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious ICC flow cross one BroadcastReciver and one Service. This is only the partical flow in the BroadcastReciver. The flow starts in a broadcast receiver by reading SMS message to a StringBuilder, then uses this StringBuilder to construct an intent for a unknown service."
+  },
+  {
+    "app_name": "godwon_samp",
+    "poi": {
+      "method": "android.sms.core.GoogleService.public void onCreate()",
+      "line": 27,
+      "target": "getLine1Number"
+    },
+    "expected_sinks": [
+      {
+        "class": "android.sms.core.ToolHelper",
+        "method": "public static String postData(String url, List<NameValuePair> params)",
+        "line": 57,
+        "target": "execute"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads the phone number and puts it into a ArrayList. This list is sent to a remote server via a HTTP Post request."
+  },
+  {
+    "app_name": "godwon_samp",
+    "poi": {
+      "method": "android.sms.core.GoogleService.public void onCreate()",
+      "line": 29,
+      "target": "getDeviceId"
+    },
+    "expected_sinks": [
+      {
+        "class": "android.sms.core.ToolHelper",
+        "method": "public static String postData(String url, List<NameValuePair> params)",
+        "line": 57,
+        "target": "execute"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads the device Id when the phone number is empty. This device Id is stored in a ArrayList. This list is sent to a remote server via a HTTP Post request."
+  },
+  {
+    "app_name": "godwon_samp",
+    "poi": {
+      "method": "android.sms.core.BootReceiver.private final SmsMessage[] getMessagesFromIntent(Intent intent)",
+      "line": 59,
+      "target": "getSerializableExtra"
+    },
+    "expected_sinks": [
+      {
+        "class": "android.sms.core.ToolHelper",
+        "method": "public static String postData(String url, List<NameValuePair> params)",
+        "line": 57,
+        "target": "execute"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow exists in the onReceive callback method of a BroadcastReciver, it reads SMS messages to array, appends all messages to a string, stores it into a List and sends the list to a remote server via a HTTP POST request."
+  },
+  {
+    "app_name": "godwon_samp",
+    "poi": {
+      "method": "android.sms.core.BootReceiver.private final SmsMessage[] getMessagesFromIntent(Intent intent)",
+      "line": 59,
+      "target": "getSerializableExtra"
+    },
+    "expected_sinks": [
+      {
+        "class": "android.sms.core.ToolHelper",
+        "method": "public static String postData(String url, List<NameValuePair> params)",
+        "line": 57,
+        "target": "execute"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow exists in the onReceive callback method of a BroadcastReciver, it reads SMS messages to array, writes the sender's address into a private field, stores it into a List and sends the list to a remote server via a HTTP POST request."
+  },
+  {
+    "app_name": "godwon_samp",
+    "poi": {
+      "method": "android.sms.core.BootReceiver.public void onReceive(Context arg0, Intent arg1)",
+      "line": 25,
+      "target": "getLine1Number"
+    },
+    "expected_sinks": [
+      {
+        "class": "android.sms.core.ToolHelper",
+        "method": "public static String postData(String url, List<NameValuePair> params)",
+        "line": 57,
+        "target": "execute"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads the phone number and sends it to a rmote server via a HTTP Post request. "
+  },
+  {
+    "app_name": "godwon_samp",
+    "poi": {
+      "method": "android.sms.core.BootReceiver.public void onReceive(Context arg0, Intent arg1)",
+      "line": 27,
+      "target": "getDeviceId"
+    },
+    "expected_sinks": [
+      {
+        "class": "android.sms.core.ToolHelper",
+        "method": "public static String postData(String url, List<NameValuePair> params)",
+        "line": 57,
+        "target": "execute"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads device id when the phone number is empty, and it send the device id to a remote server via a HTTP Post request. "
+  },
+  {
+    "app_name": "sms_google",
+    "poi": {
+      "method": "com.google.elements.WorkService.public void onCreate()",
+      "line": 34,
+      "target": "getDeviceId"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.google.elements.Utils.sendPostRequest",
+        "method": "public String doInBackground(String... params)",
+        "line": 716,
+        "target": "execute"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads the device id and puts it into a JSON object which will be sent to a remote sever via HTTP request."
+  },
+  {
+    "app_name": "sms_google",
+    "poi": {
+      "method": "com.google.elements.WorkService.AnonymousClass1.public void run()",
+      "line": 56,
+      "target": "getDeviceId"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.google.elements.Utils.sendPostRequest",
+        "method": "public String doInBackground(String... params)",
+        "line": 716,
+        "target": "execute"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads the device id and puts it into a JSON object which will be sent to a remote sever via HTTP request."
+  },
+  {
+    "app_name": "sms_google",
+    "poi": {
+      "method": "com.google.elements.GCMIntentService.public void onMessage(Context context, Intent intent)",
+      "line": 55,
+      "target": "getStringExtra"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.google.elements.Utils.AnonymousClass1",
+        "method": "public void run()",
+        "line": 538,
+        "target": "sendTextMessage"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious partial flow listens to C&C command and sends SMS message in the background."
+  },
+  {
+    "app_name": "sms_google",
+    "poi": {
+      "method": "com.google.elements.GCMIntentService.public void onMessage(Context context, Intent intent)",
+      "line": 57,
+      "target": "getStringExtra"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.google.elements.Utils",
+        "method": "public void sendMessageNow(String data)",
+        "line": 553,
+        "target": "sendTextMessage"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious partical flow listens to C&C command and sends SMS message."
+  },
+  {
+    "app_name": "faketaobao",
+    "poi": {
+      "method": "com.tao.bao.MainActivity.AnonymousClass1.public void onClick(View arg0)",
+      "line": 59,
+      "target": "getText"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.tao.bao.ToolHelper",
+        "method": "public static String postData(String url, List<NameValuePair> params)",
+        "line": 57,
+        "target": "execute"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads user given taobao password and sends to a remote server."
+  },
+  {
+    "app_name": "faketaobao",
+    "poi": {
+      "method": "com.tao.bao.MainActivity.AnonymousClass1.public void onClick(View arg0)",
+      "line": 54,
+      "target": "getText"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.tao.bao.ToolHelper",
+        "method": "public static String postData(String url, List<NameValuePair> params)",
+        "line": 57,
+        "target": "execute"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads user given taobao username and sends to a remote server."
+  },
+  {
+    "app_name": "faketaobao",
+    "poi": {
+      "method": "com.tao.bao.LocationVerify.AnonymousClass1.public void onClick(View arg0)",
+      "line": 43,
+      "target": "getText"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.tao.bao.ToolHelper",
+        "method": "public static String postData(String url, List<NameValuePair> params)",
+        "line": 57,
+        "target": "execute"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads user's ID and sends it to a remote server."
+  },
+  {
+    "app_name": "faketaobao",
+    "poi": {
+      "method": "com.tao.bao.LocationVerify.AnonymousClass1.public void onClick(View arg0)",
+      "line": 48,
+      "target": "getText"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.tao.bao.ToolHelper",
+        "method": "public static String postData(String url, List<NameValuePair> params)",
+        "line": 57,
+        "target": "execute"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flows reads user given password and sends to a remote server. "
+  },
+  {
+    "app_name": "smsstealer_kysn_assassincreed_android_samp",
+    "poi": {
+      "method": "com.dsifakf.aoakmnq.GetAll.public void onReceive(Context context, Intent intent)",
+      "line": 45,
+      "target": "query"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.dsifakf.aoakmnq.GetAll.AnonymousClass1",
+        "method": "public void run()",
+        "line": 84,
+        "target": "execute"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads the types of sms messages and send to a remote server via an HTTP POST request."
+  },
+  {
+    "app_name": "smsstealer_kysn_assassincreed_android_samp",
+    "poi": {
+      "method": "com.dsifakf.aoakmnq.GetAll.public void onReceive(Context context, Intent intent)",
+      "line": 45,
+      "target": "query"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.dsifakf.aoakmnq.GetAll.AnonymousClass1",
+        "method": "public void run()",
+        "line": 84,
+        "target": "execute"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads the addresses of sms messages and send to a remote server via an HTTP POST request."
+  },
+  {
+    "app_name": "smsstealer_kysn_assassincreed_android_samp",
+    "poi": {
+      "method": "com.dsifakf.aoakmnq.GetAll.public void onReceive(Context context, Intent intent)",
+      "line": 62,
+      "target": "getSubscriberId"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.dsifakf.aoakmnq.GetAll.AnonymousClass1",
+        "method": "public void run()",
+        "line": 84,
+        "target": "execute"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads the IMSI of the device and sends it to a remote server via an HTTP POST request."
+  },
+  {
+    "app_name": "smsstealer_kysn_assassincreed_android_samp",
+    "poi": {
+      "method": "com.dsifakf.aoakmnq.Connect3.public String dataGet()",
+      "line": 44,
+      "target": "getInputStream"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.dsifakf.aoakmnq.CheckUpdate.AnonymousClass1",
+        "method": "private void setParam2(String Param2)",
+        "line": 124,
+        "target": "commit"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads command and decrypts information from a remote server and store data into shared perference."
+  },
+  {
+    "app_name": "smsstealer_kysn_assassincreed_android_samp",
+    "poi": {
+      "method": "com.dsifakf.aoakmnq.Connect3.public String dataGet()",
+      "line": 44,
+      "target": "getInputStream"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.dsifakf.aoakmnq.CheckUpdate.AnonymousClass1",
+        "method": "private void GoMessage(String Number, String Text)",
+        "line": 111,
+        "target": "sendMultipartTextMessage"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads command and decrypts information from a remote server and sends a multi-part text based SMS."
+  },
+  {
+    "app_name": "death_ring_materialflow",
+    "poi": {
+      "method": "com.qc.access.SmsReceiver.public void onReceive(Context context, Intent intent)",
+      "line": 78,
+      "target": "getDisplayMessageBody"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.qc.model.SmsSenderAndReceiver",
+        "method": "public static void send2(String phoneNumber, String msmStr)",
+        "line": 28,
+        "target": "sendTextMessage"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads SMS content to fake text message for fishing."
+  },
+  {
+    "app_name": "chulia",
+    "poi": {
+      "method": "com.google.services.AlarmService.private String getSms()",
+      "line": 214,
+      "target": "query"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.google.services.SendInfo",
+        "method": "public synchronized void run(String str, String str2)",
+        "line": 189,
+        "target": "execute"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow leaks the recipient or sender of an sms text message and posts it to an HTTP Server"
+  },
+  {
+    "app_name": "chulia",
+    "poi": {
+      "method": "com.google.services.AlarmService.public void updateWithNewLocation(Location location)",
+      "line": -1,
+      "target": "getLongitude"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.google.services.SendInfo",
+        "method": "public synchronized void run(String str, String str2)",
+        "line": 189,
+        "target": "execute"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow leaks the location of the android device and posts it to an HTTP Server"
+  },
+  {
+    "app_name": "chulia",
+    "poi": {
+      "method": "com.google.services.AlarmService.private String getPhoneContacts()",
+      "line": 125,
+      "target": "query"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.google.services.SendInfo",
+        "method": "public synchronized void run(String str, String str2)",
+        "line": 189,
+        "target": "execute"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow leaks contacts and posts it to an HTTP server."
+  },
+  {
+    "app_name": "chulia",
+    "poi": {
+      "method": "com.google.services.AlarmService.private String getRecord()",
+      "line": 266,
+      "target": "query"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.google.services.SendInfo",
+        "method": "public synchronized void run(String str, String str2)",
+        "line": 189,
+        "target": "execute"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow leaks phone number to a remote server. It reads first read the phone number in AlarmService class, later puts this information into a intent and starts a BroadcastReceiver sendReceiver. "
+  },
+  {
+    "app_name": "backflash",
+    "poi": {
+      "method": "com.adobe.flashplayer_.AdobeFlashCore.public void onCreate()",
+      "line": 59,
+      "target": "getSimCountryIso"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.adobe.flashplayer_.AdobeFlashCore",
+        "method": "private void writeConfig(String config, String data)",
+        "line": 168,
+        "target": "write"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow leaks the SIM country code into an OutputStream, writing to data that is later read by following flow."
+  },
+  {
+    "app_name": "backflash",
+    "poi": {
+      "method": "com.adobe.flashplayer_.FlashW.private String readConfig(String config, Context context)",
+      "line": 64,
+      "target": "openFileInput"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.adobe.flashplayer_.FlashVirtual",
+        "method": "public String doInBackground(String... params)",
+        "line": 48,
+        "target": "getOutputStream"
+      }
+    ],
+    "is_negative": false,
+    "description": "The second part of the above partial flow that leaks the country code into a URL that is then retrieved. Note: execute(....) internally calls doInBackground(...)."
+  },
+  {
+    "app_name": "backflash",
+    "poi": {
+      "method": "com.adobe.flashplayer_.FlashY.public void onReceive(Context context, Intent intent)",
+      "line": 28,
+      "target": "getStringExtra"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.adobe.flashplayer_.FlashVirtual",
+        "method": "public String doInBackground(String... params)",
+        "line": 58,
+        "target": "write"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow sends the telephone number of incoming calls via file upload to a remote server."
+  },
+  {
+    "app_name": "backflash",
+    "poi": {
+      "method": "com.adobe.flashplayer_.FlashY.public void onReceive(Context context, Intent intent)",
+      "line": 28,
+      "target": "getStringExtra"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.adobe.flashplayer_.FlashVirtual",
+        "method": "public String doInBackground(String... params)",
+        "line": 48,
+        "target": "getOutputStream"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads incoming number and appends it in a URL as parameter for a HTTP POST request to a remote server. "
+  },
+  {
+    "app_name": "backflash",
+    "poi": {
+      "method": "com.adobe.flashplayer_.FlashZ.public void onReceive(Context context, Intent intent)",
+      "line": 57,
+      "target": "getStringExtra"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.adobe.flashplayer_.FlashZ",
+        "method": "private void saveData(String data, String f, Context context)",
+        "line": 148,
+        "target": "write"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow writes phone number to a file which will be posted to a remote server."
+  },
+  {
+    "app_name": "backflash",
+    "poi": {
+      "method": "com.adobe.flashplayer_.FlashZ.public void onReceive(Context context, Intent intent)",
+      "line": 86,
+      "target": "getStringExtra"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.adobe.flashplayer_.FlashZ",
+        "method": "private void saveData(String data, String f, Context context)",
+        "line": 148,
+        "target": "write"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow writes phone number to a file which will be posted to a remote server."
+  },
+  {
+    "app_name": "backflash",
+    "poi": {
+      "method": "com.adobe.flashplayer_.FlashZ.public void onReceive(Context context, Intent intent)",
+      "line": 115,
+      "target": "getStringExtra"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.adobe.flashplayer_.FlashZ",
+        "method": "private void saveData(String data, String f, Context context)",
+        "line": 148,
+        "target": "write"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow writes phone number to a file which will be posted to a remote server."
+  },
+  {
+    "app_name": "backflash",
+    "poi": {
+      "method": "com.adobe.flashplayer_.FlashZ.public void onReceive(Context context, Intent intent)",
+      "line": 137,
+      "target": "getStringExtra"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.adobe.flashplayer_.FlashZ",
+        "method": "private void saveData(String data, String f, Context context)",
+        "line": 148,
+        "target": "write"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow writes phone number to a file which will be posted to a remote server."
+  },
+  {
+    "app_name": "backflash",
+    "poi": {
+      "method": "com.adobe.flashplayer_.FlashZ.public void onReceive(Context context, Intent intent)",
+      "line": 71,
+      "target": "getStringExtra"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.adobe.flashplayer_.FlashZ",
+        "method": "private void saveData(String data, String f, Context context)",
+        "line": 148,
+        "target": "write"
+      }
+    ],
+    "is_negative": true,
+    "description": "Negative flow."
+  },
+  {
+    "app_name": "backflash",
+    "poi": {
+      "method": "com.adobe.flashplayer_.FlashZ.public void onReceive(Context context, Intent intent)",
+      "line": 101,
+      "target": "getStringExtra"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.adobe.flashplayer_.FlashZ",
+        "method": "private void saveData(String data, String f, Context context)",
+        "line": 148,
+        "target": "write"
+      }
+    ],
+    "is_negative": true,
+    "description": "Negative flow."
+  },
+  {
+    "app_name": "backflash",
+    "poi": {
+      "method": "com.adobe.flashplayer_.FlashZ.public void onReceive(Context context, Intent intent)",
+      "line": 57,
+      "target": "getStringExtra"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.adobe.flashplayer_.FlashVirtual",
+        "method": "public String doInBackground(String... params)",
+        "line": 48,
+        "target": "getOutputStream"
+      }
+    ],
+    "is_negative": true,
+    "description": "Negative flow."
+  },
+  {
+    "app_name": "backflash",
+    "poi": {
+      "method": "com.adobe.flashplayer_.FlashZ.public void onReceive(Context context, Intent intent)",
+      "line": 86,
+      "target": "getStringExtra"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.adobe.flashplayer_.FlashVirtual",
+        "method": "public String doInBackground(String... params)",
+        "line": 48,
+        "target": "getOutputStream"
+      }
+    ],
+    "is_negative": true,
+    "description": "Negative flow."
+  },
+  {
+    "app_name": "backflash",
+    "poi": {
+      "method": "com.adobe.flashplayer_.FlashZ.public void onReceive(Context context, Intent intent)",
+      "line": 115,
+      "target": "getStringExtra"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.adobe.flashplayer_.FlashVirtual",
+        "method": "public String doInBackground(String... params)",
+        "line": 48,
+        "target": "getOutputStream"
+      }
+    ],
+    "is_negative": true,
+    "description": "Negative flow."
+  },
+  {
+    "app_name": "backflash",
+    "poi": {
+      "method": "com.adobe.flashplayer_.FlashZ.public void onReceive(Context context, Intent intent)",
+      "line": 137,
+      "target": "getStringExtra"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.adobe.flashplayer_.FlashVirtual",
+        "method": "public String doInBackground(String... params)",
+        "line": 48,
+        "target": "getOutputStream"
+      }
+    ],
+    "is_negative": true,
+    "description": "Negative flow."
+  },
+  {
+    "app_name": "backflash",
+    "poi": {
+      "method": "com.adobe.flashplayer_.FlashZ.public void onReceive(Context context, Intent intent)",
+      "line": 71,
+      "target": "getStringExtra"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.adobe.flashplayer_.FlashVirtual",
+        "method": "public String doInBackground(String... params)",
+        "line": 48,
+        "target": "getOutputStream"
+      }
+    ],
+    "is_negative": true,
+    "description": "Negative flow."
+  },
+  {
+    "app_name": "backflash",
+    "poi": {
+      "method": "com.adobe.flashplayer_.FlashZ.public void onReceive(Context context, Intent intent)",
+      "line": 101,
+      "target": "getStringExtra"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.adobe.flashplayer_.FlashVirtual",
+        "method": "public String doInBackground(String... params)",
+        "line": 48,
+        "target": "getOutputStream"
+      }
+    ],
+    "is_negative": true,
+    "description": "Negative flow."
+  },
+  {
+    "app_name": "backflash",
+    "poi": {
+      "method": "com.adobe.flashplayer_.FlashY.public void onReceive(Context context, Intent intent)",
+      "line": 49,
+      "target": "getStringExtra"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.adobe.flashplayer_.FlashY",
+        "method": "private void saveData(String data, String f, Context context)",
+        "line": 72,
+        "target": "write"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow writes incoming phone number to a file which will be posted to a remote server."
+  },
+  {
+    "app_name": "backflash",
+    "poi": {
+      "method": "com.adobe.flashplayer_.FlashY.public void onReceive(Context context, Intent intent)",
+      "line": 28,
+      "target": "getStringExtra"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.adobe.flashplayer_.FlashY",
+        "method": "private void saveData(String data, String f, Context context)",
+        "line": 72,
+        "target": "write"
+      }
+    ],
+    "is_negative": true,
+    "description": "Negative flow."
+  },
+  {
+    "app_name": "backflash",
+    "poi": {
+      "method": "com.adobe.flashplayer_.FlashZ.public void onReceive(Context context, Intent intent)",
+      "line": 57,
+      "target": "getStringExtra"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.adobe.flashplayer_.FlashVirtual",
+        "method": "public String doInBackground(String... params)",
+        "line": 58,
+        "target": "write"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow writes phone number to a file and the file content is posted to a remote server."
+  },
+  {
+    "app_name": "backflash",
+    "poi": {
+      "method": "com.adobe.flashplayer_.FlashZ.public void onReceive(Context context, Intent intent)",
+      "line": 86,
+      "target": "getStringExtra"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.adobe.flashplayer_.FlashVirtual",
+        "method": "public String doInBackground(String... params)",
+        "line": 58,
+        "target": "write"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow writes phone number to a file and the file content is posted to a remote server."
+  },
+  {
+    "app_name": "backflash",
+    "poi": {
+      "method": "com.adobe.flashplayer_.FlashZ.public void onReceive(Context context, Intent intent)",
+      "line": 115,
+      "target": "getStringExtra"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.adobe.flashplayer_.FlashVirtual",
+        "method": "public String doInBackground(String... params)",
+        "line": 58,
+        "target": "write"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow writes phone number to a file and the file content is posted to a remote server."
+  },
+  {
+    "app_name": "backflash",
+    "poi": {
+      "method": "com.adobe.flashplayer_.FlashZ.public void onReceive(Context context, Intent intent)",
+      "line": 137,
+      "target": "getStringExtra"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.adobe.flashplayer_.FlashVirtual",
+        "method": "public String doInBackground(String... params)",
+        "line": 58,
+        "target": "write"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow writes phone number to a file and the file content is posted to a remote server."
+  },
+  {
+    "app_name": "backflash",
+    "poi": {
+      "method": "com.adobe.flashplayer_.FlashZ.public void onReceive(Context context, Intent intent)",
+      "line": 71,
+      "target": "getStringExtra"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.adobe.flashplayer_.FlashVirtual",
+        "method": "public String doInBackground(String... params)",
+        "line": 58,
+        "target": "write"
+      }
+    ],
+    "is_negative": true,
+    "description": "Negative flow"
+  },
+  {
+    "app_name": "backflash",
+    "poi": {
+      "method": "com.adobe.flashplayer_.FlashZ.public void onReceive(Context context, Intent intent)",
+      "line": 101,
+      "target": "getStringExtra"
+    },
+    "expected_sinks": [
+      {
+        "class": "com.adobe.flashplayer_.FlashVirtual",
+        "method": "public String doInBackground(String... params)",
+        "line": 58,
+        "target": "write"
+      }
+    ],
+    "is_negative": true,
+    "description": "Negative flow"
+  },
+  {
+    "app_name": "cajino_baidu",
+    "poi": {
+      "method": "ca.ji.no.method10.BaiduUtils.AnonymousClass3.public void run()",
+      "line": 431,
+      "target": "listFiles"
+    },
+    "expected_sinks": [
+      {
+        "class": "ca.ji.no.method10.BaiduUtils",
+        "method": "public static void putObjectByInputStream(BaiduBCS baiduBCS, String foldname, String filename)",
+        "line": 464,
+        "target": "putObject"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads photos and uploads them to a remote server via HTTP request. This malicious behavior will be triggered, when then PushMessageReceiver (a BroadcastReceiver) receives a command which contains the string 'photo'."
+  },
+  {
+    "app_name": "cajino_baidu",
+    "poi": {
+      "method": "ca.ji.no.method10.BaiduUtils.AnonymousClass2.public void run()",
+      "line": 373,
+      "target": "getString"
+    },
+    "expected_sinks": [
+      {
+        "class": "ca.ji.no.method10.BaiduUtils",
+        "method": "public static void createContactFile(String fName, String content)",
+        "line": 479,
+        "target": "write"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads contacts and saves them to a file. This file will be later uploaded to a remote server (not a part of this flow). This malicious behavior will be triggered, when then PushMessageReceiver (a BroadcastReceiver) receives a command which contains the string 'contact'."
+  },
+  {
+    "app_name": "cajino_baidu",
+    "poi": {
+      "method": "ca.ji.no.method10.BaiduUtils.private static void getCallLog(Context context, String deviceID)",
+      "line": 216,
+      "target": "getString"
+    },
+    "expected_sinks": [
+      {
+        "class": "ca.ji.no.method10.BaiduUtils",
+        "method": "public static void createContactFile(String fName, String content)",
+        "line": 479,
+        "target": "write"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads call log and saves them to a file. This file will be later uploaded to a remote server (not a part of this flow). This malicious behavior will be triggered, when then PushMessageReceiver (a BroadcastReceiver) receives a command which contains the string 'call_log'."
+  },
+  {
+    "app_name": "cajino_baidu",
+    "poi": {
+      "method": "ca.ji.no.method10.BaiduUtils.private static void getMessage(Context context, final String deviceID)",
+      "line": 323,
+      "target": "getString"
+    },
+    "expected_sinks": [
+      {
+        "class": "ca.ji.no.method10.BaiduUtils",
+        "method": "public static void createContactFile(String fName, String content)",
+        "line": 479,
+        "target": "write"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads sms messages and saves them to a file. This file will be later uploaded to a remote server (not a part of this flow). This malicious behavior will be triggered, when then PushMessageReceiver (a BroadcastReceiver) receives a command which contains the string 'upload_message'."
+  },
+  {
+    "app_name": "cajino_baidu",
+    "poi": {
+      "method": "ca.ji.no.method10.BaiduUtils.private static void getLocation(Context context, String deviceID)",
+      "line": 294,
+      "target": "getLastKnownLocation"
+    },
+    "expected_sinks": [
+      {
+        "class": "ca.ji.no.method10.BaiduUtils",
+        "method": "public static void createContactFile(String fName, String content)",
+        "line": 479,
+        "target": "write"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads location information and saves it to a file. This file will be later uploaded to a remote server (not a part of this flow). This malicious behavior will be triggered, when then PushMessageReceiver (a BroadcastReceiver) receives a command which contains the string 'location'."
+  },
+  {
+    "app_name": "cajino_baidu",
+    "poi": {
+      "method": "ca.ji.no.method10.BaiduUtils.private static void getPhoneInfo(Context context)",
+      "line": 183,
+      "target": "getDeviceId"
+    },
+    "expected_sinks": [
+      {
+        "class": "ca.ji.no.method10.BaiduUtils",
+        "method": "public static void createContactFile(String fName, String content)",
+        "line": 479,
+        "target": "write"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads device Id and saves it to a file. This file will be later uploaded to a remote server (not a part of this flow). This malicious behavior will be triggered, when then PushMessageReceiver (a BroadcastReceiver) receives a command which contains the string 'phone'."
+  },
+  {
+    "app_name": "cajino_baidu",
+    "poi": {
+      "method": "ca.ji.no.method10.BaiduUtils.private static void getPhoneInfo(Context context)",
+      "line": 183,
+      "target": "getDeviceId"
+    },
+    "expected_sinks": [
+      {
+        "class": "ca.ji.no.method10.BaiduUtils",
+        "method": "public static void putObjectByInputStream(BaiduBCS baiduBCS, String foldname, String filename)",
+        "line": 464,
+        "target": "putObject"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads device Id and uploads it to a remote server via HTTP request. This malicious behavior will be triggered, when then PushMessageReceiver (a BroadcastReceiver) receives a command which contains the string 'phone'."
+  },
+  {
+    "app_name": "cajino_baidu",
+    "poi": {
+      "method": "ca.ji.no.method10.BaiduUtils.private static void listFileByPath(Context context, String filePath)",
+      "line": -1,
+      "target": "listFiles"
+    },
+    "expected_sinks": [
+      {
+        "class": "ca.ji.no.method10.BaiduUtils",
+        "method": "public static void createContactFile(String fName, String content)",
+        "line": 479,
+        "target": "write"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads file list and saves it to a file. This file will be later uploaded to a remote server (not a part of this flow). This malicious behavior will be triggered, when then PushMessageReceiver (a BroadcastReceiver) receives a command which contains the string 'list_file'."
+  },
+  {
+    "app_name": "cajino_baidu",
+    "poi": {
+      "method": "ca.ji.no.method10.BaiduUtils.private static void uploadByInputStream(BaiduBCS baiduBCS, String foldname, String filePath)",
+      "line": 133,
+      "target": "File"
+    },
+    "expected_sinks": [
+      {
+        "class": "ca.ji.no.method10.BaiduUtils",
+        "method": "private static void uploadByInputStream(BaiduBCS baiduBCS, String foldname, String filePath)",
+        "line": 139,
+        "target": "putObject"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow uploads files. This malicious behavior will be triggered, when then PushMessageReceiver (a BroadcastReceiver) receives a command which contains the string 'upload_file'."
+  },
+  {
+    "app_name": "cajino_baidu",
+    "poi": {
+      "method": "ca.ji.no.method10.BaiduUtils.private static void deletFileByPath(Context context, String path)",
+      "line": 110,
+      "target": "File"
+    },
+    "expected_sinks": [
+      {
+        "class": "ca.ji.no.method10.BaiduUtils",
+        "method": "private static void deletFileByPath(Context context, String path)",
+        "line": 110,
+        "target": "delete"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow delete file. This malicious behavior will be triggered, when then PushMessageReceiver (a BroadcastReceiver) receives a command which contains the string 'delete_file'."
+  },
+  {
+    "app_name": "cajino_baidu",
+    "poi": {
+      "method": "ca.ji.no.method10.BaiduUtils.private static void getIt(String filePath, Context context)",
+      "line": 72,
+      "target": "getDeviceId"
+    },
+    "expected_sinks": [
+      {
+        "class": "ca.ji.no.method10.BaiduUtils",
+        "method": "public static void putObjectByInputStream(BaiduBCS baiduBCS, String foldname, String filename)",
+        "line": 464,
+        "target": "putObject"
+      }
+    ],
+    "is_negative": true,
+    "description": "Negative flow. The device id is only used as folder name."
+  },
+  {
+    "app_name": "cajino_baidu",
+    "poi": {
+      "method": "ca.ji.no.method10.BaiduUtils.public static void putObjectByInputStream(BaiduBCS baiduBCS, String foldname, String filename)",
+      "line": 458,
+      "target": "File"
+    },
+    "expected_sinks": [
+      {
+        "class": "ca.ji.no.method10.BaiduUtils",
+        "method": "public static void putObjectByInputStream(BaiduBCS baiduBCS, String foldname, String filename)",
+        "line": 464,
+        "target": "putObject"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow uploads files to a remote server."
+  },
+  {
+    "app_name": "cajino_baidu",
+    "poi": {
+      "method": "ca.ji.no.method10.BaiduUtils.private static void listFileByPath(Context context, String filePath)",
+      "line": 147,
+      "target": "getDeviceId"
+    },
+    "expected_sinks": [
+      {
+        "class": "ca.ji.no.method10.BaiduUtils",
+        "method": "public static void putObjectByInputStream(BaiduBCS baiduBCS, String foldname, String filename)",
+        "line": 464,
+        "target": "putObject"
+      }
+    ],
+    "is_negative": true,
+    "description": "Negative flow. The device id is only used as folder name."
+  },
+  {
+    "app_name": "cajino_baidu",
+    "poi": {
+      "method": "ca.ji.no.method10.BaiduUtils.private static void uploadFileByPath(Context context, String path)",
+      "line": 119,
+      "target": "getDeviceId"
+    },
+    "expected_sinks": [
+      {
+        "class": "ca.ji.no.method10.BaiduUtils",
+        "method": "private static void uploadByInputStream(BaiduBCS baiduBCS, String foldname, String filePath)",
+        "line": 139,
+        "target": "putObject"
+      }
+    ],
+    "is_negative": true,
+    "description": "Negative flow. The device id is only used as folder name."
+  },
+  {
+    "app_name": "cajino_baidu",
+    "poi": {
+      "method": "ca.ji.no.method10.BaiduUtils.public static void deletTempFile(String path)",
+      "line": 470,
+      "target": "File"
+    },
+    "expected_sinks": [
+      {
+        "class": "ca.ji.no.method10.BaiduUtils",
+        "method": "public static void deletTempFile(String path)",
+        "line": 470,
+        "target": "delete"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow deletes files to cover up the malicious behaviors. "
+  },
+  {
+    "app_name": "threatjapan_uracto",
+    "poi": {
+      "method": "solution.newsandroid.MainviewActivity.public void postMailList()",
+      "line": 110,
+      "target": "query"
+    },
+    "expected_sinks": [
+      {
+        "class": "solution.newsandroid.MainviewActivity",
+        "method": "public void postMailList()",
+        "line": 159,
+        "target": "append"
+      }
+    ],
+    "is_negative": false,
+    "description": "This partial flow writes mail data into a file."
+  },
+  {
+    "app_name": "threatjapan_uracto",
+    "poi": {
+      "method": "solution.newsandroid.MainviewActivity.public void postMailList()",
+      "line": 181,
+      "target": "File"
+    },
+    "expected_sinks": [
+      {
+        "class": "solution.newsandroid.MainviewActivity",
+        "method": "public void postMailList()",
+        "line": 186,
+        "target": "execute"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow sends a log file storing mail data to a remote server."
+  },
+  {
+    "app_name": "tetus",
+    "poi": {
+      "method": "shared.library.us.Splash.public void initParams()",
+      "line": 160,
+      "target": "getDeviceId"
+    },
+    "expected_sinks": [
+      {
+        "class": "shared.library.us.HttpPosting",
+        "method": "public static String postData2(String args)",
+        "line": 72,
+        "target": "connect"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads the IMEI and writs to a static field. IMEI storeds in this static field is sent it to a remote server."
+  },
+  {
+    "app_name": "tetus",
+    "poi": {
+      "method": "shared.library.us.MarketReciever.AnonymousClass1.public void run()",
+      "line": 30,
+      "target": "getDeviceId"
+    },
+    "expected_sinks": [
+      {
+        "class": "shared.library.us.HttpPosting",
+        "method": "public static String postData2(String args)",
+        "line": 72,
+        "target": "connect"
+      }
+    ],
+    "is_negative": false,
+    "description": "This malicious flow reads the IMEI and sends it to a server."
+  }
+]

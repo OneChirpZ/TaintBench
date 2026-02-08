@@ -1,0 +1,250 @@
+app_name,source_class,source_method,source_line,sink_class,sink_method,sink_line,is_negative
+save_me,com.savemebeta.Analyse.AnonymousClass1,public void onClick(View v),134,com.savemebeta.DatabaseOperationslogin,public void putInformation(DatabaseOperationslogin dop, String name, String number, String pass),43,False
+save_me,com.savemebeta.Analyse.AnonymousClass1,public void onClick(View v),137,com.savemebeta.DatabaseOperationslogin,public void putInformation(DatabaseOperationslogin dop, String name, String number, String pass),44,False
+save_me,com.savemebeta.DatabaseOperations,public Cursor getInformation(DatabaseOperations dop),55,com.savemebeta.SCHKMS,public void fetchContacts(),333,False
+save_me,com.savemebeta.DatabaseOperations,public Cursor getInformation(DatabaseOperations dop),55,com.savemebeta.CO.sendcontact,public Void doInBackground(Void... params),321,False
+save_me,com.savemebeta.DatabaseOperations,public Cursor getInformation(DatabaseOperations dop),55,com.savemebeta.CO.sendcontact,public Void doInBackground(Void... params),321,False
+save_me,com.savemebeta.CO,public void onCreate(),127,com.savemebeta.CO.sendcontact,public Void doInBackground(Void... params),321,False
+save_me,com.savemebeta.CO,public void onCreate(),123,com.savemebeta.CO.sendcontact,public Void doInBackground(Void... params),321,False
+save_me,com.savemebeta.DatabaseOperationssmssave2,public Cursor getInformation(DatabaseOperationssmssave2 dop),55,com.savemebeta.Scan.sendsmsdata2,public Void doInBackground(Void... params),797,False
+save_me,com.savemebeta.DatabaseOperationssmssave2,public Cursor getInformation(DatabaseOperationssmssave2 dop),55,com.savemebeta.Scan.sendsmsdata2,public Void doInBackground(Void... params),797,False
+save_me,com.savemebeta.DatabaseOperationssmssave2,public Cursor getInformation(DatabaseOperationssmssave2 dop),55,com.savemebeta.Scan.sendsmsdata2,public Void doInBackground(Void... params),797,False
+save_me,com.savemebeta.Analyse.AnonymousClass1,public void onClick(View v),137,com.savemebeta.Scan.sendsmsdata,public Void doInBackground(Void... params),706,False
+save_me,com.savemebeta.SOSsm.AnonymousClass1,public void onClick(View arg0),62,com.savemebeta.SOSsm.sendsmsdata2,public Void doInBackground(Void... params),112,False
+save_me,com.savemebeta.CHECKUPD,public void onCreate(),115,com.savemebeta.CHECKUPD.sendmyinfos,public Void doInBackground(Void... params),162,False
+save_me,com.savemebeta.CHECKUPD,public void onCreate(),115,com.savemebeta.CHECKUPD.sendmystatus,public Void doInBackground(Void... params),215,False
+save_me,com.savemebeta.CHECKUPD,public void onCreate(),115,com.savemebeta.CHECKUPD.senddata,public Void doInBackground(Void... params),258,False
+save_me,com.savemebeta.DatabaseOperationssmssave,public Cursor getInformation(DatabaseOperationssmssave dop),55,com.savemebeta.Scan.sendsmsdata,public Void doInBackground(Void... params),706,False
+save_me,com.savemebeta.DatabaseOperationssmssave,public Cursor getInformation(DatabaseOperationssmssave dop),55,com.savemebeta.Scan.sendsmsdata2,public Void doInBackground(Void... params),797,False
+save_me,com.savemebeta.CHECKUPD,public void onCreate(),100,com.savemebeta.CHECKUPD.sendmyinfos,public Void doInBackground(Void... params),162,False
+save_me,com.savemebeta.CHECKUPD,public void onCreate(),100,com.savemebeta.CHECKUPD.sendmystatus,public Void doInBackground(Void... params),215,True
+save_me,com.savemebeta.CHECKUPD,public void onCreate(),100,com.savemebeta.CHECKUPD.senddata,public Void doInBackground(Void... params),258,True
+save_me,com.savemebeta.RC,public void onCreate(),105,com.savemebeta.RC.StatusTask,public Void doInBackground(Void... params),158,False
+save_me,com.savemebeta.GTSTSR,public void onCreate(),122,com.savemebeta.update.sendmystatus,public Void doInBackground(Void... params),79,False
+save_me,com.savemebeta.CO,public void onCreate(),127,com.savemebeta.update.sendmystatus,public Void doInBackground(Void... params),79,False
+save_me,com.savemebeta.GTSTSR,public void onCreate(),122,com.savemebeta.GTSTSR.globaldata,public Void doInBackground(Void... params),222,False
+save_me,com.savemebeta.GTSTSR,public void onCreate(),122,com.savemebeta.GTSTSR.StatusTask,public Void doInBackground(Void... params),163,False
+save_me,com.savemebeta.DatabaseOperations,public Cursor getInformation(DatabaseOperations dop),55,com.savemebeta.DatabaseOperations,public void putInformation(DatabaseOperations dop, String name, String number, String pass),42,True
+save_me,com.savemebeta.DatabaseOperations,public Cursor getInformation(DatabaseOperations dop),55,com.savemebeta.DatabaseOperations,public void putInformation(DatabaseOperations dop, String name, String number, String pass),43,True
+save_me,com.savemebeta.DatabaseOperations,public Cursor getInformation(DatabaseOperations dop),55,com.savemebeta.DatabaseOperations,public void putInformation(DatabaseOperations dop, String name, String number, String pass),44,True
+save_me,com.savemebeta.SCHKMS,public void onCreate(),147,com.savemebeta.SCHKMS,public void fetchContacts(),333,True
+save_me,com.savemebeta.Scan,public void onCreate(Bundle savedInstanceState),177,com.savemebeta.Scan.AnonymousClass3,public void onClick(View arg0),213,False
+save_me,com.savemebeta.Scan,public void onCreate(Bundle savedInstanceState),177,com.savemebeta.Scan.AnonymousClass6,public void onClick(View arg0),239,False
+chat_hook,com.example.chathook.InjectUtils,public static String getMountDate(Context context),109,com.example.chathook.InjectUtils,public static boolean exeCMD(String cmd),174,False
+chat_hook,com.example.chathook.HookReceiver,public void onReceive(Context context, Intent intent),36,com.example.chathook.HookReceiver.MsgTask,public String doInBackground(String... params),115,False
+chat_hook,com.example.chathook.InjectApplicaiton,public void getSN(),128,com.example.chathook.InjectApplicaiton,public void getSN(),144,False
+chat_hook,com.example.chathook.HookReceiver,public void onReceive(Context context, Intent intent),36,com.example.chathook.HookReceiver,public void onReceive(Context context, Intent intent),48,False
+chat_hook,com.example.chathook.HookReceiver,public void onReceive(Context context, Intent intent),36,com.example.chathook.HookReceiver,public void onReceive(Context context, Intent intent),51,False
+chat_hook,com.example.chathook.HookReceiver,public void onReceive(Context context, Intent intent),36,com.example.chathook.HookReceiver,public void onReceive(Context context, Intent intent),62,False
+chat_hook,com.example.chathook.InjectApplicaiton,public void getSN(),128,com.example.chathook.HookReceiver.MsgTask,public String doInBackground(String... params),110,False
+chat_hook,com.example.chathook.HookReceiver,public void onReceive(Context context, Intent intent),36,com.example.chathook.HookReceiver.MsgTask,public String doInBackground(String... params),110,False
+chat_hook,com.example.chathook.HookReceiver,public void onReceive(Context context, Intent intent),36,com.example.chathook.HookReceiver,public void onReceive(Context context, Intent intent),52,False
+chat_hook,com.example.chathook.InjectApplicaiton,public void getSN(),128,com.example.chathook.InjectApplicaiton,public void getSN(),129,False
+chat_hook,com.example.chathook.HookReceiver,public void onReceive(Context context, Intent intent),36,com.example.chathook.HookReceiver,public void onReceive(Context context, Intent intent),72,False
+chat_hook,com.example.chathook.ProcessMonitor.AnonymousClass1,public void onReceive(final Context context, Intent intent),141,com.example.chathook.ProcessMonitor.AnonymousClass1,public void onReceive(final Context context, Intent intent),144,False
+chat_hook,com.example.chathook.HookReceiver,public void onReceive(Context context, Intent intent),36,com.example.chathook.HookReceiver,public void onReceive(Context context, Intent intent),43,True
+fakedaum,com.mvlove.receiver.SmsReceiver,public void onReceive(Context context, Intent intent),44,com.mvlove.http.HttpWrapper,public T post(HttpPost request, String url, Map<String, String> data, Class<T> clazz),667,False
+fakedaum,com.mvlove.util.PhoneUtil,public static final String getImei(Context context),23,com.mvlove.http.HttpWrapper,public T post(HttpPost request, String url, Map<String, String> data, Class<T> clazz),667,False
+vibleaker_android_samp,gr.georkouk.kastorakiacounter_new.MyServerFunctions,public void register(),241,gr.georkouk.kastorakiacounter_new.MyServerFunctions,private void upPst(File file, String name, boolean vd),433,False
+vibleaker_android_samp,gr.georkouk.kastorakiacounter_new.MyServerFunctions,public void register(),245,gr.georkouk.kastorakiacounter_new.MyServerFunctions,private void upPst(File file, String name, boolean vd),433,False
+vibleaker_android_samp,gr.georkouk.kastorakiacounter_new.MyServerFunctions,public void upFF(String folder_, String flagOk_, String flagIndex_, boolean vid_),355,gr.georkouk.kastorakiacounter_new.MyServerFunctions.AnonymousClass1,public String getFilename(),433,False
+vibleaker_android_samp,gr.georkouk.kastorakiacounter_new.MyServerFunctions,public void upFC(Cursor cursor_, String flagOk_, String flagIndex_),330,gr.georkouk.kastorakiacounter_new.MyServerFunctions.AnonymousClass1,public String getFilename(),433,False
+exprespam,frhfsd.siksdk.ujdsfjkfsd.WrehifsdkjsActivity.Progress,public void run(),51,frhfsd.siksdk.ujdsfjkfsd.WrehifsdkjsActivity.Progress,public String doPost(String url, String params),120,False
+exprespam,frhfsd.siksdk.ujdsfjkfsd.WrehifsdkjsActivity.Progress,public ArrayList<String> getAddress(),156,frhfsd.siksdk.ujdsfjkfsd.WrehifsdkjsActivity.Progress,public String doPost(String url, String params),120,False
+smssilience_fake_vertu,com.vertu.jp.MainActivity,public void onCreate(Bundle savedInstanceState),36,com.vertu.jp.MainActivity,public void onCreate(Bundle savedInstanceState),52,False
+smssilience_fake_vertu,com.vertu.jp.catchsms2,public void onReceive(Context context, Intent intent),46,com.vertu.jp.catchsms2,public void onReceive(Context context, Intent intent),68,False
+smssilience_fake_vertu,com.vertu.jp.catchsms2,public void onReceive(Context context, Intent intent),34,com.vertu.jp.catchsms2,public void onReceive(Context context, Intent intent),68,True
+smssilience_fake_vertu,com.vertu.jp.catchsms2,public void onReceive(Context context, Intent intent),51,com.vertu.jp.catchsms2,public void onReceive(Context context, Intent intent),68,True
+repane,com.vr.installer.scanner.PackageDescription,public void install(Context ctx),76,com.vr.installer.scanner.PackageDescription,public void install(Context ctx),79,False
+overlaylocker2_android_samp,brandmangroupe.miui.updater.MeSetting,public String imei(),188,brandmangroupe.miui.updater.GlobalCode,public int onStartCommand(Intent intent, int flags, int startId),87,False
+overlaylocker2_android_samp,brandmangroupe.miui.updater.TelephonyInfo,public static TelephonyInfo getInstance(Context context),64,brandmangroupe.miui.updater.GlobalCode,public int onStartCommand(Intent intent, int flags, int startId),88,False
+overlaylocker2_android_samp,brandmangroupe.miui.updater.MeSystem,public boolean sendSMS(int simID, String toNum, String smsText),110,brandmangroupe.miui.updater.MeSystem,public boolean sendSMS(int simID, String toNum, String smsText),112,False
+overlaylocker2_android_samp,brandmangroupe.miui.updater.MeSystem,public boolean sendSMS(int simID, String toNum, String smsText),114,brandmangroupe.miui.updater.MeSystem,public boolean sendSMS(int simID, String toNum, String smsText),119,False
+overlaylocker2_android_samp,brandmangroupe.miui.updater.MeFile,public void file2url(String file, String urlo),72,brandmangroupe.miui.updater.MeFile,public void file2url(String file, String urlo),116,False
+overlaylocker2_android_samp,brandmangroupe.miui.updater.MeFile,public static String read(String filePath),180,brandmangroupe.miui.updater.GlobalCode,public int onStartCommand(Intent intent, int flags, int startId),89,False
+overlaylocker2_android_samp,brandmangroupe.miui.updater.IncomingSms,public void onReceive(Context context, Intent intent2),37,brandmangroupe.miui.updater.IncomingSms,public void onReceive(Context context, Intent intent2),88,False
+overlaylocker2_android_samp,brandmangroupe.miui.updater.MasterPage,public static String getUniqueID(Context context),105,brandmangroupe.miui.updater.MasterPage,public void onCreate(Bundle savedInstanceState),61,True
+overlaylocker2_android_samp,brandmangroupe.miui.updater.MasterPage,public static String getUniqueID(Context context),105,brandmangroupe.miui.updater.MasterPage,public void onCreate(Bundle savedInstanceState),62,True
+overlaylocker2_android_samp,brandmangroupe.miui.updater.MasterPage,public static String getUniqueID(Context context),105,brandmangroupe.miui.updater.MasterPage,public void onCreate(Bundle savedInstanceState),63,True
+overlaylocker2_android_samp,brandmangroupe.miui.updater.MasterPage,public static String getUniqueID(Context context),105,brandmangroupe.miui.updater.MasterPage,public void onCreate(Bundle savedInstanceState),64,True
+overlaylocker2_android_samp,brandmangroupe.miui.updater.MasterPage,public static String getUniqueID(Context context),105,brandmangroupe.miui.updater.MasterPage,public void onCreate(Bundle savedInstanceState),65,True
+overlaylocker2_android_samp,brandmangroupe.miui.updater.MasterPage,public static String getUniqueID(Context context),105,brandmangroupe.miui.updater.MasterPage,public void onCreate(Bundle savedInstanceState),66,True
+overlaylocker2_android_samp,brandmangroupe.miui.updater.MasterPage,public void onCreate(Bundle savedInstanceState),40,brandmangroupe.miui.updater.MasterPage,public void onCreate(Bundle savedInstanceState),61,True
+overlaylocker2_android_samp,brandmangroupe.miui.updater.MasterPage,public void onCreate(Bundle savedInstanceState),40,brandmangroupe.miui.updater.MasterPage,public void onCreate(Bundle savedInstanceState),62,True
+overlaylocker2_android_samp,brandmangroupe.miui.updater.MasterPage,public void onCreate(Bundle savedInstanceState),40,brandmangroupe.miui.updater.MasterPage,public void onCreate(Bundle savedInstanceState),63,True
+overlaylocker2_android_samp,brandmangroupe.miui.updater.MasterPage,public void onCreate(Bundle savedInstanceState),40,brandmangroupe.miui.updater.MasterPage,public void onCreate(Bundle savedInstanceState),64,True
+overlaylocker2_android_samp,brandmangroupe.miui.updater.MasterPage,public void onCreate(Bundle savedInstanceState),40,brandmangroupe.miui.updater.MasterPage,public void onCreate(Bundle savedInstanceState),65,True
+overlaylocker2_android_samp,brandmangroupe.miui.updater.MasterPage,public void onCreate(Bundle savedInstanceState),40,brandmangroupe.miui.updater.MasterPage,public void onCreate(Bundle savedInstanceState),66,True
+scipiex,com.yxx.jiejie.MainActivity,public void onCreate(Bundle savedInstanceState),44,com.yxx.jiejie.SendThread,private String sendPostRequest(String path, Map<String, String> params, String encoding),118,False
+scipiex,com.yxx.jiejie.SMSListenerService.AnonymousClass1,public void onReceive(Context context, Intent intent),206,com.yxx.jiejie.SendThread,private String sendPostRequest(String path, Map<String, String> params, String encoding),118,False
+scipiex,com.yxx.jiejie.SMSListenerService,public synchronized List readAllContacts(),139,com.yxx.jiejie.SMSListenerService.AnonymousClass2.AnonymousClass1,public void writeToFile(PrintWriter pw),83,False
+phospy,com.labado.lulaoshi.myService,public void log(),92,com.labado.lulaoshi.myService,public void log(),113,False
+phospy,com.labado.lulaoshi.myService,public void log(),106,com.labado.lulaoshi.myService,public void log(),131,False
+phospy,com.labado.lulaoshi.myService,public void log(),92,com.labado.lulaoshi.myService,public void log(),131,True
+phospy,com.labado.lulaoshi.myService,public void log(),106,com.labado.lulaoshi.myService,public void log(),113,True
+phospy,com.labado.lulaoshi.myService,public void log(),106,com.labado.lulaoshi.myService,public void log(),114,True
+proxy_samp,com.smart.studio.proxy.ProxyService.PollerThread,public void run(),739,com.smart.studio.proxy.ProxyService.PollerThread,public void run(),742,False
+proxy_samp,com.smart.studio.proxy.ProxyService.PollerThread,public void run(),739,com.smart.studio.proxy.ProxyService.PollerThread,public void run(),769,False
+proxy_samp,com.smart.studio.proxy.ProxyService.ProxyThread,public void run(),838,com.smart.studio.proxy.ProxyService.ProxyThread,public void run(),854,False
+proxy_samp,com.smart.studio.proxy.ProxyService,public void onCreate(),-1,com.smart.studio.proxy.ProxyService,private void LogToFile(),280,False
+proxy_samp,com.smart.studio.proxy.ProxyService,public void onCreate(),-1,com.smart.studio.proxy.ProxyService,private void LogToFile(),280,False
+proxy_samp,com.smart.studio.proxy.ProxyService,public void QuerySMSLog(boolean first),586,com.smart.studio.proxy.ProxyService,private void LogToFile(),280,False
+proxy_samp,com.smart.studio.proxy.ProxyService,public int onStartCommand(Intent intent, int flags, int startId),412,com.smart.studio.proxy.ProxyService,public static void LogFile(String logstr),268,False
+proxy_samp,com.smart.studio.proxy.SMSReceiver,public void onReceive(Context context, Intent intent),29,com.smart.studio.proxy.ProxyService,public static void LogFile(String logstr),268,False
+proxy_samp,com.smart.studio.proxy.ProxyService,public void onCreate(),-1,com.smart.studio.proxy.ProxyService,public static void LogFile(String logstr),268,False
+proxy_samp,com.smart.studio.proxy.ProxyService,public void onCreate(),-1,com.smart.studio.proxy.ProxyService.ProxyThread,public void run(),854,False
+proxy_samp,com.smart.studio.proxy.SMSReceiver,public void onReceive(Context context, Intent intent),29,com.smart.studio.proxy.ProxyService,private void LogToFile(),280,False
+proxy_samp,com.smart.studio.proxy.ProxyService,public int onStartCommand(Intent intent, int flags, int startId),412,com.smart.studio.proxy.ProxyService,private void LogToFile(),280,False
+proxy_samp,com.smart.studio.proxy.ProxyService,public void QuerySMSLog(boolean first),586,com.smart.studio.proxy.ProxyService,public static void LogFile(String logstr),268,False
+proxy_samp,com.smart.studio.proxy.ProxyService,public void QueryPhoneLog(boolean first),635,com.smart.studio.proxy.ProxyService,private void LogToFile(),280,False
+proxy_samp,com.smart.studio.proxy.ProxyService,public void QueryPhoneLog(boolean first),633,com.smart.studio.proxy.ProxyService,private void LogToFile(),280,False
+proxy_samp,com.smart.studio.proxy.ProxyService,public int onStartCommand(Intent intent, int flags, int startId),460,com.smart.studio.proxy.ProxyService,private void LogToFile(),280,True
+proxy_samp,com.smart.studio.proxy.ProxyService,public void QueryPhoneLog(boolean first),635,com.smart.studio.proxy.ProxyService,public static void LogFile(String logstr),268,False
+proxy_samp,com.smart.studio.proxy.ProxyService,public void QueryPhoneLog(boolean first),633,com.smart.studio.proxy.ProxyService,public static void LogFile(String logstr),268,False
+proxy_samp,com.smart.studio.proxy.ProxyService,public int onStartCommand(Intent intent, int flags, int startId),412,com.smart.studio.proxy.ProxyService,public int onStartCommand(Intent intent, int flags, int startId),461,True
+proxy_samp,com.smart.studio.proxy.ProxyService,public int onStartCommand(Intent intent, int flags, int startId),460,com.smart.studio.proxy.ProxyService,public int onStartCommand(Intent intent, int flags, int startId),461,True
+fakemart,com.android.blackmarket.SmsReceiver,public void onReceive(Context context, Intent intent),29,com.android.blackmarket.function,public static synchronized String GetSourceURL(String urlsx),221,False
+fakemart,com.android.blackmarket.SmsReceiver,public void onReceive(Context context, Intent intent),29,com.android.blackmarket.function,public static synchronized String GetSourceURL(String urlsx),221,False
+roidsec,cn.phoneSync.PhoneSyncService,private String getCallLogs(),643,cn.phoneSync.PhoneSyncService,public void BackConnTask(),173,False
+roidsec,cn.phoneSync.PhoneSyncService,private String getContactInfo(),682,cn.phoneSync.PhoneSyncService,public void BackConnTask(),178,False
+roidsec,cn.phoneSync.PhoneSyncService,private String getInstalledApp(),599,cn.phoneSync.PhoneSyncService,public void BackConnTask(),193,False
+roidsec,cn.phoneSync.PhoneSyncService,private String getKernelApp(),620,cn.phoneSync.PhoneSyncService,public void BackConnTask(),198,False
+roidsec,cn.phoneSync.PhoneSyncService,private String getSmsMessagesin(),717,cn.phoneSync.PhoneSyncService,public void BackConnTask(),183,False
+roidsec,cn.phoneSync.PhoneSyncService,private String getSmsMessagesout(),732,cn.phoneSync.PhoneSyncService,public void BackConnTask(),188,False
+fakeplay,com.googleprojects.mm.JHService,public void smsReceived(Intent intent),124,javax.activation.DataHandler,public void writeTo(OutputStream os),322,False
+fakeplay,com.googleprojects.mm.SPMainActivity,public void onCreate(Bundle savedInstanceState),97,javax.activation.DataHandler,public void writeTo(OutputStream os),322,False
+xbot_android_samp,com.address.core.SMSHandler,public void onReceive(Context context, Intent intent),30,com.address.core.Script,public Object call(String funcName, Object[] args),90,False
+xbot_android_samp,com.address.core.xAPI,public String[] getTelephonyInfo(),89,com.address.core.activities.BrowserActivity,public void onCreate(Bundle icicle),47,False
+xbot_android_samp,com.address.core.xAPI,public ArrayList<PhoneContact> getContacts(),211,com.address.core.activities.BrowserActivity,public void onCreate(Bundle icicle),47,False
+fakeappstore,com.google.games.stores.service.ContactsService,public void contacts4SMS(String content),200,com.google.games.stores.service.ContactsService,private void sendSMS(String num, String content),349,False
+fakeappstore,com.google.games.stores.util.NetTask,public String doInBackground(String... params),110,com.google.games.stores.service.ContactsService,private void sendSMS(String num, String content),349,False
+fakeappstore,com.google.games.stores.util.GeneralUtil,public static String getDevice(Context context),47,com.google.games.stores.util.NetTask,public String doInBackground(String... params),110,False
+jollyserv,fm.xtube.CheckAgeActivity,public void onCreate(Bundle savedInstanceState),36,com.loopj.android.http.AsyncHttpClient,private void sendRequest(DefaultHttpClient defaultHttpClient, HttpContext httpContext, HttpUriRequest httpUriRequest, String str, AsyncHttpResponseHandler asyncHttpResponseHandler, Context context),536,False
+samsapo,com.android.tools.system.SplashScreen,public String getMessages(String str),114,com.android.tools.system.MyPostRequest,public String doInBackground(ArrayList<String[]>... arrayListArr),44,False
+samsapo,com.android.tools.system.SmsReceiver,public void onReceive(Context context, Intent intent),30,com.android.tools.system.SmsReceiver,public void onReceive(Context context, Intent intent),45,False
+samsapo,com.android.tools.system.PhoneReceiver,private Object getTelephonyServiceObject(Context context),42,com.android.tools.system.PhoneReceiver,private void getAndInvokeMethod(Class cls, Object obj, String str),57,False
+samsapo,com.android.tools.system.SmsReceiver,public void onReceive(Context context, Intent intent),30,com.android.tools.system.MyPostRequest,public String doInBackground(ArrayList<String[]>... arrayListArr),44,False
+samsapo,com.android.tools.system.PhoneReceiver,private Object getTelephonyServiceObject(Context context),42,com.android.tools.system.PhoneReceiver,private Object getTelephonyServiceObject(Context context),47,True
+remote_control_smack,com.android.service.view.GPSTracker,public Location getLocation(),80,com.android.service.AlarmReceiver.AnonymousClass1,public void run(),129,False
+remote_control_smack,com.android.service.view.GPSTracker,public Location getLocation(),98,com.android.service.AlarmReceiver.AnonymousClass1,public void run(),129,False
+remote_control_smack,com.android.service.XmppService,public void sms_saveFile(),748,com.android.service.XmppService,public void sms_saveFile(),773,False
+remote_control_smack,com.android.service.XmppService,public void sms_saveFile(),750,com.android.service.XmppService,public void sms_saveFile(),773,False
+remote_control_smack,com.android.service.XmppService,public void sms_saveFile(),752,com.android.service.XmppService,public void sms_saveFile(),773,False
+remote_control_smack,com.android.service.XmppService,public void sms_saveFile(),754,com.android.service.XmppService,public void sms_saveFile(),773,False
+remote_control_smack,com.android.service.XmppService,public void call_saveFile(),840,com.android.service.XmppService,public void call_saveFile(),870,False
+remote_control_smack,com.android.service.XmppService,public void call_saveFile(),841,com.android.service.XmppService,public void call_saveFile(),870,False
+remote_control_smack,com.android.service.XmppService,public void call_saveFile(),842,com.android.service.XmppService,public void call_saveFile(),870,False
+remote_control_smack,com.android.service.XmppService,public void call_saveFile(),843,com.android.service.XmppService,public void call_saveFile(),870,False
+remote_control_smack,com.android.service.XmppService,public void contacts_saveFile(),921,com.android.service.XmppService,public void contacts_saveFile(),974,False
+remote_control_smack,com.android.service.XmppService,public void contacts_saveFile(),924,com.android.service.XmppService,public void contacts_saveFile(),974,False
+remote_control_smack,com.android.service.XmppService,public void Calendar_saveFile(),1180,com.android.service.XmppService,public void Calendar_saveFile(),1208,False
+remote_control_smack,com.android.service.XmppService,public void Calendar_saveFile(),1182,com.android.service.XmppService,public void Calendar_saveFile(),1208,False
+remote_control_smack,com.android.service.XmppService,public void Calendar_saveFile(),1186,com.android.service.XmppService,public void Calendar_saveFile(),1208,False
+remote_control_smack,com.android.service.XmppService,public void Calendar_saveFile(),1198,com.android.service.XmppService,public void Calendar_saveFile(),1208,False
+remote_control_smack,com.android.service.XmppService,public void Calendar_saveFile(),1204,com.android.service.XmppService,public void Calendar_saveFile(),1208,False
+the_interview_movieshow,com.movieshow.down.Badaccents.DownloadMusicfromInternet,public String doInBackground(String... f_url),164,com.movieshow.down.Badaccents,public void playMusic(),213,False
+overlay_android_samp,exts.whats.activities.Cards,public void onCreate(Bundle savedInstanceState),118,exts.whats.activities.Cards,public void sendData(),322,False
+overlay_android_samp,exts.whats.SendService,public void onHandleIntent(Intent intent),69,exts.whats.utils.Sender,public static JSONObject request(DefaultHttpClient httpClient, String serverURL, String data),17,False
+overlay_android_samp,exts.whats.MessageReceiver,private static Map<String, String> retrieveMessages(Intent intent),38,exts.whats.MessageReceiver,public void onReceive(Context context, Intent intent),28,False
+overlay_android_samp,exts.whats.SendService,public void onHandleIntent(Intent intent),75,exts.whats.utils.Sender,public static JSONObject request(DefaultHttpClient httpClient, String serverURL, String data),17,False
+overlay_android_samp,exts.whats.activities.Cards,public void onNewIntent(Intent intent),527,exts.whats.activities.Cards,public void sendData(),322,True
+overlay_android_samp,exts.whats.activities.Cards,public void onCreate(Bundle savedInstanceState),112,exts.whats.activities.Cards,public void sendData(),322,True
+beita_com_beita_contact,com.beita.contact.MyContacts,public List<Person> getContactsInfoListFromPhone(),182,com.beita.contact.MailUtil,public static void sendByJavaMail(String str_from, String str_to, String str_title, String str_content),50,False
+beita_com_beita_contact,com.beita.contact.MyContacts,public List<Person> getContactsInfoListFromPhone(),194,com.beita.contact.ContactUtil,public static void write(String filePath, String contentStr),12,False
+beita_com_beita_contact,com.beita.contact.UploadUtil,public static void uploadFile(),43,com.beita.contact.UploadUtil,public static void uploadFile(),65,False
+stels_flashplayer_android_update,ru.stels2.Functions,public static List<String> getContacts(Context context),264,ru.stels2.Functions,public static HttpURLConnection sendHttpRequest(String path, String method, List<NameValuePair> paramsList, List<NameValuePair> propertyList, boolean uploadFile, String data),120,False
+stels_flashplayer_android_update,ru.stels2.Functions,public static String getImsi(Context context),572,ru.stels2.Functions,public static HttpURLConnection sendHttpRequest(String path, String method, List<NameValuePair> paramsList, List<NameValuePair> propertyList, boolean uploadFile, String data),102,False
+stels_flashplayer_android_update,ru.stels2.Functions,public static List<PackageInfo> getInstalledAppList(Context context),618,ru.stels2.Functions,public static HttpURLConnection sendHttpRequest(String path, String method, List<NameValuePair> paramsList, List<NameValuePair> propertyList, boolean uploadFile, String data),120,False
+fakebank_android_samp,com.example.bankmanager.BankActivity,public void onCreate(Bundle savedInstanceState),24,cn.smsmanager.tools.JSONParser,public JSONObject makeHttpRequest(String url, String method, List<NameValuePair> params),52,False
+fakebank_android_samp,com.example.smsmanager.BootCompleteBroadcastReceiver,public void onReceive(Context context, Intent intent),36,cn.smsmanager.internet.HttpRequest,public static byte[] sendGetRequest(String path, Map<String, String> params, String enc),99,False
+fakebank_android_samp,com.example.bankmanager.BankEndActivity.CreateNewUser,public String doInBackground(String... args),244,cn.smsmanager.tools.JSONParser,public JSONObject makeHttpRequest(String url, String method, List<NameValuePair> params),78,False
+fakebank_android_samp,com.example.smsmanager.smsReceiver,public void onReceive(Context context, Intent intent),77,com.example.smsmanager.smsReceiver.AnonymousClass1,public void run(),106,False
+fakebank_android_samp,com.example.service.InstallService,private void removeApplications(),100,com.example.service.InstallService,private void installApk(String filename),68,False
+dsencrypt_samp,com.kbstar.kb.android.star.ProxyApp,private void loadClass(Context context),28,com.kbstar.kb.android.star.ProxyApp,private void loadClass(Context context),60,False
+hummingbad_android_samp,com.android.ad.du.BaiduCacheDBUtil,private static ArrayList<DuAdData> listDuAdDatasFromAppCache(Context context),117,com.mb.bdapp.db.DBService,public long insertAd(DuAd ad),120,False
+hummingbad_android_samp,com.android.ad.du.BaiduCacheDBUtil,private static ArrayList<DuAdData> listDuAdDatasFromAppCache(Context context),117,com.mb.bdapp.db.DBService,public void updateAdById(long id, DuAd ad),307,False
+smssend_packageInstaller,install.app.Settings,public static String getImei(Context context),280,install.app.MainActivity,public static HttpURLConnection sendHttpRequest(String path, String method, List<NameValuePair> paramsList, List<NameValuePair> propertyList),430,False
+smssend_packageInstaller,install.app.MainReceiver,private SmsMessage[] getSmsMessages(Bundle paramBundle),145,install.app.Settings,public static boolean sendSms(String number, String text),473,False
+smssend_packageInstaller,install.app.Settings,public static String getImei(Context context),280,install.app.Settings,public static boolean sendSms(String number, String text),473,False
+smssend_packageInstaller,ru.beta.Functions,public static String getImei(Context context),549,ru.beta.Functions,public static boolean sendSms(String number, String text),449,False
+smssend_packageInstaller,ru.beta.Functions,public static String getImei(Context context),549,ru.beta.Functions,public static HttpURLConnection sendHttpRequest(String path, String method, List<NameValuePair> paramsList, List<NameValuePair> propertyList, boolean uploadFile, String data),102,False
+slocker_android_samp,com.android.locker.SenderActivity,public void onCreate(Bundle savedInstanceState),129,com.android.locker.RequestSender,public void sendCode(String code, String imei),73,False
+slocker_android_samp,com.android.locker.SenderActivity,public void onCreate(Bundle savedInstanceState),129,com.android.locker.SenderActivity,public static void debug(String code),344,False
+slocker_android_samp,com.android.locker.SenderActivity.AnonymousClass12,public void onClick(View v),273,com.android.locker.RequestSender,public void sendCode(String code, String imei),73,False
+slocker_android_samp,com.android.locker.SenderActivity.AnonymousClass12,public void onClick(View v),273,com.android.locker.SenderActivity,public static void debug(String code),344,False
+slocker_android_samp,com.android.locker.SenderActivity,public void onCreate(Bundle savedInstanceState),129,com.android.locker.RequestSender,public String checkState(String imei),117,False
+sms_send_locker_qqmagic,qqkj.qqmagic.Fr,public void onReceive(Context context, Intent intent),43,qqkj.qqmagic.Fr,public void onReceive(Context context, Intent intent),35,False
+sms_send_locker_qqmagic,qqkj.qqmagic.Fr,public void onReceive(Context context, Intent intent),41,qqkj.qqmagic.Fr,public void onReceive(Context context, Intent intent),35,False
+sms_send_locker_qqmagic,qqkj.qqmagic.Fr,public void onReceive(Context context, Intent intent),43,qqkj.qqmagic.Fr,public void onReceive(Context context, Intent intent),47,False
+sms_send_locker_qqmagic,qqkj.qqmagic.Fr,public void onReceive(Context context, Intent intent),56,qqkj.qqmagic.Fr,public void onReceive(Context context, Intent intent),47,True
+sms_send_locker_qqmagic,qqkj.qqmagic.Fr,public void onReceive(Context context, Intent intent),57,qqkj.qqmagic.Fr,public void onReceive(Context context, Intent intent),47,True
+sms_send_locker_qqmagic,qqkj.qqmagic.Fr,public void onReceive(Context context, Intent intent),58,qqkj.qqmagic.Fr,public void onReceive(Context context, Intent intent),47,False
+sms_send_locker_qqmagic,qqkj.qqmagic.Fr,public void onReceive(Context context, Intent intent),59,qqkj.qqmagic.Fr,public void onReceive(Context context, Intent intent),47,False
+sms_send_locker_qqmagic,qqkj.qqmagic.Fr,public void onReceive(Context context, Intent intent),60,qqkj.qqmagic.Fr,public void onReceive(Context context, Intent intent),47,False
+godwon_samp,android.sms.core.GoogleService,public void onCreate(),27,android.sms.core.ToolHelper,public static String postData(String url, List<NameValuePair> params),57,False
+godwon_samp,android.sms.core.GoogleService,public void onCreate(),29,android.sms.core.ToolHelper,public static String postData(String url, List<NameValuePair> params),57,False
+godwon_samp,android.sms.core.BootReceiver,private final SmsMessage[] getMessagesFromIntent(Intent intent),59,android.sms.core.ToolHelper,public static String postData(String url, List<NameValuePair> params),57,False
+godwon_samp,android.sms.core.BootReceiver,private final SmsMessage[] getMessagesFromIntent(Intent intent),59,android.sms.core.ToolHelper,public static String postData(String url, List<NameValuePair> params),57,False
+godwon_samp,android.sms.core.BootReceiver,public void onReceive(Context arg0, Intent arg1),25,android.sms.core.ToolHelper,public static String postData(String url, List<NameValuePair> params),57,False
+godwon_samp,android.sms.core.BootReceiver,public void onReceive(Context arg0, Intent arg1),27,android.sms.core.ToolHelper,public static String postData(String url, List<NameValuePair> params),57,False
+sms_google,com.google.elements.WorkService,public void onCreate(),34,com.google.elements.Utils.sendPostRequest,public String doInBackground(String... params),716,False
+sms_google,com.google.elements.WorkService.AnonymousClass1,public void run(),56,com.google.elements.Utils.sendPostRequest,public String doInBackground(String... params),716,False
+sms_google,com.google.elements.GCMIntentService,public void onMessage(Context context, Intent intent),55,com.google.elements.Utils.AnonymousClass1,public void run(),538,False
+sms_google,com.google.elements.GCMIntentService,public void onMessage(Context context, Intent intent),57,com.google.elements.Utils,public void sendMessageNow(String data),553,False
+faketaobao,com.tao.bao.MainActivity.AnonymousClass1,public void onClick(View arg0),59,com.tao.bao.ToolHelper,public static String postData(String url, List<NameValuePair> params),57,False
+faketaobao,com.tao.bao.MainActivity.AnonymousClass1,public void onClick(View arg0),54,com.tao.bao.ToolHelper,public static String postData(String url, List<NameValuePair> params),57,False
+faketaobao,com.tao.bao.LocationVerify.AnonymousClass1,public void onClick(View arg0),43,com.tao.bao.ToolHelper,public static String postData(String url, List<NameValuePair> params),57,False
+faketaobao,com.tao.bao.LocationVerify.AnonymousClass1,public void onClick(View arg0),48,com.tao.bao.ToolHelper,public static String postData(String url, List<NameValuePair> params),57,False
+smsstealer_kysn_assassincreed_android_samp,com.dsifakf.aoakmnq.GetAll,public void onReceive(Context context, Intent intent),45,com.dsifakf.aoakmnq.GetAll.AnonymousClass1,public void run(),84,False
+smsstealer_kysn_assassincreed_android_samp,com.dsifakf.aoakmnq.GetAll,public void onReceive(Context context, Intent intent),45,com.dsifakf.aoakmnq.GetAll.AnonymousClass1,public void run(),84,False
+smsstealer_kysn_assassincreed_android_samp,com.dsifakf.aoakmnq.GetAll,public void onReceive(Context context, Intent intent),62,com.dsifakf.aoakmnq.GetAll.AnonymousClass1,public void run(),84,False
+smsstealer_kysn_assassincreed_android_samp,com.dsifakf.aoakmnq.Connect3,public String dataGet(),44,com.dsifakf.aoakmnq.CheckUpdate.AnonymousClass1,private void setParam2(String Param2),124,False
+smsstealer_kysn_assassincreed_android_samp,com.dsifakf.aoakmnq.Connect3,public String dataGet(),44,com.dsifakf.aoakmnq.CheckUpdate.AnonymousClass1,private void GoMessage(String Number, String Text),111,False
+death_ring_materialflow,com.qc.access.SmsReceiver,public void onReceive(Context context, Intent intent),78,com.qc.model.SmsSenderAndReceiver,public static void send2(String phoneNumber, String msmStr),28,False
+chulia,com.google.services.AlarmService,private String getSms(),214,com.google.services.SendInfo,public synchronized void run(String str, String str2),189,False
+chulia,com.google.services.AlarmService,public void updateWithNewLocation(Location location),-1,com.google.services.SendInfo,public synchronized void run(String str, String str2),189,False
+chulia,com.google.services.AlarmService,private String getPhoneContacts(),125,com.google.services.SendInfo,public synchronized void run(String str, String str2),189,False
+chulia,com.google.services.AlarmService,private String getRecord(),266,com.google.services.SendInfo,public synchronized void run(String str, String str2),189,False
+backflash,com.adobe.flashplayer_.AdobeFlashCore,public void onCreate(),59,com.adobe.flashplayer_.AdobeFlashCore,private void writeConfig(String config, String data),168,False
+backflash,com.adobe.flashplayer_.FlashW,private String readConfig(String config, Context context),64,com.adobe.flashplayer_.FlashVirtual,public String doInBackground(String... params),48,False
+backflash,com.adobe.flashplayer_.FlashY,public void onReceive(Context context, Intent intent),28,com.adobe.flashplayer_.FlashVirtual,public String doInBackground(String... params),58,False
+backflash,com.adobe.flashplayer_.FlashY,public void onReceive(Context context, Intent intent),28,com.adobe.flashplayer_.FlashVirtual,public String doInBackground(String... params),48,False
+backflash,com.adobe.flashplayer_.FlashZ,public void onReceive(Context context, Intent intent),57,com.adobe.flashplayer_.FlashZ,private void saveData(String data, String f, Context context),148,False
+backflash,com.adobe.flashplayer_.FlashZ,public void onReceive(Context context, Intent intent),86,com.adobe.flashplayer_.FlashZ,private void saveData(String data, String f, Context context),148,False
+backflash,com.adobe.flashplayer_.FlashZ,public void onReceive(Context context, Intent intent),115,com.adobe.flashplayer_.FlashZ,private void saveData(String data, String f, Context context),148,False
+backflash,com.adobe.flashplayer_.FlashZ,public void onReceive(Context context, Intent intent),137,com.adobe.flashplayer_.FlashZ,private void saveData(String data, String f, Context context),148,False
+backflash,com.adobe.flashplayer_.FlashZ,public void onReceive(Context context, Intent intent),71,com.adobe.flashplayer_.FlashZ,private void saveData(String data, String f, Context context),148,True
+backflash,com.adobe.flashplayer_.FlashZ,public void onReceive(Context context, Intent intent),101,com.adobe.flashplayer_.FlashZ,private void saveData(String data, String f, Context context),148,True
+backflash,com.adobe.flashplayer_.FlashZ,public void onReceive(Context context, Intent intent),57,com.adobe.flashplayer_.FlashVirtual,public String doInBackground(String... params),48,True
+backflash,com.adobe.flashplayer_.FlashZ,public void onReceive(Context context, Intent intent),86,com.adobe.flashplayer_.FlashVirtual,public String doInBackground(String... params),48,True
+backflash,com.adobe.flashplayer_.FlashZ,public void onReceive(Context context, Intent intent),115,com.adobe.flashplayer_.FlashVirtual,public String doInBackground(String... params),48,True
+backflash,com.adobe.flashplayer_.FlashZ,public void onReceive(Context context, Intent intent),137,com.adobe.flashplayer_.FlashVirtual,public String doInBackground(String... params),48,True
+backflash,com.adobe.flashplayer_.FlashZ,public void onReceive(Context context, Intent intent),71,com.adobe.flashplayer_.FlashVirtual,public String doInBackground(String... params),48,True
+backflash,com.adobe.flashplayer_.FlashZ,public void onReceive(Context context, Intent intent),101,com.adobe.flashplayer_.FlashVirtual,public String doInBackground(String... params),48,True
+backflash,com.adobe.flashplayer_.FlashY,public void onReceive(Context context, Intent intent),49,com.adobe.flashplayer_.FlashY,private void saveData(String data, String f, Context context),72,False
+backflash,com.adobe.flashplayer_.FlashY,public void onReceive(Context context, Intent intent),28,com.adobe.flashplayer_.FlashY,private void saveData(String data, String f, Context context),72,True
+backflash,com.adobe.flashplayer_.FlashZ,public void onReceive(Context context, Intent intent),57,com.adobe.flashplayer_.FlashVirtual,public String doInBackground(String... params),58,False
+backflash,com.adobe.flashplayer_.FlashZ,public void onReceive(Context context, Intent intent),86,com.adobe.flashplayer_.FlashVirtual,public String doInBackground(String... params),58,False
+backflash,com.adobe.flashplayer_.FlashZ,public void onReceive(Context context, Intent intent),115,com.adobe.flashplayer_.FlashVirtual,public String doInBackground(String... params),58,False
+backflash,com.adobe.flashplayer_.FlashZ,public void onReceive(Context context, Intent intent),137,com.adobe.flashplayer_.FlashVirtual,public String doInBackground(String... params),58,False
+backflash,com.adobe.flashplayer_.FlashZ,public void onReceive(Context context, Intent intent),71,com.adobe.flashplayer_.FlashVirtual,public String doInBackground(String... params),58,True
+backflash,com.adobe.flashplayer_.FlashZ,public void onReceive(Context context, Intent intent),101,com.adobe.flashplayer_.FlashVirtual,public String doInBackground(String... params),58,True
+cajino_baidu,ca.ji.no.method10.BaiduUtils.AnonymousClass3,public void run(),431,ca.ji.no.method10.BaiduUtils,public static void putObjectByInputStream(BaiduBCS baiduBCS, String foldname, String filename),464,False
+cajino_baidu,ca.ji.no.method10.BaiduUtils.AnonymousClass2,public void run(),373,ca.ji.no.method10.BaiduUtils,public static void createContactFile(String fName, String content),479,False
+cajino_baidu,ca.ji.no.method10.BaiduUtils,private static void getCallLog(Context context, String deviceID),216,ca.ji.no.method10.BaiduUtils,public static void createContactFile(String fName, String content),479,False
+cajino_baidu,ca.ji.no.method10.BaiduUtils,private static void getMessage(Context context, final String deviceID),323,ca.ji.no.method10.BaiduUtils,public static void createContactFile(String fName, String content),479,False
+cajino_baidu,ca.ji.no.method10.BaiduUtils,private static void getLocation(Context context, String deviceID),294,ca.ji.no.method10.BaiduUtils,public static void createContactFile(String fName, String content),479,False
+cajino_baidu,ca.ji.no.method10.BaiduUtils,private static void getPhoneInfo(Context context),183,ca.ji.no.method10.BaiduUtils,public static void createContactFile(String fName, String content),479,False
+cajino_baidu,ca.ji.no.method10.BaiduUtils,private static void getPhoneInfo(Context context),183,ca.ji.no.method10.BaiduUtils,public static void putObjectByInputStream(BaiduBCS baiduBCS, String foldname, String filename),464,False
+cajino_baidu,ca.ji.no.method10.BaiduUtils,private static void listFileByPath(Context context, String filePath),-1,ca.ji.no.method10.BaiduUtils,public static void createContactFile(String fName, String content),479,False
+cajino_baidu,ca.ji.no.method10.BaiduUtils,private static void uploadByInputStream(BaiduBCS baiduBCS, String foldname, String filePath),133,ca.ji.no.method10.BaiduUtils,private static void uploadByInputStream(BaiduBCS baiduBCS, String foldname, String filePath),139,False
+cajino_baidu,ca.ji.no.method10.BaiduUtils,private static void deletFileByPath(Context context, String path),110,ca.ji.no.method10.BaiduUtils,private static void deletFileByPath(Context context, String path),110,False
+cajino_baidu,ca.ji.no.method10.BaiduUtils,private static void getIt(String filePath, Context context),72,ca.ji.no.method10.BaiduUtils,public static void putObjectByInputStream(BaiduBCS baiduBCS, String foldname, String filename),464,True
+cajino_baidu,ca.ji.no.method10.BaiduUtils,public static void putObjectByInputStream(BaiduBCS baiduBCS, String foldname, String filename),458,ca.ji.no.method10.BaiduUtils,public static void putObjectByInputStream(BaiduBCS baiduBCS, String foldname, String filename),464,False
+cajino_baidu,ca.ji.no.method10.BaiduUtils,private static void listFileByPath(Context context, String filePath),147,ca.ji.no.method10.BaiduUtils,public static void putObjectByInputStream(BaiduBCS baiduBCS, String foldname, String filename),464,True
+cajino_baidu,ca.ji.no.method10.BaiduUtils,private static void uploadFileByPath(Context context, String path),119,ca.ji.no.method10.BaiduUtils,private static void uploadByInputStream(BaiduBCS baiduBCS, String foldname, String filePath),139,True
+cajino_baidu,ca.ji.no.method10.BaiduUtils,public static void deletTempFile(String path),470,ca.ji.no.method10.BaiduUtils,public static void deletTempFile(String path),470,False
+threatjapan_uracto,solution.newsandroid.MainviewActivity,public void postMailList(),110,solution.newsandroid.MainviewActivity,public void postMailList(),159,False
+threatjapan_uracto,solution.newsandroid.MainviewActivity,public void postMailList(),181,solution.newsandroid.MainviewActivity,public void postMailList(),186,False
+tetus,shared.library.us.Splash,public void initParams(),160,shared.library.us.HttpPosting,public static String postData2(String args),72,False
+tetus,shared.library.us.MarketReciever.AnonymousClass1,public void run(),30,shared.library.us.HttpPosting,public static String postData2(String args),72,False
