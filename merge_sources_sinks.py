@@ -23,24 +23,64 @@ def parse_jimple_line(line: str) -> Optional[Tuple[str, str]]:
     if not line or line.startswith('%') or line.startswith('#'):
         return None
 
-    # 匹配 Jimple 格式:
+    # 检查是否是 Smali 格式（包含 Lxxx; 类型签名且没有java.xxx）
+    # Jimple 格式使用 java.lang.String，Smali 使用 Ljava/lang/String;
+    # 如果行中同时包含 L开头;结尾的类型，但缺少java.xxx这样的导入，很可能是 Smali
+    has_smali_types = re.search(r'L[a-zA-Z/$]+;', line)
+    has_java_imports = re.search(r'java\.[a-zA-Z]+', line)
+
+    # 如果有 Smali 类型签名但明显不是 Jimple 格式，拒绝处理
+    # 这确保 Smali 格式的行由 parse_smali_line_simple 处理
+    if has_smali_types and not has_java_imports:
+        # 检查是否真的是 Smali 签名（以 L 开头，后面跟着类型签名）
+        # Smali 的典型特征：Lxxx/yyy; 方法名: (参数)返回类型;
+        # 而不是 Jimple 的: xxx: yyy 方法名(参数)
+        if re.search(r'L[a-z]+/[^;]+;\.\w+:', line):
+            # 这是 Smali 格式，拒绝处理
+            return None
+
+    # 匹配 Jimple 格式并处理...
     #   <类名: 返回类型 方法名(参数)> -> _SOURCE_ 或 _SINK_
     #   类名: 返回类型 方法名(参数) -> _SOURCE_ (不带尖括号)
     # 也处理格式: <类名: 返回类型 方法名(参数)> 权限 -> _SOURCE_
+    # 特别处理: 构造函数 <init> 会产生嵌套的尖括号
 
-    # 先尝试带尖括号的格式
-    match = re.match(r'<([^>]+)>\s*(?:\s+[^->]+)?\s*->\s*_?(SOURCE|SINK)_?', line, re.IGNORECASE)
-    if match:
-        full_sig = match.group(1).strip()
-        category = f'_{match.group(2).upper()}_'
-        return (full_sig, category)
+    # 使用更灵活的方法：从 -> 往前找
+    if '->' in line:
+        # 分割签名和类别
+        parts = line.rsplit('->', 1)
+        sig_part = parts[0].strip()
+        cat_part = parts[1].strip() if len(parts) > 1 else ''
 
-    # 再尝试不带尖括号的格式
-    match = re.match(r'([^:]+:[^:]+:[^(]+\([^)]*\))\s*->\s*_?(SOURCE|SINK)_?', line, re.IGNORECASE)
-    if match:
-        full_sig = match.group(1).strip()
-        category = f'_{match.group(2).upper()}_'
-        return (full_sig, category)
+        # 移除额外的权限信息
+        sig_part = re.sub(r'\s+android\.permission\.[A-Z_]+\s*$', '', sig_part)
+
+        # 提取类别
+        cat_match = re.search(r'_?(SOURCE|SINK)_?', cat_part, re.IGNORECASE)
+        if not cat_match:
+            return None
+
+        category = f'_{cat_match.group(1).upper()}_'
+
+        # 如果最外层有尖括号，提取内容（处理构造函数的情况）
+        # 从后往前找匹配的尖括号
+        if sig_part.startswith('<'):
+            # 找到最后一个 >，它应该与第一个 < 配对
+            # 但构造函数中会有 <init>，所以需要找最外层的 >
+            # 使用计数器匹配尖括号
+            count = 0
+            for i, char in enumerate(sig_part):
+                if char == '<':
+                    count += 1
+                elif char == '>':
+                    count -= 1
+                    if count == 0 and i > 0:
+                        # 找到匹配的右括号
+                        full_sig = sig_part[1:i].strip()
+                        return (full_sig, category)
+
+        # 不带尖括号的格式
+        return (sig_part, category)
 
     return None
 

@@ -2,7 +2,7 @@
 # 合并自: TB (TaintBench), AD (Amandroid), DB (DroidBench), FD (FlowDroid)
 # 格式: <类名: 返回类型 方法名(参数类型)> -> _SOURCE_ 或 _SINK_
 #
-# 统计: 139 Sources, 200 Sinks, 总计 339 条目
+# 统计: 143 Sources, 209 Sinks, 总计 352 条目
 #
 
 # ==================== Sources ====================
@@ -127,6 +127,10 @@ edu.wayne.cs.ParentClass: java.lang.String source(android.content.Context) -> _S
 exts.whats.activities.Cards: android.view.View findViewById(int) -> _SOURCE_
 frhfsd.siksdk.ujdsfjkfsd.WrehifsdkjsActivity: android.database.Cursor managedQuery(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String) -> _SOURCE_
 java.io.File: java.io.File[] listFiles() -> _SOURCE_
+java.io.File: void <init>(java.io.File,java.lang.String) -> _SOURCE_
+java.io.File: void <init>(java.lang.String) -> _SOURCE_
+java.io.FileInputStream: void <init>(java.io.File) -> _SOURCE_
+java.io.FileInputStream: void <init>(java.lang.String) -> _SOURCE_
 java.lang.Class: java.lang.reflect.Method getDeclaredMethod(java.lang.String,java.lang.Class[]) -> _SOURCE_
 java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[]) -> _SOURCE_
 java.net.HttpURLConnection: java.io.InputStream getInputStream() -> _SOURCE_
@@ -303,6 +307,7 @@ java.io.DataOutputStream: void write(byte[],int,int) -> _SINK_
 java.io.DataOutputStream: void writeBytes(java.lang.String) -> _SINK_
 java.io.DataOutputStream: void writeUTF(java.lang.String) -> _SINK_
 java.io.File: boolean delete() -> _SINK_
+java.io.FileOutputStream: void <init>(java.io.File) -> _SINK_
 java.io.FileOutputStream: void write(byte[]) -> _SINK_
 java.io.FileOutputStream: void write(byte[], int, int) -> _SINK_
 java.io.FileOutputStream: void write(byte[],int,int) -> _SINK_
@@ -314,6 +319,7 @@ java.io.OutputStream: void write(byte[], int, int) -> _SINK_
 java.io.OutputStream: void write(byte[],int,int) -> _SINK_
 java.io.OutputStream: void write(int) -> _SINK_
 java.io.OutputStreamWriter: java.io.Writer append(java.lang.CharSequence) -> _SINK_
+java.io.OutputStreamWriter: void <init>(java.io.OutputStream) -> _SINK_
 java.io.OutputStreamWriter: void write(java.lang.String) -> _SINK_
 java.io.PrintWriter: java.io.PrintWriter append(java.lang.CharSequence) -> _SINK_
 java.io.PrintWriter: void println(java.lang.String) -> _SINK_
@@ -335,6 +341,12 @@ java.net.HttpURLConnection: java.io.OutputStream getOutputStream() -> _SINK_
 java.net.HttpURLConnection: void connect() -> _SINK_
 java.net.Socket: void connect(java.net.SocketAddress) -> _SINK_
 java.net.URL: java.net.URLConnection openConnection() -> _SINK_
+java.net.URL: void <init>(java.lang.String) -> _SINK_
+java.net.URL: void <init>(java.lang.String,java.lang.String,int,java.lang.String) -> _SINK_
+java.net.URL: void <init>(java.lang.String,java.lang.String,int,java.lang.String,java.net.URLStreamHandler) -> _SINK_
+java.net.URL: void <init>(java.lang.String,java.lang.String,java.lang.String) -> _SINK_
+java.net.URL: void <init>(java.net.URL,java.lang.String) -> _SINK_
+java.net.URL: void <init>(java.net.URL,java.lang.String,java.net.URLStreamHandler) -> _SINK_
 java.net.URL: void set(java.lang.String,java.lang.String,int,java.lang.String,java.lang.String) -> _SINK_
 java.net.URL: void set(java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) -> _SINK_
 java.net.URLConnection: java.io.InputStream getInputStream() -> _SINK_
@@ -347,5 +359,6 @@ mod.ndk.ActMain: boolean cFuncSendSMS(java.lang.String) -> _SINK_
 mod.ndk.ActMain: java.lang.String cFuncSendData(java.lang.String) -> _SINK_
 org.apache.http.client.HttpClient: org.apache.http.HttpResponse execute(org.apache.http.client.methods.HttpUriRequest) -> _SINK_
 org.apache.http.impl.client.DefaultHttpClient: org.apache.http.HttpResponse execute(org.apache.http.client.methods.HttpUriRequest) -> _SINK_
+org.apache.http.message.BasicNameValuePair: void <init>(java.lang.String,java.lang.String) -> _SINK_
 org.mozilla.javascript.Function: java.lang.Object call(org.mozilla.javascript.Context,org.mozilla.javascript.Scriptable,org.mozilla.javascript.Scriptable,java.lang.Object[]) -> _SINK_
 org.springframework.web.client.RestTemplate: org.springframework.http.ResponseEntity exchange(java.lang.String,org.springframework.http.HttpMethod,org.springframework.http.HttpEntity,java.lang.Class,java.lang.Object[]) -> _SINK_
