@@ -1,0 +1,5 @@
+apk_name,status,leaks_found,sources_found,sinks_found,callgraph_time_sec,dataflow_time_sec,result_time_sec,total_time_sec,peak_memory_gb,exit_code,timeout_reason,output_file
+remote_control_smack,FAILED,N/A,129,134,0,N/A,N/A,136.14,N/A,-9,,/home/zym/LDFA-dataset/TaintBench/output/20260211-2019-retry-3x-no-static/remote_control_smack_results.xml
+scipiex,FAILED,N/A,15,24,0,N/A,N/A,110.65,N/A,-9,,/home/zym/LDFA-dataset/TaintBench/output/20260211-2019-retry-3x-no-static/scipiex_results.xml
+vibleaker_android_samp,FAILED,N/A,60,61,0,N/A,N/A,257.36,N/A,-9,,/home/zym/LDFA-dataset/TaintBench/output/20260211-2019-retry-3x-no-static/vibleaker_android_samp_results.xml
+xbot_android_samp,FAILED,N/A,44,65,0,N/A,N/A,89.01,N/A,-9,,/home/zym/LDFA-dataset/TaintBench/output/20260211-2019-retry-3x-no-static/xbot_android_samp_results.xml

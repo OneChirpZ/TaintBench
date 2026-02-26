@@ -1,0 +1,40 @@
+apk_name,status,leaks_found,sources_found,analysis_time_sec,peak_memory_gb,output_file
+backflash,SUCCESS,31,105,1,471,/home/zym/LDFA-dataset/TaintBench/output/20260211-1657-39apps-max-precision/backflash_results.xml
+beita_com_beita_contact,SUCCESS,33,47,1,127,/home/zym/LDFA-dataset/TaintBench/output/20260211-1657-39apps-max-precision/beita_com_beita_contact_results.xml
+cajino_baidu,FAILED (exit: 137),N/A,N/A,276,N/A,/home/zym/LDFA-dataset/TaintBench/output/20260211-1657-39apps-max-precision/cajino_baidu_results.xml
+chat_hook,SUCCESS,20,29,1,128,/home/zym/LDFA-dataset/TaintBench/output/20260211-1657-39apps-max-precision/chat_hook_results.xml
+chulia,SUCCESS,6,29,1,135,/home/zym/LDFA-dataset/TaintBench/output/20260211-1657-39apps-max-precision/chulia_results.xml
+death_ring_materialflow,FAILED (exit: 143),N/A,N/A,1540,N/A,/home/zym/LDFA-dataset/TaintBench/output/20260211-1657-39apps-max-precision/death_ring_materialflow_results.xml
+dsencrypt_samp,SUCCESS,4,4,1,80,/home/zym/LDFA-dataset/TaintBench/output/20260211-1657-39apps-max-precision/dsencrypt_samp_results.xml
+exprespam,SUCCESS,1,9,1,74,/home/zym/LDFA-dataset/TaintBench/output/20260211-1657-39apps-max-precision/exprespam_results.xml
+fakeappstore,SUCCESS,15,39,4,403,/home/zym/LDFA-dataset/TaintBench/output/20260211-1657-39apps-max-precision/fakeappstore_results.xml
+fakebank_android_samp,SUCCESS,51,215,3,289,/home/zym/LDFA-dataset/TaintBench/output/20260211-1657-39apps-max-precision/fakebank_android_samp_results.xml
+fakedaum,SUCCESS,11,29,1,323,/home/zym/LDFA-dataset/TaintBench/output/20260211-1657-39apps-max-precision/fakedaum_results.xml
+fakemart,SUCCESS,2,7,1,109,/home/zym/LDFA-dataset/TaintBench/output/20260211-1657-39apps-max-precision/fakemart_results.xml
+fakeplay,SUCCESS,4,38,1,124,/home/zym/LDFA-dataset/TaintBench/output/20260211-1657-39apps-max-precision/fakeplay_results.xml
+faketaobao,SUCCESS,5,14,1,126,/home/zym/LDFA-dataset/TaintBench/output/20260211-1657-39apps-max-precision/faketaobao_results.xml
+godwon_samp,SUCCESS,0,N/A,1,92,/home/zym/LDFA-dataset/TaintBench/output/20260211-1657-39apps-max-precision/godwon_samp_results.xml
+hummingbad_android_samp,FAILED (exit: 137),N/A,N/A,265,N/A,/home/zym/LDFA-dataset/TaintBench/output/20260211-1657-39apps-max-precision/hummingbad_android_samp_results.xml
+jollyserv,FAILED (exit: 137),N/A,N/A,220,N/A,/home/zym/LDFA-dataset/TaintBench/output/20260211-1657-39apps-max-precision/jollyserv_results.xml
+overlay_android_samp,SUCCESS,5,70,112,12883,/home/zym/LDFA-dataset/TaintBench/output/20260211-1657-39apps-max-precision/overlay_android_samp_results.xml
+overlaylocker2_android_samp,SUCCESS,8,26,1,109,/home/zym/LDFA-dataset/TaintBench/output/20260211-1657-39apps-max-precision/overlaylocker2_android_samp_results.xml
+phospy,SUCCESS,9,12,1,497,/home/zym/LDFA-dataset/TaintBench/output/20260211-1657-39apps-max-precision/phospy_results.xml
+proxy_samp,SUCCESS,11,37,2,228,/home/zym/LDFA-dataset/TaintBench/output/20260211-1657-39apps-max-precision/proxy_samp_results.xml
+remote_control_smack,FAILED (exit: 137),N/A,N/A,321,N/A,/home/zym/LDFA-dataset/TaintBench/output/20260211-1657-39apps-max-precision/remote_control_smack_results.xml
+repane,SUCCESS,2,4,1,68,/home/zym/LDFA-dataset/TaintBench/output/20260211-1657-39apps-max-precision/repane_results.xml
+roidsec,SUCCESS,20,48,1,87,/home/zym/LDFA-dataset/TaintBench/output/20260211-1657-39apps-max-precision/roidsec_results.xml
+samsapo,SUCCESS,7,29,1,184,/home/zym/LDFA-dataset/TaintBench/output/20260211-1657-39apps-max-precision/samsapo_results.xml
+save_me,SUCCESS,68,115,11,1799,/home/zym/LDFA-dataset/TaintBench/output/20260211-1657-39apps-max-precision/save_me_results.xml
+scipiex,FAILED (exit: 137),N/A,N/A,220,N/A,/home/zym/LDFA-dataset/TaintBench/output/20260211-1657-39apps-max-precision/scipiex_results.xml
+slocker_android_samp,SUCCESS,10,26,2,281,/home/zym/LDFA-dataset/TaintBench/output/20260211-1657-39apps-max-precision/slocker_android_samp_results.xml
+sms_google,SUCCESS,15,39,227,9972,/home/zym/LDFA-dataset/TaintBench/output/20260211-1657-39apps-max-precision/sms_google_results.xml
+sms_send_locker_qqmagic,SUCCESS,3,17,1,70,/home/zym/LDFA-dataset/TaintBench/output/20260211-1657-39apps-max-precision/sms_send_locker_qqmagic_results.xml
+smssend_packageInstaller,SUCCESS,25,43,2,702,/home/zym/LDFA-dataset/TaintBench/output/20260211-1657-39apps-max-precision/smssend_packageInstaller_results.xml
+smssilience_fake_vertu,SUCCESS,0,9,0,80,/home/zym/LDFA-dataset/TaintBench/output/20260211-1657-39apps-max-precision/smssilience_fake_vertu_results.xml
+smsstealer_kysn_assassincreed_android_samp,SUCCESS,5,23,1,155,/home/zym/LDFA-dataset/TaintBench/output/20260211-1657-39apps-max-precision/smsstealer_kysn_assassincreed_android_samp_results.xml
+stels_flashplayer_android_update,SUCCESS,33,25,2,235,/home/zym/LDFA-dataset/TaintBench/output/20260211-1657-39apps-max-precision/stels_flashplayer_android_update_results.xml
+tetus,SUCCESS,11,17,13,547,/home/zym/LDFA-dataset/TaintBench/output/20260211-1657-39apps-max-precision/tetus_results.xml
+the_interview_movieshow,SUCCESS,1,6,0,74,/home/zym/LDFA-dataset/TaintBench/output/20260211-1657-39apps-max-precision/the_interview_movieshow_results.xml
+threatjapan_uracto,SUCCESS,1,12,1,93,/home/zym/LDFA-dataset/TaintBench/output/20260211-1657-39apps-max-precision/threatjapan_uracto_results.xml
+vibleaker_android_samp,FAILED (exit: 137),N/A,N/A,284,N/A,/home/zym/LDFA-dataset/TaintBench/output/20260211-1657-39apps-max-precision/vibleaker_android_samp_results.xml
+xbot_android_samp,FAILED (exit: 137),N/A,N/A,193,N/A,/home/zym/LDFA-dataset/TaintBench/output/20260211-1657-39apps-max-precision/xbot_android_samp_results.xml

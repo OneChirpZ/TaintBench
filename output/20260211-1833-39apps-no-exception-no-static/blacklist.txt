@@ -1,0 +1,1 @@
+Blacklisted APKs:\n  - cajino_baidu\n  - death_ring_materialflow\n  - hummingbad_android_samp\n  - jollyserv\n  - remote_control_smack\n  - scipiex\n  - vibleaker_android_samp\n
