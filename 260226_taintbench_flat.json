@@ -48,7 +48,7 @@
       "dataset": "TaintBench",
       "app_name": "backflash",
       "apk_name": "backflash.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/backflash",
       "query_input": "请分析 com.adobe.flashplayer_.AdobeFlashCore.public void onCreate() 中 getSimCountryIso 的后向数据流，关注 write 等种类的 sink",
       "extra": {
         "description": "This malicious flow leaks the SIM country code into an OutputStream, writing to data that is later read by following flow.",
@@ -144,7 +144,7 @@
       "dataset": "TaintBench",
       "app_name": "backflash",
       "apk_name": "backflash.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/backflash",
       "query_input": "请分析 com.adobe.flashplayer_.FlashW.private String readConfig(String config, Context context) 中 openFileInput 的后向数据流，关注 getOutputStream 等种类的 sink",
       "extra": {
         "description": "The second part of the above partial flow that leaks the country code into a URL that is then retrieved. Note: execute(....) internally calls doInBackground(...).",
@@ -237,7 +237,7 @@
       "dataset": "TaintBench",
       "app_name": "backflash",
       "apk_name": "backflash.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/backflash",
       "query_input": "请分析 com.adobe.flashplayer_.FlashY.public void onReceive(Context context, Intent intent) 中 getStringExtra 的后向数据流，关注 write 等种类的 sink",
       "extra": {
         "description": "This malicious flow sends the telephone number of incoming calls via file upload to a remote server.",
@@ -314,7 +314,7 @@
       "dataset": "TaintBench",
       "app_name": "backflash",
       "apk_name": "backflash.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/backflash",
       "query_input": "请分析 com.adobe.flashplayer_.FlashY.public void onReceive(Context context, Intent intent) 中 getStringExtra 的后向数据流，关注 getOutputStream 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads incoming number and appends it in a URL as parameter for a HTTP POST request to a remote server. ",
@@ -364,7 +364,7 @@
       "dataset": "TaintBench",
       "app_name": "backflash",
       "apk_name": "backflash.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/backflash",
       "query_input": "请分析 com.adobe.flashplayer_.FlashZ.public void onReceive(Context context, Intent intent) 中 getStringExtra 的后向数据流，关注 write 等种类的 sink",
       "extra": {
         "description": "This malicious flow writes phone number to a file which will be posted to a remote server.",
@@ -413,7 +413,7 @@
       "dataset": "TaintBench",
       "app_name": "backflash",
       "apk_name": "backflash.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/backflash",
       "query_input": "请分析 com.adobe.flashplayer_.FlashZ.public void onReceive(Context context, Intent intent) 中 getStringExtra 的后向数据流，关注 write 等种类的 sink",
       "extra": {
         "description": "This malicious flow writes phone number to a file which will be posted to a remote server.",
@@ -462,7 +462,7 @@
       "dataset": "TaintBench",
       "app_name": "backflash",
       "apk_name": "backflash.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/backflash",
       "query_input": "请分析 com.adobe.flashplayer_.FlashZ.public void onReceive(Context context, Intent intent) 中 getStringExtra 的后向数据流，关注 write 等种类的 sink",
       "extra": {
         "description": "This malicious flow writes phone number to a file which will be posted to a remote server.",
@@ -511,7 +511,7 @@
       "dataset": "TaintBench",
       "app_name": "backflash",
       "apk_name": "backflash.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/backflash",
       "query_input": "请分析 com.adobe.flashplayer_.FlashZ.public void onReceive(Context context, Intent intent) 中 getStringExtra 的后向数据流，关注 write 等种类的 sink",
       "extra": {
         "description": "This malicious flow writes phone number to a file which will be posted to a remote server.",
@@ -559,7 +559,7 @@
       "dataset": "TaintBench",
       "app_name": "backflash",
       "apk_name": "backflash.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/backflash",
       "query_input": "请分析 com.adobe.flashplayer_.FlashZ.public void onReceive(Context context, Intent intent) 中 getStringExtra 的后向数据流，关注 write 等种类的 sink",
       "extra": {
         "description": "Negative flow.",
@@ -601,7 +601,7 @@
       "dataset": "TaintBench",
       "app_name": "backflash",
       "apk_name": "backflash.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/backflash",
       "query_input": "请分析 com.adobe.flashplayer_.FlashZ.public void onReceive(Context context, Intent intent) 中 getStringExtra 的后向数据流，关注 write 等种类的 sink",
       "extra": {
         "description": "Negative flow.",
@@ -644,7 +644,7 @@
       "dataset": "TaintBench",
       "app_name": "backflash",
       "apk_name": "backflash.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/backflash",
       "query_input": "请分析 com.adobe.flashplayer_.FlashZ.public void onReceive(Context context, Intent intent) 中 getStringExtra 的后向数据流，关注 getOutputStream 等种类的 sink",
       "extra": {
         "description": "Negative flow.",
@@ -687,7 +687,7 @@
       "dataset": "TaintBench",
       "app_name": "backflash",
       "apk_name": "backflash.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/backflash",
       "query_input": "请分析 com.adobe.flashplayer_.FlashZ.public void onReceive(Context context, Intent intent) 中 getStringExtra 的后向数据流，关注 getOutputStream 等种类的 sink",
       "extra": {
         "description": "Negative flow.",
@@ -730,7 +730,7 @@
       "dataset": "TaintBench",
       "app_name": "backflash",
       "apk_name": "backflash.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/backflash",
       "query_input": "请分析 com.adobe.flashplayer_.FlashZ.public void onReceive(Context context, Intent intent) 中 getStringExtra 的后向数据流，关注 getOutputStream 等种类的 sink",
       "extra": {
         "description": "Negative flow.",
@@ -773,7 +773,7 @@
       "dataset": "TaintBench",
       "app_name": "backflash",
       "apk_name": "backflash.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/backflash",
       "query_input": "请分析 com.adobe.flashplayer_.FlashZ.public void onReceive(Context context, Intent intent) 中 getStringExtra 的后向数据流，关注 getOutputStream 等种类的 sink",
       "extra": {
         "description": "Negative flow.",
@@ -815,7 +815,7 @@
       "dataset": "TaintBench",
       "app_name": "backflash",
       "apk_name": "backflash.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/backflash",
       "query_input": "请分析 com.adobe.flashplayer_.FlashZ.public void onReceive(Context context, Intent intent) 中 getStringExtra 的后向数据流，关注 getOutputStream 等种类的 sink",
       "extra": {
         "description": "Negative flow.",
@@ -857,7 +857,7 @@
       "dataset": "TaintBench",
       "app_name": "backflash",
       "apk_name": "backflash.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/backflash",
       "query_input": "请分析 com.adobe.flashplayer_.FlashZ.public void onReceive(Context context, Intent intent) 中 getStringExtra 的后向数据流，关注 getOutputStream 等种类的 sink",
       "extra": {
         "description": "Negative flow.",
@@ -899,7 +899,7 @@
       "dataset": "TaintBench",
       "app_name": "backflash",
       "apk_name": "backflash.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/backflash",
       "query_input": "请分析 com.adobe.flashplayer_.FlashY.public void onReceive(Context context, Intent intent) 中 getStringExtra 的后向数据流，关注 write 等种类的 sink",
       "extra": {
         "description": "This malicious flow writes incoming phone number to a file which will be posted to a remote server.",
@@ -945,7 +945,7 @@
       "dataset": "TaintBench",
       "app_name": "backflash",
       "apk_name": "backflash.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/backflash",
       "query_input": "请分析 com.adobe.flashplayer_.FlashY.public void onReceive(Context context, Intent intent) 中 getStringExtra 的后向数据流，关注 write 等种类的 sink",
       "extra": {
         "description": "Negative flow.",
@@ -1018,7 +1018,7 @@
       "dataset": "TaintBench",
       "app_name": "backflash",
       "apk_name": "backflash.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/backflash",
       "query_input": "请分析 com.adobe.flashplayer_.FlashZ.public void onReceive(Context context, Intent intent) 中 getStringExtra 的后向数据流，关注 write 等种类的 sink",
       "extra": {
         "description": "This malicious flow writes phone number to a file and the file content is posted to a remote server.",
@@ -1098,7 +1098,7 @@
       "dataset": "TaintBench",
       "app_name": "backflash",
       "apk_name": "backflash.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/backflash",
       "query_input": "请分析 com.adobe.flashplayer_.FlashZ.public void onReceive(Context context, Intent intent) 中 getStringExtra 的后向数据流，关注 write 等种类的 sink",
       "extra": {
         "description": "This malicious flow writes phone number to a file and the file content is posted to a remote server.",
@@ -1178,7 +1178,7 @@
       "dataset": "TaintBench",
       "app_name": "backflash",
       "apk_name": "backflash.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/backflash",
       "query_input": "请分析 com.adobe.flashplayer_.FlashZ.public void onReceive(Context context, Intent intent) 中 getStringExtra 的后向数据流，关注 write 等种类的 sink",
       "extra": {
         "description": "This malicious flow writes phone number to a file and the file content is posted to a remote server.",
@@ -1258,7 +1258,7 @@
       "dataset": "TaintBench",
       "app_name": "backflash",
       "apk_name": "backflash.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/backflash",
       "query_input": "请分析 com.adobe.flashplayer_.FlashZ.public void onReceive(Context context, Intent intent) 中 getStringExtra 的后向数据流，关注 write 等种类的 sink",
       "extra": {
         "description": "This malicious flow writes phone number to a file and the file content is posted to a remote server.",
@@ -1306,7 +1306,7 @@
       "dataset": "TaintBench",
       "app_name": "backflash",
       "apk_name": "backflash.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/backflash",
       "query_input": "请分析 com.adobe.flashplayer_.FlashZ.public void onReceive(Context context, Intent intent) 中 getStringExtra 的后向数据流，关注 write 等种类的 sink",
       "extra": {
         "description": "Negative flow",
@@ -1348,7 +1348,7 @@
       "dataset": "TaintBench",
       "app_name": "backflash",
       "apk_name": "backflash.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/backflash",
       "query_input": "请分析 com.adobe.flashplayer_.FlashZ.public void onReceive(Context context, Intent intent) 中 getStringExtra 的后向数据流，关注 write 等种类的 sink",
       "extra": {
         "description": "Negative flow",
@@ -1468,7 +1468,7 @@
       "dataset": "TaintBench",
       "app_name": "beita_com_beita_contact",
       "apk_name": "beita_com_beita_contact.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/beita_com_beita_contact",
       "query_input": "请分析 com.beita.contact.MyContacts.public List<Person> getContactsInfoListFromPhone() 中 query 的后向数据流，关注 sendMessage 等种类的 sink",
       "extra": {
         "description": "This malicious flow leaks contact data via email.",
@@ -1566,7 +1566,7 @@
       "dataset": "TaintBench",
       "app_name": "beita_com_beita_contact",
       "apk_name": "beita_com_beita_contact.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/beita_com_beita_contact",
       "query_input": "请分析 com.beita.contact.MyContacts.public List<Person> getContactsInfoListFromPhone() 中 query 的后向数据流，关注 write 等种类的 sink",
       "extra": {
         "description": "This malicious partial flow leaks contact data into a file (that is later uploaded).",
@@ -1628,7 +1628,7 @@
       "dataset": "TaintBench",
       "app_name": "beita_com_beita_contact",
       "apk_name": "beita_com_beita_contact.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/beita_com_beita_contact",
       "query_input": "请分析 com.beita.contact.UploadUtil.public static void uploadFile() 中 FileInputStream 的后向数据流，关注 write 等种类的 sink",
       "extra": {
         "description": "This malicious partial flow uploads the file containing contact data to a remote server via HTTP POST request.",
@@ -1703,7 +1703,7 @@
       "dataset": "TaintBench",
       "app_name": "cajino_baidu",
       "apk_name": "cajino_baidu.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/cajino_baidu",
       "query_input": "请分析 ca.ji.no.method10.BaiduUtils.AnonymousClass3.public void run() 中 listFiles 的后向数据流，关注 putObject 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads photos and uploads them to a remote server via HTTP request. This malicious behavior will be triggered, when then PushMessageReceiver (a BroadcastReceiver) receives a command which contains the string 'photo'.",
@@ -1766,7 +1766,7 @@
       "dataset": "TaintBench",
       "app_name": "cajino_baidu",
       "apk_name": "cajino_baidu.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/cajino_baidu",
       "query_input": "请分析 ca.ji.no.method10.BaiduUtils.AnonymousClass2.public void run() 中 getString 的后向数据流，关注 write 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads contacts and saves them to a file. This file will be later uploaded to a remote server (not a part of this flow). This malicious behavior will be triggered, when then PushMessageReceiver (a BroadcastReceiver) receives a command which contains the string 'contact'.",
@@ -1827,7 +1827,7 @@
       "dataset": "TaintBench",
       "app_name": "cajino_baidu",
       "apk_name": "cajino_baidu.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/cajino_baidu",
       "query_input": "请分析 ca.ji.no.method10.BaiduUtils.private static void getCallLog(Context context, String deviceID) 中 getString 的后向数据流，关注 write 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads call log and saves them to a file. This file will be later uploaded to a remote server (not a part of this flow). This malicious behavior will be triggered, when then PushMessageReceiver (a BroadcastReceiver) receives a command which contains the string 'call_log'.",
@@ -1884,7 +1884,7 @@
       "dataset": "TaintBench",
       "app_name": "cajino_baidu",
       "apk_name": "cajino_baidu.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/cajino_baidu",
       "query_input": "请分析 ca.ji.no.method10.BaiduUtils.private static void getMessage(Context context, final String deviceID) 中 getString 的后向数据流，关注 write 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads sms messages and saves them to a file. This file will be later uploaded to a remote server (not a part of this flow). This malicious behavior will be triggered, when then PushMessageReceiver (a BroadcastReceiver) receives a command which contains the string 'upload_message'.",
@@ -1951,7 +1951,7 @@
       "dataset": "TaintBench",
       "app_name": "cajino_baidu",
       "apk_name": "cajino_baidu.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/cajino_baidu",
       "query_input": "请分析 ca.ji.no.method10.BaiduUtils.private static void getLocation(Context context, String deviceID) 中 getLastKnownLocation 的后向数据流，关注 write 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads location information and saves it to a file. This file will be later uploaded to a remote server (not a part of this flow). This malicious behavior will be triggered, when then PushMessageReceiver (a BroadcastReceiver) receives a command which contains the string 'location'.",
@@ -2004,7 +2004,7 @@
       "dataset": "TaintBench",
       "app_name": "cajino_baidu",
       "apk_name": "cajino_baidu.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/cajino_baidu",
       "query_input": "请分析 ca.ji.no.method10.BaiduUtils.private static void getPhoneInfo(Context context) 中 getDeviceId 的后向数据流，关注 write 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads device Id and saves it to a file. This file will be later uploaded to a remote server (not a part of this flow). This malicious behavior will be triggered, when then PushMessageReceiver (a BroadcastReceiver) receives a command which contains the string 'phone'.",
@@ -2057,7 +2057,7 @@
       "dataset": "TaintBench",
       "app_name": "cajino_baidu",
       "apk_name": "cajino_baidu.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/cajino_baidu",
       "query_input": "请分析 ca.ji.no.method10.BaiduUtils.private static void getPhoneInfo(Context context) 中 getDeviceId 的后向数据流，关注 putObject 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads device Id and uploads it to a remote server via HTTP request. This malicious behavior will be triggered, when then PushMessageReceiver (a BroadcastReceiver) receives a command which contains the string 'phone'.",
@@ -2114,7 +2114,7 @@
       "dataset": "TaintBench",
       "app_name": "cajino_baidu",
       "apk_name": "cajino_baidu.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/cajino_baidu",
       "query_input": "请分析 ca.ji.no.method10.BaiduUtils.private static void listFileByPath(Context context, String filePath) 中 listFiles 的后向数据流，关注 write 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads file list and saves it to a file. This file will be later uploaded to a remote server (not a part of this flow). This malicious behavior will be triggered, when then PushMessageReceiver (a BroadcastReceiver) receives a command which contains the string 'list_file'.",
@@ -2167,7 +2167,7 @@
       "dataset": "TaintBench",
       "app_name": "cajino_baidu",
       "apk_name": "cajino_baidu.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/cajino_baidu",
       "query_input": "请分析 ca.ji.no.method10.BaiduUtils.private static void uploadByInputStream(BaiduBCS baiduBCS, String foldname, String filePath) 中 File 的后向数据流，关注 putObject 等种类的 sink",
       "extra": {
         "description": "This malicious flow uploads files. This malicious behavior will be triggered, when then PushMessageReceiver (a BroadcastReceiver) receives a command which contains the string 'upload_file'.",
@@ -2212,7 +2212,7 @@
       "dataset": "TaintBench",
       "app_name": "cajino_baidu",
       "apk_name": "cajino_baidu.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/cajino_baidu",
       "query_input": "请分析 ca.ji.no.method10.BaiduUtils.private static void deletFileByPath(Context context, String path) 中 File 的后向数据流，关注 delete 等种类的 sink",
       "extra": {
         "description": "This malicious flow delete file. This malicious behavior will be triggered, when then PushMessageReceiver (a BroadcastReceiver) receives a command which contains the string 'delete_file'.",
@@ -2254,7 +2254,7 @@
       "dataset": "TaintBench",
       "app_name": "cajino_baidu",
       "apk_name": "cajino_baidu.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/cajino_baidu",
       "query_input": "请分析 ca.ji.no.method10.BaiduUtils.private static void getIt(String filePath, Context context) 中 getDeviceId 的后向数据流，关注 putObject 等种类的 sink",
       "extra": {
         "description": "Negative flow. The device id is only used as folder name.",
@@ -2304,7 +2304,7 @@
       "dataset": "TaintBench",
       "app_name": "cajino_baidu",
       "apk_name": "cajino_baidu.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/cajino_baidu",
       "query_input": "请分析 ca.ji.no.method10.BaiduUtils.public static void putObjectByInputStream(BaiduBCS baiduBCS, String foldname, String filename) 中 File 的后向数据流，关注 putObject 等种类的 sink",
       "extra": {
         "description": "This malicious flow uploads files to a remote server.",
@@ -2346,7 +2346,7 @@
       "dataset": "TaintBench",
       "app_name": "cajino_baidu",
       "apk_name": "cajino_baidu.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/cajino_baidu",
       "query_input": "请分析 ca.ji.no.method10.BaiduUtils.private static void listFileByPath(Context context, String filePath) 中 getDeviceId 的后向数据流，关注 putObject 等种类的 sink",
       "extra": {
         "description": "Negative flow. The device id is only used as folder name.",
@@ -2388,7 +2388,7 @@
       "dataset": "TaintBench",
       "app_name": "cajino_baidu",
       "apk_name": "cajino_baidu.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/cajino_baidu",
       "query_input": "请分析 ca.ji.no.method10.BaiduUtils.private static void uploadFileByPath(Context context, String path) 中 getDeviceId 的后向数据流，关注 putObject 等种类的 sink",
       "extra": {
         "description": "Negative flow. The device id is only used as folder name.",
@@ -2430,7 +2430,7 @@
       "dataset": "TaintBench",
       "app_name": "cajino_baidu",
       "apk_name": "cajino_baidu.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/cajino_baidu",
       "query_input": "请分析 ca.ji.no.method10.BaiduUtils.public static void deletTempFile(String path) 中 File 的后向数据流，关注 delete 等种类的 sink",
       "extra": {
         "description": "This malicious flow deletes files to cover up the malicious behaviors. ",
@@ -2529,7 +2529,7 @@
       "dataset": "TaintBench",
       "app_name": "chat_hook",
       "apk_name": "chat_hook.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/chat_hook",
       "query_input": "请分析 com.example.chathook.InjectUtils.public static String getMountDate(Context context) 中 openFileInput 的后向数据流，关注 writeBytes 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads mount data to construct a command and execute it.",
@@ -2596,7 +2596,7 @@
       "dataset": "TaintBench",
       "app_name": "chat_hook",
       "apk_name": "chat_hook.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/chat_hook",
       "query_input": "请分析 com.example.chathook.HookReceiver.public void onReceive(Context context, Intent intent) 中 getStringExtra 的后向数据流，关注 execute 等种类的 sink",
       "extra": {
         "description": "This malicious partial flow reads chat history and sends it to a remote server per an HTTP POST request.",
@@ -2668,7 +2668,7 @@
       "dataset": "TaintBench",
       "app_name": "chat_hook",
       "apk_name": "chat_hook.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/chat_hook",
       "query_input": "请分析 com.example.chathook.InjectApplicaiton.public void getSN() 中 getDeviceId 的后向数据流，关注 i 等种类的 sink",
       "extra": {
         "description": "This malicious flow logs device id.",
@@ -2724,7 +2724,7 @@
       "dataset": "TaintBench",
       "app_name": "chat_hook",
       "apk_name": "chat_hook.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/chat_hook",
       "query_input": "请分析 com.example.chathook.HookReceiver.public void onReceive(Context context, Intent intent) 中 getStringExtra 的后向数据流，关注 i 等种类的 sink",
       "extra": {
         "description": "This malicious flow logs chat history. ",
@@ -2795,7 +2795,7 @@
       "dataset": "TaintBench",
       "app_name": "chat_hook",
       "apk_name": "chat_hook.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/chat_hook",
       "query_input": "请分析 com.example.chathook.HookReceiver.public void onReceive(Context context, Intent intent) 中 getStringExtra 的后向数据流，关注 i 等种类的 sink",
       "extra": {
         "description": "This malicious flow logs last message time in chat history. ",
@@ -2845,7 +2845,7 @@
       "dataset": "TaintBench",
       "app_name": "chat_hook",
       "apk_name": "chat_hook.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/chat_hook",
       "query_input": "请分析 com.example.chathook.HookReceiver.public void onReceive(Context context, Intent intent) 中 getStringExtra 的后向数据流，关注 i 等种类的 sink",
       "extra": {
         "description": "This malicious flow logs chat history. ",
@@ -2928,7 +2928,7 @@
       "dataset": "TaintBench",
       "app_name": "chat_hook",
       "apk_name": "chat_hook.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/chat_hook",
       "query_input": "请分析 com.example.chathook.InjectApplicaiton.public void getSN() 中 getDeviceId 的后向数据流，关注 i 等种类的 sink",
       "extra": {
         "description": "This malicious flow logs imei. ",
@@ -2994,7 +2994,7 @@
       "dataset": "TaintBench",
       "app_name": "chat_hook",
       "apk_name": "chat_hook.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/chat_hook",
       "query_input": "请分析 com.example.chathook.HookReceiver.public void onReceive(Context context, Intent intent) 中 getStringExtra 的后向数据流，关注 i 等种类的 sink",
       "extra": {
         "description": "This malicious flow logs chat history. ",
@@ -3058,7 +3058,7 @@
       "dataset": "TaintBench",
       "app_name": "chat_hook",
       "apk_name": "chat_hook.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/chat_hook",
       "query_input": "请分析 com.example.chathook.HookReceiver.public void onReceive(Context context, Intent intent) 中 getStringExtra 的后向数据流，关注 i 等种类的 sink",
       "extra": {
         "description": "This malicious flow logs lat message time and with whom. ",
@@ -3108,7 +3108,7 @@
       "dataset": "TaintBench",
       "app_name": "chat_hook",
       "apk_name": "chat_hook.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/chat_hook",
       "query_input": "请分析 com.example.chathook.InjectApplicaiton.public void getSN() 中 getDeviceId 的后向数据流，关注 i 等种类的 sink",
       "extra": {
         "description": "This malicious flow logs imei. ",
@@ -3161,7 +3161,7 @@
       "dataset": "TaintBench",
       "app_name": "chat_hook",
       "apk_name": "chat_hook.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/chat_hook",
       "query_input": "请分析 com.example.chathook.HookReceiver.public void onReceive(Context context, Intent intent) 中 getStringExtra 的后向数据流，关注 i 等种类的 sink",
       "extra": {
         "description": "This malicious flow is an implicit flow, since reaching sink depends on the data from source.  ",
@@ -3218,7 +3218,7 @@
       "dataset": "TaintBench",
       "app_name": "chat_hook",
       "apk_name": "chat_hook.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/chat_hook",
       "query_input": "请分析 com.example.chathook.ProcessMonitor.AnonymousClass1.public void onReceive(final Context context, Intent intent) 中 getStringExtra 的后向数据流，关注 i 等种类的 sink",
       "extra": {
         "description": "This malicious flow logs package information ",
@@ -3267,7 +3267,7 @@
       "dataset": "TaintBench",
       "app_name": "chat_hook",
       "apk_name": "chat_hook.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/chat_hook",
       "query_input": "请分析 com.example.chathook.HookReceiver.public void onReceive(Context context, Intent intent) 中 getStringExtra 的后向数据流，关注 i 等种类的 sink",
       "extra": {
         "description": "Negative flow.",
@@ -3394,7 +3394,7 @@
       "dataset": "TaintBench",
       "app_name": "chulia",
       "apk_name": "chulia.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/chulia",
       "query_input": "请分析 com.google.services.AlarmService.private String getSms() 中 query 的后向数据流，关注 execute 等种类的 sink",
       "extra": {
         "description": "This malicious flow leaks the recipient or sender of an sms text message and posts it to an HTTP Server",
@@ -3508,7 +3508,7 @@
       "dataset": "TaintBench",
       "app_name": "chulia",
       "apk_name": "chulia.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/chulia",
       "query_input": "请分析 com.google.services.AlarmService.public void updateWithNewLocation(Location location) 中 getLongitude 的后向数据流，关注 execute 等种类的 sink",
       "extra": {
         "description": "This malicious flow leaks the location of the android device and posts it to an HTTP Server",
@@ -3642,7 +3642,7 @@
       "dataset": "TaintBench",
       "app_name": "chulia",
       "apk_name": "chulia.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/chulia",
       "query_input": "请分析 com.google.services.AlarmService.private String getPhoneContacts() 中 query 的后向数据流，关注 execute 等种类的 sink",
       "extra": {
         "description": "This malicious flow leaks contacts and posts it to an HTTP server.",
@@ -3793,7 +3793,7 @@
       "dataset": "TaintBench",
       "app_name": "chulia",
       "apk_name": "chulia.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/chulia",
       "query_input": "请分析 com.google.services.AlarmService.private String getRecord() 中 query 的后向数据流，关注 execute 等种类的 sink",
       "extra": {
         "description": "This malicious flow leaks phone number to a remote server. It reads first read the phone number in AlarmService class, later puts this information into a intent and starts a BroadcastReceiver sendReceiver. ",
@@ -3893,7 +3893,7 @@
       "dataset": "TaintBench",
       "app_name": "death_ring_materialflow",
       "apk_name": "death_ring_materialflow.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/death_ring_materialflow",
       "query_input": "请分析 com.qc.access.SmsReceiver.public void onReceive(Context context, Intent intent) 中 getDisplayMessageBody 的后向数据流，关注 sendTextMessage 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads SMS content to fake text message for fishing.",
@@ -3964,7 +3964,7 @@
       "dataset": "TaintBench",
       "app_name": "dsencrypt_samp",
       "apk_name": "dsencrypt_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/dsencrypt_samp",
       "query_input": "请分析 com.kbstar.kb.android.star.ProxyApp.private void loadClass(Context context) 中 open 的后向数据流，关注 invoke 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads an encrypted zip file from asset folder, decrypts it and extracts class.dex which contains malicious code. The malicious code is called via reflection.",
@@ -4025,7 +4025,7 @@
       "dataset": "TaintBench",
       "app_name": "exprespam",
       "apk_name": "exprespam.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/exprespam",
       "query_input": "请分析 frhfsd.siksdk.ujdsfjkfsd.WrehifsdkjsActivity.Progress.public void run() 中 getLine1Number 的后向数据流，关注 execute 等种类的 sink",
       "extra": {
         "description": "This malicious flow leaks the telephone number  to a remote server.",
@@ -4127,7 +4127,7 @@
       "dataset": "TaintBench",
       "app_name": "exprespam",
       "apk_name": "exprespam.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/exprespam",
       "query_input": "请分析 frhfsd.siksdk.ujdsfjkfsd.WrehifsdkjsActivity.Progress.public ArrayList<String> getAddress() 中 managedQuery 的后向数据流，关注 execute 等种类的 sink",
       "extra": {
         "description": "This malicious flow leaks contact data to a remote server.",
@@ -4210,7 +4210,7 @@
       "dataset": "TaintBench",
       "app_name": "fakeappstore",
       "apk_name": "fakeappstore.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/fakeappstore",
       "query_input": "请分析 com.google.games.stores.service.ContactsService.public void contacts4SMS(String content) 中 query 的后向数据流，关注 sendTextMessage 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads contacts from the device and spams them with SMS.",
@@ -4305,7 +4305,7 @@
       "dataset": "TaintBench",
       "app_name": "fakeappstore",
       "apk_name": "fakeappstore.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/fakeappstore",
       "query_input": "请分析 com.google.games.stores.util.NetTask.public String doInBackground(String... params) 中 getContent 的后向数据流，关注 sendTextMessage 等种类的 sink",
       "extra": {
         "description": "This malicous flow reads a message from an HTTP Server and sends a SMS to the retreived numbers (command and control).",
@@ -4382,7 +4382,7 @@
       "dataset": "TaintBench",
       "app_name": "fakeappstore",
       "apk_name": "fakeappstore.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/fakeappstore",
       "query_input": "请分析 com.google.games.stores.util.GeneralUtil.public static String getDevice(Context context) 中 getDeviceId 的后向数据流，关注 execute 等种类的 sink",
       "extra": {
         "description": "This malicious flow leaks the device id to an HTTP Server.",
@@ -4577,7 +4577,7 @@
       "dataset": "TaintBench",
       "app_name": "fakebank_android_samp",
       "apk_name": "fakebank_android_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/fakebank_android_samp",
       "query_input": "请分析 com.example.bankmanager.BankActivity.public void onCreate(Bundle savedInstanceState) 中 findViewById 的后向数据流，关注 execute 等种类的 sink",
       "extra": {
         "description": "This malicious ICC flow crosses 4 different activities: BankActivity, BankNumActivity BankScardActivity and BankEndActivity. It starts from reading bank account number from user input in BankActivity; when the user performs a click on a button, the BankNumActivity is started; the BankScardActivity and BankEndActivity are also started by clicking on a button. In the first three activities, bank information such as account number, passwords and TAN number are stored into the static fields of the class BankInfo. There are input validations for user inputs to make sure that only valid bank information is collected. In the last activity, all collected information will be read from BankInfo and written to a List. This list will be sent to a remote server per an HTTP POST request.",
@@ -4672,7 +4672,7 @@
       "dataset": "TaintBench",
       "app_name": "fakebank_android_samp",
       "apk_name": "fakebank_android_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/fakebank_android_samp",
       "query_input": "请分析 com.example.smsmanager.BootCompleteBroadcastReceiver.public void onReceive(Context context, Intent intent) 中 getSimSerialNumber 的后向数据流，关注 getInputStream 等种类的 sink",
       "extra": {
         "description": "This malicious flow starts by reading the serial number of the SIM card, then writes to the field of the class BankEndActivity, thento a HashMap. Then information in the HashMap will be appended to a String which will be sent to a remote server per an HTTP GET request. ",
@@ -4741,7 +4741,7 @@
       "dataset": "TaintBench",
       "app_name": "fakebank_android_samp",
       "apk_name": "fakebank_android_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/fakebank_android_samp",
       "query_input": "请分析 com.example.bankmanager.BankEndActivity.CreateNewUser.public String doInBackground(String... args) 中 getSimSerialNumber 的后向数据流，关注 execute 等种类的 sink",
       "extra": {
         "description": "This malicious flow starts by reading the serial number of the SIM card, then writes to a List. This list will be sent to a remote server per an HTTP POST request. ",
@@ -4810,7 +4810,7 @@
       "dataset": "TaintBench",
       "app_name": "fakebank_android_samp",
       "apk_name": "fakebank_android_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/fakebank_android_samp",
       "query_input": "请分析 com.example.smsmanager.smsReceiver.public void onReceive(Context context, Intent intent) 中 getDisplayMessageBody 的后向数据流，关注 execute 等种类的 sink",
       "extra": {
         "description": "This malicious flow starts by reading SMS message, then writes to a BasicNameValuePair object, then a HashMap. The hashmap will be sent to a rmote server per an HTTP POST request when a Thread created by the class smsReceiver runs.  ",
@@ -4880,7 +4880,7 @@
       "dataset": "TaintBench",
       "app_name": "fakebank_android_samp",
       "apk_name": "fakebank_android_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/fakebank_android_samp",
       "query_input": "请分析 com.example.service.InstallService.private void removeApplications() 中 File 的后向数据流，关注 startActivity 等种类的 sink",
       "extra": {
         "description": "This malicous flow installs an apk from sdcard. ",
@@ -5040,7 +5040,7 @@
       "dataset": "TaintBench",
       "app_name": "fakedaum",
       "apk_name": "fakedaum.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/fakedaum",
       "query_input": "请分析 com.mvlove.receiver.SmsReceiver.public void onReceive(Context context, Intent intent) 中 createFromPdu 的后向数据流，关注 execute 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads a received SMS and uploads it to an HTTP Server.",
@@ -5140,7 +5140,7 @@
       "dataset": "TaintBench",
       "app_name": "fakedaum",
       "apk_name": "fakedaum.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/fakedaum",
       "query_input": "请分析 com.mvlove.util.PhoneUtil.public static final String getImei(Context context) 中 getSimSerialNumber 的后向数据流，关注 execute 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads the IMEI and uploads it to an HTTP Server.",
@@ -5212,7 +5212,7 @@
       "dataset": "TaintBench",
       "app_name": "fakemart",
       "apk_name": "fakemart.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/fakemart",
       "query_input": "请分析 com.android.blackmarket.SmsReceiver.public void onReceive(Context context, Intent intent) 中 createFromPdu 的后向数据流，关注 getInputStream 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads incoming SMSs and posts them to a URL.",
@@ -5283,7 +5283,7 @@
       "dataset": "TaintBench",
       "app_name": "fakemart",
       "apk_name": "fakemart.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/fakemart",
       "query_input": "请分析 com.android.blackmarket.SmsReceiver.public void onReceive(Context context, Intent intent) 中 createFromPdu 的后向数据流，关注 getInputStream 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads incoming SMSs and posts them to a URL.",
@@ -5457,7 +5457,7 @@
       "dataset": "TaintBench",
       "app_name": "fakeplay",
       "apk_name": "fakeplay.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/fakeplay",
       "query_input": "请分析 com.googleprojects.mm.JHService.public void smsReceived(Intent intent) 中 getNetworkOperatorName 的后向数据流，关注 write 等种类的 sink",
       "extra": {
         "description": "This malicious flow leaks telephoney network information via email.",
@@ -5624,7 +5624,7 @@
       "dataset": "TaintBench",
       "app_name": "fakeplay",
       "apk_name": "fakeplay.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/fakeplay",
       "query_input": "请分析 com.googleprojects.mm.SPMainActivity.public void onCreate(Bundle savedInstanceState) 中 getLine1Number 的后向数据流，关注 write 等种类的 sink",
       "extra": {
         "description": "This malicious flow leaks telephone number via email.",
@@ -5694,7 +5694,7 @@
       "dataset": "TaintBench",
       "app_name": "faketaobao",
       "apk_name": "faketaobao.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/faketaobao",
       "query_input": "请分析 com.tao.bao.MainActivity.AnonymousClass1.public void onClick(View arg0) 中 getText 的后向数据流，关注 execute 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads user given taobao password and sends to a remote server.",
@@ -5765,7 +5765,7 @@
       "dataset": "TaintBench",
       "app_name": "faketaobao",
       "apk_name": "faketaobao.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/faketaobao",
       "query_input": "请分析 com.tao.bao.MainActivity.AnonymousClass1.public void onClick(View arg0) 中 getText 的后向数据流，关注 execute 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads user given taobao username and sends to a remote server.",
@@ -5836,7 +5836,7 @@
       "dataset": "TaintBench",
       "app_name": "faketaobao",
       "apk_name": "faketaobao.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/faketaobao",
       "query_input": "请分析 com.tao.bao.LocationVerify.AnonymousClass1.public void onClick(View arg0) 中 getText 的后向数据流，关注 execute 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads user's ID and sends it to a remote server.",
@@ -5907,7 +5907,7 @@
       "dataset": "TaintBench",
       "app_name": "faketaobao",
       "apk_name": "faketaobao.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/faketaobao",
       "query_input": "请分析 com.tao.bao.LocationVerify.AnonymousClass1.public void onClick(View arg0) 中 getText 的后向数据流，关注 execute 等种类的 sink",
       "extra": {
         "description": "This malicious flows reads user given password and sends to a remote server. ",
@@ -5992,7 +5992,7 @@
       "dataset": "TaintBench",
       "app_name": "godwon_samp",
       "apk_name": "godwon_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/godwon_samp",
       "query_input": "请分析 android.sms.core.GoogleService.public void onCreate() 中 getLine1Number 的后向数据流，关注 execute 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads the phone number and puts it into a ArrayList. This list is sent to a remote server via a HTTP Post request.",
@@ -6077,7 +6077,7 @@
       "dataset": "TaintBench",
       "app_name": "godwon_samp",
       "apk_name": "godwon_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/godwon_samp",
       "query_input": "请分析 android.sms.core.GoogleService.public void onCreate() 中 getDeviceId 的后向数据流，关注 execute 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads the device Id when the phone number is empty. This device Id is stored in a ArrayList. This list is sent to a remote server via a HTTP Post request.",
@@ -6191,7 +6191,7 @@
       "dataset": "TaintBench",
       "app_name": "godwon_samp",
       "apk_name": "godwon_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/godwon_samp",
       "query_input": "请分析 android.sms.core.BootReceiver.private final SmsMessage[] getMessagesFromIntent(Intent intent) 中 getSerializableExtra 的后向数据流，关注 execute 等种类的 sink",
       "extra": {
         "description": "This malicious flow exists in the onReceive callback method of a BroadcastReciver, it reads SMS messages to array, appends all messages to a string, stores it into a List and sends the list to a remote server via a HTTP POST request.",
@@ -6312,7 +6312,7 @@
       "dataset": "TaintBench",
       "app_name": "godwon_samp",
       "apk_name": "godwon_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/godwon_samp",
       "query_input": "请分析 android.sms.core.BootReceiver.private final SmsMessage[] getMessagesFromIntent(Intent intent) 中 getSerializableExtra 的后向数据流，关注 execute 等种类的 sink",
       "extra": {
         "description": "This malicious flow exists in the onReceive callback method of a BroadcastReciver, it reads SMS messages to array, writes the sender's address into a private field, stores it into a List and sends the list to a remote server via a HTTP POST request.",
@@ -6384,7 +6384,7 @@
       "dataset": "TaintBench",
       "app_name": "godwon_samp",
       "apk_name": "godwon_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/godwon_samp",
       "query_input": "请分析 android.sms.core.BootReceiver.public void onReceive(Context arg0, Intent arg1) 中 getLine1Number 的后向数据流，关注 execute 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads the phone number and sends it to a rmote server via a HTTP Post request. ",
@@ -6454,7 +6454,7 @@
       "dataset": "TaintBench",
       "app_name": "godwon_samp",
       "apk_name": "godwon_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/godwon_samp",
       "query_input": "请分析 android.sms.core.BootReceiver.public void onReceive(Context arg0, Intent arg1) 中 getDeviceId 的后向数据流，关注 execute 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads device id when the phone number is empty, and it send the device id to a remote server via a HTTP Post request. ",
@@ -6644,7 +6644,7 @@
       "dataset": "TaintBench",
       "app_name": "hummingbad_android_samp",
       "apk_name": "hummingbad_android_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/hummingbad_android_samp",
       "query_input": "请分析 com.android.ad.du.BaiduCacheDBUtil.private static ArrayList<DuAdData> listDuAdDatasFromAppCache(Context context) 中 getString 的后向数据流，关注 insert 等种类的 sink",
       "extra": {
         "description": "This malicious ICC flow crosses one activity and two services. It starts by reading advertisement information from data base into a JSONObject, when the user performs a click, new advertisements will be downloaded and saved into data base. ",
@@ -6840,7 +6840,7 @@
       "dataset": "TaintBench",
       "app_name": "hummingbad_android_samp",
       "apk_name": "hummingbad_android_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/hummingbad_android_samp",
       "query_input": "请分析 com.android.ad.du.BaiduCacheDBUtil.private static ArrayList<DuAdData> listDuAdDatasFromAppCache(Context context) 中 getString 的后向数据流，关注 update 等种类的 sink",
       "extra": {
         "description": "This malicious ICC flow crosses one activity and two services. It starts by reading advertisement information from data base into a JSONObject, when the user performs a click, new advertisements will be downloaded and updated in the data base. ",
@@ -6931,7 +6931,7 @@
       "dataset": "TaintBench",
       "app_name": "jollyserv",
       "apk_name": "jollyserv.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/jollyserv",
       "query_input": "请分析 fm.xtube.CheckAgeActivity.public void onCreate(Bundle savedInstanceState) 中 getDeviceId 的后向数据流，关注 submit 等种类的 sink",
       "extra": {
         "description": "The malicious flow aves the the phone's device ID in a public static field and leaks the device ID into an HTTP request.",
@@ -7000,7 +7000,7 @@
       "dataset": "TaintBench",
       "app_name": "overlay_android_samp",
       "apk_name": "overlay_android_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/overlay_android_samp",
       "query_input": "请分析 exts.whats.activities.Cards.public void onCreate(Bundle savedInstanceState) 中 findViewById 的后向数据流，关注 startService 等种类的 sink",
       "extra": {
         "description": "This malicious partial ICC flow starts by reading credit card number from user input and writes to a field of the Activity. When the user performs a click on a button, the information stealing starts. The information will be written to a JSONObject which will be stored into an Intent with the name data. With this intent a new SendService which leaks the card number will be started. ",
@@ -7064,7 +7064,7 @@
       "dataset": "TaintBench",
       "app_name": "overlay_android_samp",
       "apk_name": "overlay_android_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/overlay_android_samp",
       "query_input": "请分析 exts.whats.SendService.public void onHandleIntent(Intent intent) 中 getStringExtra 的后向数据流，关注 execute 等种类的 sink",
       "extra": {
         "description": "This malicious partial ICC flow reads credit card information from the Intent with which the SendSevice is started and sends it to a remote server per an HTTP POST request. ",
@@ -7160,7 +7160,7 @@
       "dataset": "TaintBench",
       "app_name": "overlay_android_samp",
       "apk_name": "overlay_android_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/overlay_android_samp",
       "query_input": "请分析 exts.whats.MessageReceiver.private static Map<String, String> retrieveMessages(Intent intent) 中 getExtras 的后向数据流，关注 startService 等种类的 sink",
       "extra": {
         "description": "This malicious partial ICC flow starts by reading SMS messages from the Intent with which the MessageReceiver is started. The messages will be written to a Map which will be stored into an Intent. With this intent a new SendService which leaks the card number will be started.  ",
@@ -7224,7 +7224,7 @@
       "dataset": "TaintBench",
       "app_name": "overlay_android_samp",
       "apk_name": "overlay_android_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/overlay_android_samp",
       "query_input": "请分析 exts.whats.SendService.public void onHandleIntent(Intent intent) 中 getStringExtra 的后向数据流，关注 execute 等种类的 sink",
       "extra": {
         "description": "This malicious partial ICC flow reads SMS messages from the Intent with which the SendService is started and sents it to a remote server per an HTTP Post request.",
@@ -7270,7 +7270,7 @@
       "dataset": "TaintBench",
       "app_name": "overlay_android_samp",
       "apk_name": "overlay_android_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/overlay_android_samp",
       "query_input": "请分析 exts.whats.activities.Cards.public void onNewIntent(Intent intent) 中 getStringExtra 的后向数据流，关注 startService 等种类的 sink",
       "extra": {
         "description": "Negative flow. ",
@@ -7312,7 +7312,7 @@
       "dataset": "TaintBench",
       "app_name": "overlay_android_samp",
       "apk_name": "overlay_android_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/overlay_android_samp",
       "query_input": "请分析 exts.whats.activities.Cards.public void onCreate(Bundle savedInstanceState) 中 getStringExtra 的后向数据流，关注 startService 等种类的 sink",
       "extra": {
         "description": "Negative flow. ",
@@ -7354,7 +7354,7 @@
       "dataset": "TaintBench",
       "app_name": "overlaylocker2_android_samp",
       "apk_name": "overlaylocker2_android_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/overlaylocker2_android_samp",
       "query_input": "请分析 brandmangroupe.miui.updater.MeSetting.public String imei() 中 getDeviceId 的后向数据流，关注 addJavascriptInterface 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads the device id and uses it as the return value of the method imei() of the class MeSetting. An object of MeSetting is injected into the WebView by addJavascriptInterface. The method imei() can be invoked via JavaScript code.  ",
@@ -7429,7 +7429,7 @@
       "dataset": "TaintBench",
       "app_name": "overlaylocker2_android_samp",
       "apk_name": "overlaylocker2_android_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/overlaylocker2_android_samp",
       "query_input": "请分析 brandmangroupe.miui.updater.TelephonyInfo.public static TelephonyInfo getInstance(Context context) 中 getDeviceId 的后向数据流，关注 addJavascriptInterface 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads the device id and stores it as a field of an TelephonyInfo object. This information will be used as the return value of the method dualsim() of the class MeSystem. An object of MeSystem is injected into the WebView by addJavascriptInterface. The method dualsim() can be invoked via JavaScript code.  ",
@@ -7478,7 +7478,7 @@
       "dataset": "TaintBench",
       "app_name": "overlaylocker2_android_samp",
       "apk_name": "overlaylocker2_android_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/overlaylocker2_android_samp",
       "query_input": "请分析 brandmangroupe.miui.updater.MeSystem.public boolean sendSMS(int simID, String toNum, String smsText) 中 getDeclaredMethod 的后向数据流，关注 invoke 等种类的 sink",
       "extra": {
         "description": "This malicious flow uses Java Reflection to execute code which gets the service for a selected sim card. ",
@@ -7532,7 +7532,7 @@
       "dataset": "TaintBench",
       "app_name": "overlaylocker2_android_samp",
       "apk_name": "overlaylocker2_android_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/overlaylocker2_android_samp",
       "query_input": "请分析 brandmangroupe.miui.updater.MeSystem.public boolean sendSMS(int simID, String toNum, String smsText) 中 getDeclaredMethod 的后向数据流，关注 invoke 等种类的 sink",
       "extra": {
         "description": "This malicious flow uses Java Reflection to execute code which sends SMS messages. ",
@@ -7593,7 +7593,7 @@
       "dataset": "TaintBench",
       "app_name": "overlaylocker2_android_samp",
       "apk_name": "overlaylocker2_android_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/overlaylocker2_android_samp",
       "query_input": "请分析 brandmangroupe.miui.updater.MeFile.public void file2url(String file, String urlo) 中 FileInputStream 的后向数据流，关注 flush 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads file and sends the file to a remote server via an HTTP POST request.",
@@ -7650,7 +7650,7 @@
       "dataset": "TaintBench",
       "app_name": "overlaylocker2_android_samp",
       "apk_name": "overlaylocker2_android_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/overlaylocker2_android_samp",
       "query_input": "请分析 brandmangroupe.miui.updater.MeFile.public static String read(String filePath) 中 FileInputStream 的后向数据流，关注 addJavascriptInterface 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads file from a given path and and uses it as the return value of the method read() of the class MeFile. An object of MeFile is injected into the WebView by addJavascriptInterface. The method read() can be invoked via JavaScript code.  ",
@@ -7725,7 +7725,7 @@
       "dataset": "TaintBench",
       "app_name": "overlaylocker2_android_samp",
       "apk_name": "overlaylocker2_android_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/overlaylocker2_android_samp",
       "query_input": "请分析 brandmangroupe.miui.updater.IncomingSms.public void onReceive(Context context, Intent intent2) 中 createFromPdu 的后向数据流，关注 startService 等种类的 sink",
       "extra": {
         "description": "This malicious flow monitors incoming SMSs.",
@@ -7775,7 +7775,7 @@
       "dataset": "TaintBench",
       "app_name": "overlaylocker2_android_samp",
       "apk_name": "overlaylocker2_android_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/overlaylocker2_android_samp",
       "query_input": "请分析 brandmangroupe.miui.updater.MasterPage.public static String getUniqueID(Context context) 中 getDeviceId 的后向数据流，关注 addJavascriptInterface 等种类的 sink",
       "extra": {
         "description": "Negative flow.",
@@ -7817,7 +7817,7 @@
       "dataset": "TaintBench",
       "app_name": "overlaylocker2_android_samp",
       "apk_name": "overlaylocker2_android_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/overlaylocker2_android_samp",
       "query_input": "请分析 brandmangroupe.miui.updater.MasterPage.public static String getUniqueID(Context context) 中 getDeviceId 的后向数据流，关注 addJavascriptInterface 等种类的 sink",
       "extra": {
         "description": "Negative flow.",
@@ -7859,7 +7859,7 @@
       "dataset": "TaintBench",
       "app_name": "overlaylocker2_android_samp",
       "apk_name": "overlaylocker2_android_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/overlaylocker2_android_samp",
       "query_input": "请分析 brandmangroupe.miui.updater.MasterPage.public static String getUniqueID(Context context) 中 getDeviceId 的后向数据流，关注 addJavascriptInterface 等种类的 sink",
       "extra": {
         "description": "Negative flow.",
@@ -7901,7 +7901,7 @@
       "dataset": "TaintBench",
       "app_name": "overlaylocker2_android_samp",
       "apk_name": "overlaylocker2_android_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/overlaylocker2_android_samp",
       "query_input": "请分析 brandmangroupe.miui.updater.MasterPage.public static String getUniqueID(Context context) 中 getDeviceId 的后向数据流，关注 addJavascriptInterface 等种类的 sink",
       "extra": {
         "description": "Negative flow.",
@@ -7943,7 +7943,7 @@
       "dataset": "TaintBench",
       "app_name": "overlaylocker2_android_samp",
       "apk_name": "overlaylocker2_android_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/overlaylocker2_android_samp",
       "query_input": "请分析 brandmangroupe.miui.updater.MasterPage.public static String getUniqueID(Context context) 中 getDeviceId 的后向数据流，关注 addJavascriptInterface 等种类的 sink",
       "extra": {
         "description": "Negative flow.",
@@ -7985,7 +7985,7 @@
       "dataset": "TaintBench",
       "app_name": "overlaylocker2_android_samp",
       "apk_name": "overlaylocker2_android_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/overlaylocker2_android_samp",
       "query_input": "请分析 brandmangroupe.miui.updater.MasterPage.public static String getUniqueID(Context context) 中 getDeviceId 的后向数据流，关注 addJavascriptInterface 等种类的 sink",
       "extra": {
         "description": "Negative flow.",
@@ -8027,7 +8027,7 @@
       "dataset": "TaintBench",
       "app_name": "overlaylocker2_android_samp",
       "apk_name": "overlaylocker2_android_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/overlaylocker2_android_samp",
       "query_input": "请分析 brandmangroupe.miui.updater.MasterPage.public void onCreate(Bundle savedInstanceState) 中 getStringExtra 的后向数据流，关注 addJavascriptInterface 等种类的 sink",
       "extra": {
         "description": "Negative flow. ",
@@ -8069,7 +8069,7 @@
       "dataset": "TaintBench",
       "app_name": "overlaylocker2_android_samp",
       "apk_name": "overlaylocker2_android_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/overlaylocker2_android_samp",
       "query_input": "请分析 brandmangroupe.miui.updater.MasterPage.public void onCreate(Bundle savedInstanceState) 中 getStringExtra 的后向数据流，关注 addJavascriptInterface 等种类的 sink",
       "extra": {
         "description": "Negative flow. ",
@@ -8111,7 +8111,7 @@
       "dataset": "TaintBench",
       "app_name": "overlaylocker2_android_samp",
       "apk_name": "overlaylocker2_android_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/overlaylocker2_android_samp",
       "query_input": "请分析 brandmangroupe.miui.updater.MasterPage.public void onCreate(Bundle savedInstanceState) 中 getStringExtra 的后向数据流，关注 addJavascriptInterface 等种类的 sink",
       "extra": {
         "description": "Negavie flow.",
@@ -8153,7 +8153,7 @@
       "dataset": "TaintBench",
       "app_name": "overlaylocker2_android_samp",
       "apk_name": "overlaylocker2_android_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/overlaylocker2_android_samp",
       "query_input": "请分析 brandmangroupe.miui.updater.MasterPage.public void onCreate(Bundle savedInstanceState) 中 getStringExtra 的后向数据流，关注 addJavascriptInterface 等种类的 sink",
       "extra": {
         "description": "Negative flow.",
@@ -8195,7 +8195,7 @@
       "dataset": "TaintBench",
       "app_name": "overlaylocker2_android_samp",
       "apk_name": "overlaylocker2_android_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/overlaylocker2_android_samp",
       "query_input": "请分析 brandmangroupe.miui.updater.MasterPage.public void onCreate(Bundle savedInstanceState) 中 getStringExtra 的后向数据流，关注 addJavascriptInterface 等种类的 sink",
       "extra": {
         "description": "Negative flow.",
@@ -8237,7 +8237,7 @@
       "dataset": "TaintBench",
       "app_name": "overlaylocker2_android_samp",
       "apk_name": "overlaylocker2_android_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/overlaylocker2_android_samp",
       "query_input": "请分析 brandmangroupe.miui.updater.MasterPage.public void onCreate(Bundle savedInstanceState) 中 getStringExtra 的后向数据流，关注 addJavascriptInterface 等种类的 sink",
       "extra": {
         "description": "Negative flow.",
@@ -8279,7 +8279,7 @@
       "dataset": "TaintBench",
       "app_name": "phospy",
       "apk_name": "phospy.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/phospy",
       "query_input": "请分析 com.labado.lulaoshi.myService.public void log() 中 getDeviceId 的后向数据流，关注 writeUTF 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads device id and sends to a remote server via socket.",
@@ -8332,7 +8332,7 @@
       "dataset": "TaintBench",
       "app_name": "phospy",
       "apk_name": "phospy.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/phospy",
       "query_input": "请分析 com.labado.lulaoshi.myService.public void log() 中 FileInputStream 的后向数据流，关注 write 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads JPG images from sd card and send to a remote server via socket",
@@ -8377,7 +8377,7 @@
       "dataset": "TaintBench",
       "app_name": "phospy",
       "apk_name": "phospy.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/phospy",
       "query_input": "请分析 com.labado.lulaoshi.myService.public void log() 中 getDeviceId 的后向数据流，关注 write 等种类的 sink",
       "extra": {
         "description": "Negative flow.",
@@ -8419,7 +8419,7 @@
       "dataset": "TaintBench",
       "app_name": "phospy",
       "apk_name": "phospy.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/phospy",
       "query_input": "请分析 com.labado.lulaoshi.myService.public void log() 中 FileInputStream 的后向数据流，关注 writeUTF 等种类的 sink",
       "extra": {
         "description": "Negative flow.",
@@ -8461,7 +8461,7 @@
       "dataset": "TaintBench",
       "app_name": "phospy",
       "apk_name": "phospy.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/phospy",
       "query_input": "请分析 com.labado.lulaoshi.myService.public void log() 中 FileInputStream 的后向数据流，关注 writeUTF 等种类的 sink",
       "extra": {
         "description": "Negative flow.",
@@ -8503,7 +8503,7 @@
       "dataset": "TaintBench",
       "app_name": "proxy_samp",
       "apk_name": "proxy_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/proxy_samp",
       "query_input": "请分析 com.smart.studio.proxy.ProxyService.PollerThread.public void run() 中 getLac 的后向数据流，关注 i 等种类的 sink",
       "extra": {
         "description": "This flow logs location information.",
@@ -8579,7 +8579,7 @@
       "dataset": "TaintBench",
       "app_name": "proxy_samp",
       "apk_name": "proxy_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/proxy_samp",
       "query_input": "请分析 com.smart.studio.proxy.ProxyService.PollerThread.public void run() 中 getLac 的后向数据流，关注 execute 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads location information and writes its into a private field, then sends it to a remote server per an HTTP POST request.",
@@ -8655,7 +8655,7 @@
       "dataset": "TaintBench",
       "app_name": "proxy_samp",
       "apk_name": "proxy_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/proxy_samp",
       "query_input": "请分析 com.smart.studio.proxy.ProxyService.ProxyThread.public void run() 中 File 的后向数据流，关注 execute 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads a log file from external storage line by line and sends the content to a remote server. Each line of the file is written to an ArrayList. This ArrayList is used to construct the HTTP entity which will be sent to a remote server.",
@@ -8731,7 +8731,7 @@
       "dataset": "TaintBench",
       "app_name": "proxy_samp",
       "apk_name": "proxy_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/proxy_samp",
       "query_input": "请分析 com.smart.studio.proxy.ProxyService.public void onCreate() 中 getAccounts 的后向数据流，关注 write 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads account information and writes it to a log file.",
@@ -8815,7 +8815,7 @@
       "dataset": "TaintBench",
       "app_name": "proxy_samp",
       "apk_name": "proxy_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/proxy_samp",
       "query_input": "请分析 com.smart.studio.proxy.ProxyService.public void onCreate() 中 getAccounts 的后向数据流，关注 write 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads account information and writes gmail acount into a private field. The gmail acount name will be logged into a file.",
@@ -8900,7 +8900,7 @@
       "dataset": "TaintBench",
       "app_name": "proxy_samp",
       "apk_name": "proxy_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/proxy_samp",
       "query_input": "请分析 com.smart.studio.proxy.ProxyService.public void QuerySMSLog(boolean first) 中 query 的后向数据流，关注 write 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads sms from database and writes it a log file.",
@@ -8962,7 +8962,7 @@
       "dataset": "TaintBench",
       "app_name": "proxy_samp",
       "apk_name": "proxy_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/proxy_samp",
       "query_input": "请分析 com.smart.studio.proxy.ProxyService.public int onStartCommand(Intent intent, int flags, int startId) 中 getConnectionInfo 的后向数据流，关注 i 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads wifi connection information and logs it.",
@@ -9023,7 +9023,7 @@
       "dataset": "TaintBench",
       "app_name": "proxy_samp",
       "apk_name": "proxy_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/proxy_samp",
       "query_input": "请分析 com.smart.studio.proxy.SMSReceiver.public void onReceive(Context context, Intent intent) 中 getDisplayMessageBody 的后向数据流，关注 i 等种类的 sink",
       "extra": {
         "description": "This malicious flow starts in a BroadcastReceiver. It reads sms message and logs it.",
@@ -9079,7 +9079,7 @@
       "dataset": "TaintBench",
       "app_name": "proxy_samp",
       "apk_name": "proxy_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/proxy_samp",
       "query_input": "请分析 com.smart.studio.proxy.ProxyService.public void onCreate() 中 getAccounts 的后向数据流，关注 i 等种类的 sink",
       "extra": {
         "description": "This malicious flow logs account information on the device.",
@@ -9149,7 +9149,7 @@
       "dataset": "TaintBench",
       "app_name": "proxy_samp",
       "apk_name": "proxy_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/proxy_samp",
       "query_input": "请分析 com.smart.studio.proxy.ProxyService.public void onCreate() 中 getAccounts 的后向数据流，关注 execute 等种类的 sink",
       "extra": {
         "description": "This malicious flow sends Google account name to a remote server via a HTTP POST request.",
@@ -9234,7 +9234,7 @@
       "dataset": "TaintBench",
       "app_name": "proxy_samp",
       "apk_name": "proxy_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/proxy_samp",
       "query_input": "请分析 com.smart.studio.proxy.SMSReceiver.public void onReceive(Context context, Intent intent) 中 getDisplayMessageBody 的后向数据流，关注 write 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads incomming SMS message and writes to a log file. ",
@@ -9325,7 +9325,7 @@
       "dataset": "TaintBench",
       "app_name": "proxy_samp",
       "apk_name": "proxy_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/proxy_samp",
       "query_input": "请分析 com.smart.studio.proxy.ProxyService.public int onStartCommand(Intent intent, int flags, int startId) 中 getConnectionInfo 的后向数据流，关注 write 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads WIFI information and writes to a log file.",
@@ -9395,7 +9395,7 @@
       "dataset": "TaintBench",
       "app_name": "proxy_samp",
       "apk_name": "proxy_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/proxy_samp",
       "query_input": "请分析 com.smart.studio.proxy.ProxyService.public void QuerySMSLog(boolean first) 中 query 的后向数据流，关注 i 等种类的 sink",
       "extra": {
         "description": "This malicious flow logs incoming SMS messages. ",
@@ -9497,7 +9497,7 @@
       "dataset": "TaintBench",
       "app_name": "proxy_samp",
       "apk_name": "proxy_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/proxy_samp",
       "query_input": "请分析 com.smart.studio.proxy.ProxyService.public void QueryPhoneLog(boolean first) 中 query 的后向数据流，关注 write 等种类的 sink",
       "extra": {
         "description": "This malicious flow saves phone call logs to a log file when the ProxyService is destoryed. This file will be later uploaded to a remote server",
@@ -9603,7 +9603,7 @@
       "dataset": "TaintBench",
       "app_name": "proxy_samp",
       "apk_name": "proxy_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/proxy_samp",
       "query_input": "请分析 com.smart.studio.proxy.ProxyService.public void QueryPhoneLog(boolean first) 中 query 的后向数据流，关注 write 等种类的 sink",
       "extra": {
         "description": "This malicious flow saves phone call logs to a log file when the ProxyService is destroyed. This file will be later uploaded to a remote server.",
@@ -9652,7 +9652,7 @@
       "dataset": "TaintBench",
       "app_name": "proxy_samp",
       "apk_name": "proxy_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/proxy_samp",
       "query_input": "请分析 com.smart.studio.proxy.ProxyService.public int onStartCommand(Intent intent, int flags, int startId) 中 File 的后向数据流，关注 write 等种类的 sink",
       "extra": {
         "description": "Negative flow.",
@@ -9737,7 +9737,7 @@
       "dataset": "TaintBench",
       "app_name": "proxy_samp",
       "apk_name": "proxy_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/proxy_samp",
       "query_input": "请分析 com.smart.studio.proxy.ProxyService.public void QueryPhoneLog(boolean first) 中 query 的后向数据流，关注 i 等种类的 sink",
       "extra": {
         "description": "This malicious flow logs phone calls. ",
@@ -9819,7 +9819,7 @@
       "dataset": "TaintBench",
       "app_name": "proxy_samp",
       "apk_name": "proxy_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/proxy_samp",
       "query_input": "请分析 com.smart.studio.proxy.ProxyService.public void QueryPhoneLog(boolean first) 中 query 的后向数据流，关注 i 等种类的 sink",
       "extra": {
         "description": "This malicious flow logs phone calls.",
@@ -9865,7 +9865,7 @@
       "dataset": "TaintBench",
       "app_name": "proxy_samp",
       "apk_name": "proxy_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/proxy_samp",
       "query_input": "请分析 com.smart.studio.proxy.ProxyService.public int onStartCommand(Intent intent, int flags, int startId) 中 getConnectionInfo 的后向数据流，关注 i 等种类的 sink",
       "extra": {
         "description": "Negative flow.",
@@ -9907,7 +9907,7 @@
       "dataset": "TaintBench",
       "app_name": "proxy_samp",
       "apk_name": "proxy_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/proxy_samp",
       "query_input": "请分析 com.smart.studio.proxy.ProxyService.public int onStartCommand(Intent intent, int flags, int startId) 中 File 的后向数据流，关注 i 等种类的 sink",
       "extra": {
         "description": "Negative flow.",
@@ -10006,7 +10006,7 @@
       "dataset": "TaintBench",
       "app_name": "remote_control_smack",
       "apk_name": "remote_control_smack.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/remote_control_smack",
       "query_input": "请分析 com.android.service.view.GPSTracker.public Location getLocation() 中 getLastKnownLocation 的后向数据流，关注 append 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads location information (longitude) and saves it a text file which will be later uploaded to a remote server.",
@@ -10111,7 +10111,7 @@
       "dataset": "TaintBench",
       "app_name": "remote_control_smack",
       "apk_name": "remote_control_smack.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/remote_control_smack",
       "query_input": "请分析 com.android.service.view.GPSTracker.public Location getLocation() 中 getLastKnownLocation 的后向数据流，关注 append 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads location information (latitude) and saves it a text file which will be later uploaded to a remote server.",
@@ -10159,7 +10159,7 @@
       "dataset": "TaintBench",
       "app_name": "remote_control_smack",
       "apk_name": "remote_control_smack.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/remote_control_smack",
       "query_input": "请分析 com.android.service.XmppService.public void sms_saveFile() 中 getString 的后向数据流，关注 append 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads SMS information (address) and saves it a text file which will be later uploaded to a remote server.",
@@ -10205,7 +10205,7 @@
       "dataset": "TaintBench",
       "app_name": "remote_control_smack",
       "apk_name": "remote_control_smack.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/remote_control_smack",
       "query_input": "请分析 com.android.service.XmppService.public void sms_saveFile() 中 getString 的后向数据流，关注 append 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads SMS information (message body) and saves it a text file which will be later uploaded to a remote server.",
@@ -10259,7 +10259,7 @@
       "dataset": "TaintBench",
       "app_name": "remote_control_smack",
       "apk_name": "remote_control_smack.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/remote_control_smack",
       "query_input": "请分析 com.android.service.XmppService.public void sms_saveFile() 中 getInt 的后向数据流，关注 append 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads SMS information (message type) and saves it a text file which will be later uploaded to a remote server.",
@@ -10321,7 +10321,7 @@
       "dataset": "TaintBench",
       "app_name": "remote_control_smack",
       "apk_name": "remote_control_smack.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/remote_control_smack",
       "query_input": "请分析 com.android.service.XmppService.public void sms_saveFile() 中 getLong 的后向数据流，关注 append 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads SMS information (date) and saves it a text file which will be later uploaded to a remote server.",
@@ -10368,7 +10368,7 @@
       "dataset": "TaintBench",
       "app_name": "remote_control_smack",
       "apk_name": "remote_control_smack.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/remote_control_smack",
       "query_input": "请分析 com.android.service.XmppService.public void call_saveFile() 中 getString 的后向数据流，关注 append 等种类的 sink",
       "extra": {
         "description": "This malicious partial flow reads call record (number) and saves it a text file which will be later uploaded to a remote server.",
@@ -10414,7 +10414,7 @@
       "dataset": "TaintBench",
       "app_name": "remote_control_smack",
       "apk_name": "remote_control_smack.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/remote_control_smack",
       "query_input": "请分析 com.android.service.XmppService.public void call_saveFile() 中 getString 的后向数据流，关注 append 等种类的 sink",
       "extra": {
         "description": "This malicious partial flow reads call record (name) and saves it a text file which will be later uploaded to a remote server.",
@@ -10468,7 +10468,7 @@
       "dataset": "TaintBench",
       "app_name": "remote_control_smack",
       "apk_name": "remote_control_smack.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/remote_control_smack",
       "query_input": "请分析 com.android.service.XmppService.public void call_saveFile() 中 getInt 的后向数据流，关注 append 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads call record (type) and saves it a text file which will be later uploaded to a remote server.",
@@ -10530,7 +10530,7 @@
       "dataset": "TaintBench",
       "app_name": "remote_control_smack",
       "apk_name": "remote_control_smack.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/remote_control_smack",
       "query_input": "请分析 com.android.service.XmppService.public void call_saveFile() 中 getString 的后向数据流，关注 append 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads call record (date) and saves it a text file which will be later uploaded to a remote server.",
@@ -10585,7 +10585,7 @@
       "dataset": "TaintBench",
       "app_name": "remote_control_smack",
       "apk_name": "remote_control_smack.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/remote_control_smack",
       "query_input": "请分析 com.android.service.XmppService.public void contacts_saveFile() 中 getString 的后向数据流，关注 append 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads contact information and saves it a text file which will be later uploaded to a remote server.",
@@ -10630,7 +10630,7 @@
       "dataset": "TaintBench",
       "app_name": "remote_control_smack",
       "apk_name": "remote_control_smack.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/remote_control_smack",
       "query_input": "请分析 com.android.service.XmppService.public void contacts_saveFile() 中 getString 的后向数据流，关注 append 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads contact information and saves it a text file which will be later uploaded to a remote server.",
@@ -10675,7 +10675,7 @@
       "dataset": "TaintBench",
       "app_name": "remote_control_smack",
       "apk_name": "remote_control_smack.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/remote_control_smack",
       "query_input": "请分析 com.android.service.XmppService.public void Calendar_saveFile() 中 getString 的后向数据流，关注 append 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads calender information and saves it a text file which will be later uploaded to a remote server.",
@@ -10721,7 +10721,7 @@
       "dataset": "TaintBench",
       "app_name": "remote_control_smack",
       "apk_name": "remote_control_smack.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/remote_control_smack",
       "query_input": "请分析 com.android.service.XmppService.public void Calendar_saveFile() 中 getString 的后向数据流，关注 append 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads calender information and saves it a text file which will be later uploaded to a remote server.",
@@ -10767,7 +10767,7 @@
       "dataset": "TaintBench",
       "app_name": "remote_control_smack",
       "apk_name": "remote_control_smack.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/remote_control_smack",
       "query_input": "请分析 com.android.service.XmppService.public void Calendar_saveFile() 中 getString 的后向数据流，关注 append 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads calender information and saves it a text file which will be later uploaded to a remote server.",
@@ -10821,7 +10821,7 @@
       "dataset": "TaintBench",
       "app_name": "remote_control_smack",
       "apk_name": "remote_control_smack.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/remote_control_smack",
       "query_input": "请分析 com.android.service.XmppService.public void Calendar_saveFile() 中 getLong 的后向数据流，关注 append 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads calender information and saves it a text file which will be later uploaded to a remote server.",
@@ -10868,7 +10868,7 @@
       "dataset": "TaintBench",
       "app_name": "remote_control_smack",
       "apk_name": "remote_control_smack.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/remote_control_smack",
       "query_input": "请分析 com.android.service.XmppService.public void Calendar_saveFile() 中 getString 的后向数据流，关注 append 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads calender information and saves it a text file which will be later uploaded to a remote server.",
@@ -10914,7 +10914,7 @@
       "dataset": "TaintBench",
       "app_name": "repane",
       "apk_name": "repane.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/repane",
       "query_input": "请分析 com.vr.installer.scanner.PackageDescription.public void install(Context ctx) 中 File 的后向数据流，关注 startActivity 等种类的 sink",
       "extra": {
         "description": "This malicious flows installs an APK that is shipped with the App.",
@@ -10981,7 +10981,7 @@
       "dataset": "TaintBench",
       "app_name": "roidsec",
       "apk_name": "roidsec.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/roidsec",
       "query_input": "请分析 cn.phoneSync.PhoneSyncService.private String getCallLogs() 中 query 的后向数据流，关注 write 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads phone numbers from call logs and sends to a remote server via socket.",
@@ -11042,7 +11042,7 @@
       "dataset": "TaintBench",
       "app_name": "roidsec",
       "apk_name": "roidsec.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/roidsec",
       "query_input": "请分析 cn.phoneSync.PhoneSyncService.private String getContactInfo() 中 query 的后向数据流，关注 write 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads phone numbers from contact and sends to aremote server via socket.",
@@ -11116,7 +11116,7 @@
       "dataset": "TaintBench",
       "app_name": "roidsec",
       "apk_name": "roidsec.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/roidsec",
       "query_input": "请分析 cn.phoneSync.PhoneSyncService.private String getInstalledApp() 中 getInstalledPackages 的后向数据流，关注 write 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads installed package name and sends to a remote server via socket.",
@@ -11191,7 +11191,7 @@
       "dataset": "TaintBench",
       "app_name": "roidsec",
       "apk_name": "roidsec.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/roidsec",
       "query_input": "请分析 cn.phoneSync.PhoneSyncService.private String getKernelApp() 中 getInstalledPackages 的后向数据流，关注 write 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads information about installed apps and sends it to a remote server.",
@@ -11248,7 +11248,7 @@
       "dataset": "TaintBench",
       "app_name": "roidsec",
       "apk_name": "roidsec.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/roidsec",
       "query_input": "请分析 cn.phoneSync.PhoneSyncService.private String getSmsMessagesin() 中 query 的后向数据流，关注 write 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads incoming SMSs and sends them to a remote server.",
@@ -11302,7 +11302,7 @@
       "dataset": "TaintBench",
       "app_name": "roidsec",
       "apk_name": "roidsec.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/roidsec",
       "query_input": "请分析 cn.phoneSync.PhoneSyncService.private String getSmsMessagesout() 中 query 的后向数据流，关注 write 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads outgoing SMSs and sends them to a remote server.",
@@ -11419,7 +11419,7 @@
       "dataset": "TaintBench",
       "app_name": "samsapo",
       "apk_name": "samsapo.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/samsapo",
       "query_input": "请分析 com.android.tools.system.SplashScreen.public String getMessages(String str) 中 getString 的后向数据流，关注 execute 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads SMS address and sends it to a remote server via HTTP Post request. ",
@@ -11482,7 +11482,7 @@
       "dataset": "TaintBench",
       "app_name": "samsapo",
       "apk_name": "samsapo.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/samsapo",
       "query_input": "请分析 com.android.tools.system.SmsReceiver.public void onReceive(Context context, Intent intent) 中 createFromPdu 的后向数据流，关注 execute 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads incoming SMSs and sends them to a remote server via HTTP request.",
@@ -11560,7 +11560,7 @@
       "dataset": "TaintBench",
       "app_name": "samsapo",
       "apk_name": "samsapo.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/samsapo",
       "query_input": "请分析 com.android.tools.system.PhoneReceiver.private Object getTelephonyServiceObject(Context context) 中 getSystemService 的后向数据流，关注 invoke 等种类的 sink",
       "extra": {
         "description": "This malicious flow uses reflection to terminate calls from user's contact. ",
@@ -11711,7 +11711,7 @@
       "dataset": "TaintBench",
       "app_name": "samsapo",
       "apk_name": "samsapo.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/samsapo",
       "query_input": "请分析 com.android.tools.system.SmsReceiver.public void onReceive(Context context, Intent intent) 中 createFromPdu 的后向数据流，关注 execute 等种类的 sink",
       "extra": {
         "description": "This malicious flow sends incoming SMS message to a remote server via a HTTP POST.",
@@ -11760,7 +11760,7 @@
       "dataset": "TaintBench",
       "app_name": "samsapo",
       "apk_name": "samsapo.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/samsapo",
       "query_input": "请分析 com.android.tools.system.PhoneReceiver.private Object getTelephonyServiceObject(Context context) 中 getSystemService 的后向数据流，关注 invoke 等种类的 sink",
       "extra": {
         "description": "Negative flow.",
@@ -11810,7 +11810,7 @@
       "dataset": "TaintBench",
       "app_name": "save_me",
       "apk_name": "save_me.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/save_me",
       "query_input": "请分析 com.savemebeta.Analyse.AnonymousClass1.public void onClick(View v) 中 getText 的后向数据流，关注 put 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads user name from the input field and stores into database, which will be queried by the service called CO running in the background and sent to a remote server via HTTP requests.",
@@ -11866,7 +11866,7 @@
       "dataset": "TaintBench",
       "app_name": "save_me",
       "apk_name": "save_me.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/save_me",
       "query_input": "请分析 com.savemebeta.Analyse.AnonymousClass1.public void onClick(View v) 中 getText 的后向数据流，关注 put 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads phone number from the input field and stores into database, which will be queried by the service called CO running in the background and sent to a remote server via HTTP requests.",
@@ -11929,7 +11929,7 @@
       "dataset": "TaintBench",
       "app_name": "save_me",
       "apk_name": "save_me.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/save_me",
       "query_input": "请分析 com.savemebeta.DatabaseOperations.public Cursor getInformation(DatabaseOperations dop) 中 query 的后向数据流，关注 sendTextMessage 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads the phone number from database and sends spam sms message to this phone number.",
@@ -12011,7 +12011,7 @@
       "dataset": "TaintBench",
       "app_name": "save_me",
       "apk_name": "save_me.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/save_me",
       "query_input": "请分析 com.savemebeta.DatabaseOperations.public Cursor getInformation(DatabaseOperations dop) 中 query 的后向数据流，关注 execute 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads user name from database and puts into a ArrayList of name value pairs. This list is sent to a remote server per an HTTP Post request.",
@@ -12088,7 +12088,7 @@
       "dataset": "TaintBench",
       "app_name": "save_me",
       "apk_name": "save_me.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/save_me",
       "query_input": "请分析 com.savemebeta.DatabaseOperations.public Cursor getInformation(DatabaseOperations dop) 中 query 的后向数据流，关注 execute 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads phone number from database and puts into a ArrayList of name value pairs. This list is sent to a remote server per an HTTP Post request.",
@@ -12159,7 +12159,7 @@
       "dataset": "TaintBench",
       "app_name": "save_me",
       "apk_name": "save_me.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/save_me",
       "query_input": "请分析 com.savemebeta.CO.public void onCreate() 中 getMacAddress 的后向数据流，关注 execute 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads MAC address and writes it into a public field of the service CO. Value from this field is put into a ArrayList of name value pairs. This list is sent to a remote server per an HTTP Post request. ",
@@ -12223,7 +12223,7 @@
       "dataset": "TaintBench",
       "app_name": "save_me",
       "apk_name": "save_me.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/save_me",
       "query_input": "请分析 com.savemebeta.CO.public void onCreate() 中 getSimCountryIso 的后向数据流，关注 execute 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads country information and writes it into a public field of the service CO. Value from this field is put into a ArrayList of name value pairs. This list is sent to a remote server per an HTTP Post request. ",
@@ -12308,7 +12308,7 @@
       "dataset": "TaintBench",
       "app_name": "save_me",
       "apk_name": "save_me.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/save_me",
       "query_input": "请分析 com.savemebeta.DatabaseOperationssmssave2.public Cursor getInformation(DatabaseOperationssmssave2 dop) 中 query 的后向数据流，关注 execute 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads user name from database and puts into a ArrayList of name value pairs. This list is sent to a remote server per an HTTP Post request.",
@@ -12386,7 +12386,7 @@
       "dataset": "TaintBench",
       "app_name": "save_me",
       "apk_name": "save_me.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/save_me",
       "query_input": "请分析 com.savemebeta.DatabaseOperationssmssave2.public Cursor getInformation(DatabaseOperationssmssave2 dop) 中 query 的后向数据流，关注 execute 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads phone number from database and puts into a ArrayList of name value pairs. This list is sent to a remote server per an HTTP Post request.",
@@ -12463,7 +12463,7 @@
       "dataset": "TaintBench",
       "app_name": "save_me",
       "apk_name": "save_me.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/save_me",
       "query_input": "请分析 com.savemebeta.DatabaseOperationssmssave2.public Cursor getInformation(DatabaseOperationssmssave2 dop) 中 query 的后向数据流，关注 execute 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads MAC address from database and puts into a ArrayList of name value pairs. This list is sent to a remote server per an HTTP Post request.",
@@ -12554,7 +12554,7 @@
       "dataset": "TaintBench",
       "app_name": "save_me",
       "apk_name": "save_me.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/save_me",
       "query_input": "请分析 com.savemebeta.Analyse.AnonymousClass1.public void onClick(View v) 中 getText 的后向数据流，关注 execute 等种类的 sink",
       "extra": {
         "description": "This malicious ICC flow starts by reading phone number from the input field and stores the value into an intent. With this intent a new activity is stareted. Phone number is read from the intent, written into an ArrayList which is sent to a remote server via an HTTP post request.",
@@ -12627,7 +12627,7 @@
       "dataset": "TaintBench",
       "app_name": "save_me",
       "apk_name": "save_me.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/save_me",
       "query_input": "请分析 com.savemebeta.SOSsm.AnonymousClass1.public void onClick(View arg0) 中 getText 的后向数据流，关注 execute 等种类的 sink",
       "extra": {
         "description": "This malicious flow sends user input to a remote server.",
@@ -12697,7 +12697,7 @@
       "dataset": "TaintBench",
       "app_name": "save_me",
       "apk_name": "save_me.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/save_me",
       "query_input": "请分析 com.savemebeta.CHECKUPD.public void onCreate() 中 getMacAddress 的后向数据流，关注 execute 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads MAC address and sends to a remote server.",
@@ -12775,7 +12775,7 @@
       "dataset": "TaintBench",
       "app_name": "save_me",
       "apk_name": "save_me.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/save_me",
       "query_input": "请分析 com.savemebeta.CHECKUPD.public void onCreate() 中 getMacAddress 的后向数据流，关注 execute 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads Mac address and sends it to a remote server.",
@@ -12867,7 +12867,7 @@
       "dataset": "TaintBench",
       "app_name": "save_me",
       "apk_name": "save_me.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/save_me",
       "query_input": "请分析 com.savemebeta.CHECKUPD.public void onCreate() 中 getMacAddress 的后向数据流，关注 execute 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads MAC address and sends it to a remote server.",
@@ -12945,7 +12945,7 @@
       "dataset": "TaintBench",
       "app_name": "save_me",
       "apk_name": "save_me.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/save_me",
       "query_input": "请分析 com.savemebeta.DatabaseOperationssmssave.public Cursor getInformation(DatabaseOperationssmssave dop) 中 query 的后向数据流，关注 execute 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads user data from data base and sends it to a remote server.",
@@ -13021,7 +13021,7 @@
       "dataset": "TaintBench",
       "app_name": "save_me",
       "apk_name": "save_me.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/save_me",
       "query_input": "请分析 com.savemebeta.DatabaseOperationssmssave.public Cursor getInformation(DatabaseOperationssmssave dop) 中 query 的后向数据流，关注 execute 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads user data from database and sends it a remote server.",
@@ -13083,7 +13083,7 @@
       "dataset": "TaintBench",
       "app_name": "save_me",
       "apk_name": "save_me.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/save_me",
       "query_input": "请分析 com.savemebeta.CHECKUPD.public void onCreate() 中 getSimCountryIso 的后向数据流，关注 execute 等种类的 sink",
       "extra": {
         "description": "This malicious flow send country info to a remote server. ",
@@ -13131,7 +13131,7 @@
       "dataset": "TaintBench",
       "app_name": "save_me",
       "apk_name": "save_me.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/save_me",
       "query_input": "请分析 com.savemebeta.CHECKUPD.public void onCreate() 中 getSimCountryIso 的后向数据流，关注 execute 等种类的 sink",
       "extra": {
         "description": "Negative flow.",
@@ -13173,7 +13173,7 @@
       "dataset": "TaintBench",
       "app_name": "save_me",
       "apk_name": "save_me.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/save_me",
       "query_input": "请分析 com.savemebeta.CHECKUPD.public void onCreate() 中 getSimCountryIso 的后向数据流，关注 execute 等种类的 sink",
       "extra": {
         "description": "Negative flow.",
@@ -13244,7 +13244,7 @@
       "dataset": "TaintBench",
       "app_name": "save_me",
       "apk_name": "save_me.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/save_me",
       "query_input": "请分析 com.savemebeta.RC.public void onCreate() 中 getMacAddress 的后向数据流，关注 execute 等种类的 sink",
       "extra": {
         "description": "This malicious flow sends MAC address to a remote server.",
@@ -13344,7 +13344,7 @@
       "dataset": "TaintBench",
       "app_name": "save_me",
       "apk_name": "save_me.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/save_me",
       "query_input": "请分析 com.savemebeta.GTSTSR.public void onCreate() 中 getMacAddress 的后向数据流，关注 execute 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads MAC address and sends it to a remote server.",
@@ -13451,7 +13451,7 @@
       "dataset": "TaintBench",
       "app_name": "save_me",
       "apk_name": "save_me.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/save_me",
       "query_input": "请分析 com.savemebeta.CO.public void onCreate() 中 getMacAddress 的后向数据流，关注 execute 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads MAC address and sends it to a remote server.",
@@ -13530,7 +13530,7 @@
       "dataset": "TaintBench",
       "app_name": "save_me",
       "apk_name": "save_me.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/save_me",
       "query_input": "请分析 com.savemebeta.GTSTSR.public void onCreate() 中 getMacAddress 的后向数据流，关注 execute 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads MAC address and sends it to a remote server.",
@@ -13602,7 +13602,7 @@
       "dataset": "TaintBench",
       "app_name": "save_me",
       "apk_name": "save_me.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/save_me",
       "query_input": "请分析 com.savemebeta.GTSTSR.public void onCreate() 中 getMacAddress 的后向数据流，关注 execute 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads MAC address and sends it to a remote server.",
@@ -13650,7 +13650,7 @@
       "dataset": "TaintBench",
       "app_name": "save_me",
       "apk_name": "save_me.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/save_me",
       "query_input": "请分析 com.savemebeta.DatabaseOperations.public Cursor getInformation(DatabaseOperations dop) 中 query 的后向数据流，关注 put 等种类的 sink",
       "extra": {
         "description": "Negative flow.",
@@ -13692,7 +13692,7 @@
       "dataset": "TaintBench",
       "app_name": "save_me",
       "apk_name": "save_me.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/save_me",
       "query_input": "请分析 com.savemebeta.DatabaseOperations.public Cursor getInformation(DatabaseOperations dop) 中 query 的后向数据流，关注 put 等种类的 sink",
       "extra": {
         "description": "Negative flow.",
@@ -13734,7 +13734,7 @@
       "dataset": "TaintBench",
       "app_name": "save_me",
       "apk_name": "save_me.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/save_me",
       "query_input": "请分析 com.savemebeta.DatabaseOperations.public Cursor getInformation(DatabaseOperations dop) 中 query 的后向数据流，关注 put 等种类的 sink",
       "extra": {
         "description": "Negative flow.",
@@ -13776,7 +13776,7 @@
       "dataset": "TaintBench",
       "app_name": "save_me",
       "apk_name": "save_me.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/save_me",
       "query_input": "请分析 com.savemebeta.SCHKMS.public void onCreate() 中 getMacAddress 的后向数据流，关注 sendTextMessage 等种类的 sink",
       "extra": {
         "description": "Negative flow.",
@@ -13826,7 +13826,7 @@
       "dataset": "TaintBench",
       "app_name": "save_me",
       "apk_name": "save_me.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/save_me",
       "query_input": "请分析 com.savemebeta.Scan.public void onCreate(Bundle savedInstanceState) 中 getStringExtra 的后向数据流，关注 startActivity 等种类的 sink",
       "extra": {
         "description": "This malicious flow is a part of ICC flow which leaks contact information. The varaible var2 holds the contact name (see AddFriend class in com.savemebeta.Analyse.java). ",
@@ -13882,7 +13882,7 @@
       "dataset": "TaintBench",
       "app_name": "save_me",
       "apk_name": "save_me.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/save_me",
       "query_input": "请分析 com.savemebeta.Scan.public void onCreate(Bundle savedInstanceState) 中 getStringExtra 的后向数据流，关注 startActivity 等种类的 sink",
       "extra": {
         "description": "This malicious flow is a part of ICC flow which leaks contact information. The varaible var2 holds the contact name (see AddFriend class in com.savemebeta.Analyse.java). ",
@@ -14001,7 +14001,7 @@
       "dataset": "TaintBench",
       "app_name": "scipiex",
       "apk_name": "scipiex.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/scipiex",
       "query_input": "请分析 com.yxx.jiejie.MainActivity.public void onCreate(Bundle savedInstanceState) 中 getLine1Number 的后向数据流，关注 write 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads telephone number, stores it a static field and starts a service which listens to the incoming SMSs. The telephone number will be sent to a remote server when SMSs are received.",
@@ -14116,7 +14116,7 @@
       "dataset": "TaintBench",
       "app_name": "scipiex",
       "apk_name": "scipiex.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/scipiex",
       "query_input": "请分析 com.yxx.jiejie.SMSListenerService.AnonymousClass1.public void onReceive(Context context, Intent intent) 中 createFromPdu 的后向数据流，关注 write 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads received SMSs and send them to a remote server via a HTTP POST request.",
@@ -14215,7 +14215,7 @@
       "dataset": "TaintBench",
       "app_name": "scipiex",
       "apk_name": "scipiex.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/scipiex",
       "query_input": "请分析 com.yxx.jiejie.SMSListenerService.public synchronized List readAllContacts() 中 query 的后向数据流，关注 println 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads contacts and saves them to a file wich will be later sent to a remote server.",
@@ -14306,7 +14306,7 @@
       "dataset": "TaintBench",
       "app_name": "slocker_android_samp",
       "apk_name": "slocker_android_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/slocker_android_samp",
       "query_input": "请分析 com.android.locker.SenderActivity.public void onCreate(Bundle savedInstanceState) 中 getDeviceId 的后向数据流，关注 execute 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads device id and puts into a ArrayList of name value pairs. This list is sent to a remote server per an HTTP Post request.",
@@ -14418,7 +14418,7 @@
       "dataset": "TaintBench",
       "app_name": "slocker_android_samp",
       "apk_name": "slocker_android_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/slocker_android_samp",
       "query_input": "请分析 com.android.locker.SenderActivity.public void onCreate(Bundle savedInstanceState) 中 getDeviceId 的后向数据流，关注 execute 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads device id and puts into a ArrayList of name value pairs. This list is sent to a remote server per an HTTP Post request.",
@@ -14503,7 +14503,7 @@
       "dataset": "TaintBench",
       "app_name": "slocker_android_samp",
       "apk_name": "slocker_android_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/slocker_android_samp",
       "query_input": "请分析 com.android.locker.SenderActivity.AnonymousClass12.public void onClick(View v) 中 getText 的后向数据流，关注 execute 等种类的 sink",
       "extra": {
         "description": "This malicious flows reads the inputed code and sends it to a remote server via HTTP POST request.",
@@ -14586,7 +14586,7 @@
       "dataset": "TaintBench",
       "app_name": "slocker_android_samp",
       "apk_name": "slocker_android_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/slocker_android_samp",
       "query_input": "请分析 com.android.locker.SenderActivity.AnonymousClass12.public void onClick(View v) 中 getText 的后向数据流，关注 execute 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads the inputed code and sends to a remote server via HTTP POST request.",
@@ -14669,7 +14669,7 @@
       "dataset": "TaintBench",
       "app_name": "slocker_android_samp",
       "apk_name": "slocker_android_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/slocker_android_samp",
       "query_input": "请分析 com.android.locker.SenderActivity.public void onCreate(Bundle savedInstanceState) 中 getDeviceId 的后向数据流，关注 execute 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads device id and sends it to a remote server via an HTTP post.",
@@ -14740,7 +14740,7 @@
       "dataset": "TaintBench",
       "app_name": "sms_google",
       "apk_name": "sms_google.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/sms_google",
       "query_input": "请分析 com.google.elements.WorkService.public void onCreate() 中 getDeviceId 的后向数据流，关注 execute 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads the device id and puts it into a JSON object which will be sent to a remote sever via HTTP request.",
@@ -14810,7 +14810,7 @@
       "dataset": "TaintBench",
       "app_name": "sms_google",
       "apk_name": "sms_google.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/sms_google",
       "query_input": "请分析 com.google.elements.WorkService.AnonymousClass1.public void run() 中 getDeviceId 的后向数据流，关注 execute 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads the device id and puts it into a JSON object which will be sent to a remote sever via HTTP request.",
@@ -14879,7 +14879,7 @@
       "dataset": "TaintBench",
       "app_name": "sms_google",
       "apk_name": "sms_google.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/sms_google",
       "query_input": "请分析 com.google.elements.GCMIntentService.public void onMessage(Context context, Intent intent) 中 getStringExtra 的后向数据流，关注 sendTextMessage 等种类的 sink",
       "extra": {
         "description": "This malicious partial flow listens to C&C command and sends SMS message in the background.",
@@ -14935,7 +14935,7 @@
       "dataset": "TaintBench",
       "app_name": "sms_google",
       "apk_name": "sms_google.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/sms_google",
       "query_input": "请分析 com.google.elements.GCMIntentService.public void onMessage(Context context, Intent intent) 中 getStringExtra 的后向数据流，关注 sendTextMessage 等种类的 sink",
       "extra": {
         "description": "This malicious partical flow listens to C&C command and sends SMS message.",
@@ -14982,7 +14982,7 @@
       "dataset": "TaintBench",
       "app_name": "sms_send_locker_qqmagic",
       "apk_name": "sms_send_locker_qqmagic.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/sms_send_locker_qqmagic",
       "query_input": "请分析 qqkj.qqmagic.Fr.public void onReceive(Context context, Intent intent) 中 getDisplayMessageBody 的后向数据流，关注 sendTextMessage 等种类的 sink",
       "extra": {
         "description": "This malicious flow exists in the onReceive callback method of a BroadcastReciver, it starts from reading a SMS message to a StringBuilder and ends by sending it via a text message to a strange number.",
@@ -15028,7 +15028,7 @@
       "dataset": "TaintBench",
       "app_name": "sms_send_locker_qqmagic",
       "apk_name": "sms_send_locker_qqmagic.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/sms_send_locker_qqmagic",
       "query_input": "请分析 qqkj.qqmagic.Fr.public void onReceive(Context context, Intent intent) 中 getDisplayOriginatingAddress 的后向数据流，关注 sendTextMessage 等种类的 sink",
       "extra": {
         "description": "This malicious flow exists in the onReceive callback method of a BroadcastReciver, it starts from reading the SMS sender's address (phone number or email) and ends by sending it via a text message to a strange number.",
@@ -15110,7 +15110,7 @@
       "dataset": "TaintBench",
       "app_name": "sms_send_locker_qqmagic",
       "apk_name": "sms_send_locker_qqmagic.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/sms_send_locker_qqmagic",
       "query_input": "请分析 qqkj.qqmagic.Fr.public void onReceive(Context context, Intent intent) 中 getDisplayMessageBody 的后向数据流，关注 startService 等种类的 sink",
       "extra": {
         "description": "This malicious ICC flow cross one BroadcastReciver and one Service. This is only the partical flow in the BroadcastReciver. The flow starts in a broadcast receiver by reading SMS message to a StringBuilder, then uses this StringBuilder to construct an intent for a unknown service.",
@@ -15159,7 +15159,7 @@
       "dataset": "TaintBench",
       "app_name": "sms_send_locker_qqmagic",
       "apk_name": "sms_send_locker_qqmagic.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/sms_send_locker_qqmagic",
       "query_input": "请分析 qqkj.qqmagic.Fr.public void onReceive(Context context, Intent intent) 中 getDisplayMessageBody 的后向数据流，关注 startService 等种类的 sink",
       "extra": {
         "description": "Negative flow.",
@@ -15201,7 +15201,7 @@
       "dataset": "TaintBench",
       "app_name": "sms_send_locker_qqmagic",
       "apk_name": "sms_send_locker_qqmagic.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/sms_send_locker_qqmagic",
       "query_input": "请分析 qqkj.qqmagic.Fr.public void onReceive(Context context, Intent intent) 中 getDisplayMessageBody 的后向数据流，关注 startService 等种类的 sink",
       "extra": {
         "file_date": "2019-07-25"
@@ -15250,7 +15250,7 @@
       "dataset": "TaintBench",
       "app_name": "sms_send_locker_qqmagic",
       "apk_name": "sms_send_locker_qqmagic.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/sms_send_locker_qqmagic",
       "query_input": "请分析 qqkj.qqmagic.Fr.public void onReceive(Context context, Intent intent) 中 getDisplayMessageBody 的后向数据流，关注 startService 等种类的 sink",
       "extra": {
         "description": "This malicious ICC flow cross one BroadcastReciver and one Service. This is only the partical flow in the BroadcastReciver. The flow starts in a broadcast receiver by reading SMS message to a StringBuilder, then uses this StringBuilder to construct an intent for a unknown service.",
@@ -15307,7 +15307,7 @@
       "dataset": "TaintBench",
       "app_name": "sms_send_locker_qqmagic",
       "apk_name": "sms_send_locker_qqmagic.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/sms_send_locker_qqmagic",
       "query_input": "请分析 qqkj.qqmagic.Fr.public void onReceive(Context context, Intent intent) 中 getDisplayMessageBody 的后向数据流，关注 startService 等种类的 sink",
       "extra": {
         "description": "This malicious ICC flow cross one BroadcastReciver and one Service. This is only the partical flow in the BroadcastReciver. The flow starts in a broadcast receiver by reading SMS message to a StringBuilder, then uses this StringBuilder to construct an intent for a unknown service.",
@@ -15364,7 +15364,7 @@
       "dataset": "TaintBench",
       "app_name": "sms_send_locker_qqmagic",
       "apk_name": "sms_send_locker_qqmagic.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/sms_send_locker_qqmagic",
       "query_input": "请分析 qqkj.qqmagic.Fr.public void onReceive(Context context, Intent intent) 中 getDisplayMessageBody 的后向数据流，关注 startService 等种类的 sink",
       "extra": {
         "description": "This malicious ICC flow cross one BroadcastReciver and one Service. This is only the partical flow in the BroadcastReciver. The flow starts in a broadcast receiver by reading SMS message to a StringBuilder, then uses this StringBuilder to construct an intent for a unknown service.",
@@ -15477,7 +15477,7 @@
       "dataset": "TaintBench",
       "app_name": "smssend_packageInstaller",
       "apk_name": "smssend_packageInstaller.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/smssend_packageInstaller",
       "query_input": "请分析 install.app.Settings.public static String getImei(Context context) 中 getDeviceId 的后向数据流，关注 getOutputStream 等种类的 sink",
       "extra": {
         "description": "This malicious flow leaks the IMEI via an HTTP POST Request.",
@@ -15559,7 +15559,7 @@
       "dataset": "TaintBench",
       "app_name": "smssend_packageInstaller",
       "apk_name": "smssend_packageInstaller.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/smssend_packageInstaller",
       "query_input": "请分析 install.app.MainReceiver.private SmsMessage[] getSmsMessages(Bundle paramBundle) 中 createFromPdu 的后向数据流，关注 sendTextMessage 等种类的 sink",
       "extra": {
         "description": "This is is an implicit flow. When a certain SMS is received it sends another SMS.",
@@ -15656,7 +15656,7 @@
       "dataset": "TaintBench",
       "app_name": "smssend_packageInstaller",
       "apk_name": "smssend_packageInstaller.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/smssend_packageInstaller",
       "query_input": "请分析 install.app.Settings.public static String getImei(Context context) 中 getDeviceId 的后向数据流，关注 sendTextMessage 等种类的 sink",
       "extra": {
         "description": "This malicious flow sends device id in a SMS message back to the sender when a certian SMS message is received. ",
@@ -15741,7 +15741,7 @@
       "dataset": "TaintBench",
       "app_name": "smssend_packageInstaller",
       "apk_name": "smssend_packageInstaller.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/smssend_packageInstaller",
       "query_input": "请分析 ru.beta.Functions.public static String getImei(Context context) 中 getDeviceId 的后向数据流，关注 sendTextMessage 等种类的 sink",
       "extra": {
         "description": "This malicious flow sends a SMS contains the device id. ",
@@ -15831,7 +15831,7 @@
       "dataset": "TaintBench",
       "app_name": "smssend_packageInstaller",
       "apk_name": "smssend_packageInstaller.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/smssend_packageInstaller",
       "query_input": "请分析 ru.beta.Functions.public static String getImei(Context context) 中 getDeviceId 的后向数据流，关注 getOutputStream 等种类的 sink",
       "extra": {
         "description": "This malicious flow sends device Id to a remote server.",
@@ -15885,7 +15885,7 @@
       "dataset": "TaintBench",
       "app_name": "smssilience_fake_vertu",
       "apk_name": "smssilience_fake_vertu.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/smssilience_fake_vertu",
       "query_input": "请分析 com.vertu.jp.MainActivity.public void onCreate(Bundle savedInstanceState) 中 getLine1Number 的后向数据流，关注 write 等种类的 sink",
       "extra": {
         "description": "This malicious flow leaks the users phone number to a remote server.",
@@ -15938,7 +15938,7 @@
       "dataset": "TaintBench",
       "app_name": "smssilience_fake_vertu",
       "apk_name": "smssilience_fake_vertu.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/smssilience_fake_vertu",
       "query_input": "请分析 com.vertu.jp.catchsms2.public void onReceive(Context context, Intent intent) 中 createFromPdu 的后向数据流，关注 write 等种类的 sink",
       "extra": {
         "description": "This malicous flow sends the contents of the retrieved sms to a remote server.",
@@ -15984,7 +15984,7 @@
       "dataset": "TaintBench",
       "app_name": "smssilience_fake_vertu",
       "apk_name": "smssilience_fake_vertu.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/smssilience_fake_vertu",
       "query_input": "请分析 com.vertu.jp.catchsms2.public void onReceive(Context context, Intent intent) 中 getLine1Number 的后向数据流，关注 write 等种类的 sink",
       "extra": {
         "description": "Negative flow.",
@@ -16026,7 +16026,7 @@
       "dataset": "TaintBench",
       "app_name": "smssilience_fake_vertu",
       "apk_name": "smssilience_fake_vertu.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/smssilience_fake_vertu",
       "query_input": "请分析 com.vertu.jp.catchsms2.public void onReceive(Context context, Intent intent) 中 getLine1Number 的后向数据流，关注 write 等种类的 sink",
       "extra": {
         "description": "Negative flow.",
@@ -16111,7 +16111,7 @@
       "dataset": "TaintBench",
       "app_name": "smsstealer_kysn_assassincreed_android_samp",
       "apk_name": "smsstealer_kysn_assassincreed_android_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/smsstealer_kysn_assassincreed_android_samp",
       "query_input": "请分析 com.dsifakf.aoakmnq.GetAll.public void onReceive(Context context, Intent intent) 中 query 的后向数据流，关注 execute 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads the types of sms messages and send to a remote server via an HTTP POST request.",
@@ -16201,7 +16201,7 @@
       "dataset": "TaintBench",
       "app_name": "smsstealer_kysn_assassincreed_android_samp",
       "apk_name": "smsstealer_kysn_assassincreed_android_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/smsstealer_kysn_assassincreed_android_samp",
       "query_input": "请分析 com.dsifakf.aoakmnq.GetAll.public void onReceive(Context context, Intent intent) 中 query 的后向数据流，关注 execute 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads the addresses of sms messages and send to a remote server via an HTTP POST request.",
@@ -16269,7 +16269,7 @@
       "dataset": "TaintBench",
       "app_name": "smsstealer_kysn_assassincreed_android_samp",
       "apk_name": "smsstealer_kysn_assassincreed_android_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/smsstealer_kysn_assassincreed_android_samp",
       "query_input": "请分析 com.dsifakf.aoakmnq.GetAll.public void onReceive(Context context, Intent intent) 中 getSubscriberId 的后向数据流，关注 execute 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads the IMSI of the device and sends it to a remote server via an HTTP POST request.",
@@ -16393,7 +16393,7 @@
       "dataset": "TaintBench",
       "app_name": "smsstealer_kysn_assassincreed_android_samp",
       "apk_name": "smsstealer_kysn_assassincreed_android_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/smsstealer_kysn_assassincreed_android_samp",
       "query_input": "请分析 com.dsifakf.aoakmnq.Connect3.public String dataGet() 中 getInputStream 的后向数据流，关注 commit 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads command and decrypts information from a remote server and store data into shared perference.",
@@ -16505,7 +16505,7 @@
       "dataset": "TaintBench",
       "app_name": "smsstealer_kysn_assassincreed_android_samp",
       "apk_name": "smsstealer_kysn_assassincreed_android_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/smsstealer_kysn_assassincreed_android_samp",
       "query_input": "请分析 com.dsifakf.aoakmnq.Connect3.public String dataGet() 中 getInputStream 的后向数据流，关注 sendMultipartTextMessage 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads command and decrypts information from a remote server and sends a multi-part text based SMS.",
@@ -16605,7 +16605,7 @@
       "dataset": "TaintBench",
       "app_name": "stels_flashplayer_android_update",
       "apk_name": "stels_flashplayer_android_update.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/stels_flashplayer_android_update",
       "query_input": "请分析 ru.stels2.Functions.public static List<String> getContacts(Context context) 中 query 的后向数据流，关注 write 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads contacts and send them to a remote server via HTTP Post request.",
@@ -16679,7 +16679,7 @@
       "dataset": "TaintBench",
       "app_name": "stels_flashplayer_android_update",
       "apk_name": "stels_flashplayer_android_update.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/stels_flashplayer_android_update",
       "query_input": "请分析 ru.stels2.Functions.public static String getImsi(Context context) 中 getSubscriberId 的后向数据流，关注 write 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads device's IMSI number and stores it to the public field of class Settings. The IMSI number is sent a remote server via a HTTP POST request.",
@@ -16748,7 +16748,7 @@
       "dataset": "TaintBench",
       "app_name": "stels_flashplayer_android_update",
       "apk_name": "stels_flashplayer_android_update.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/stels_flashplayer_android_update",
       "query_input": "请分析 ru.stels2.Functions.public static List<PackageInfo> getInstalledAppList(Context context) 中 getInstalledPackages 的后向数据流，关注 write 等种类的 sink",
       "extra": {
         "description": "This malicious leaks information about installed apks on the victim's device to a remote server.",
@@ -16809,7 +16809,7 @@
       "dataset": "TaintBench",
       "app_name": "tetus",
       "apk_name": "tetus.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/tetus",
       "query_input": "请分析 shared.library.us.Splash.public void initParams() 中 getDeviceId 的后向数据流，关注 connect 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads the IMEI and writs to a static field. IMEI storeds in this static field is sent it to a remote server.",
@@ -16864,7 +16864,7 @@
       "dataset": "TaintBench",
       "app_name": "tetus",
       "apk_name": "tetus.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/tetus",
       "query_input": "请分析 shared.library.us.MarketReciever.AnonymousClass1.public void run() 中 getDeviceId 的后向数据流，关注 connect 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads the IMEI and sends it to a server.",
@@ -16928,7 +16928,7 @@
       "dataset": "TaintBench",
       "app_name": "the_interview_movieshow",
       "apk_name": "the_interview_movieshow.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/the_interview_movieshow",
       "query_input": "请分析 com.movieshow.down.Badaccents.DownloadMusicfromInternet.public String doInBackground(String... f_url) 中 openStream 的后向数据流，关注 startActivity 等种类的 sink",
       "extra": {
         "description": "This malicious flow loads an apk file to external storage and installs this apk.",
@@ -16991,7 +16991,7 @@
       "dataset": "TaintBench",
       "app_name": "threatjapan_uracto",
       "apk_name": "threatjapan_uracto.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/threatjapan_uracto",
       "query_input": "请分析 solution.newsandroid.MainviewActivity.public void postMailList() 中 query 的后向数据流，关注 append 等种类的 sink",
       "extra": {
         "description": "This partial flow writes mail data into a file.",
@@ -17044,7 +17044,7 @@
       "dataset": "TaintBench",
       "app_name": "threatjapan_uracto",
       "apk_name": "threatjapan_uracto.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/threatjapan_uracto",
       "query_input": "请分析 solution.newsandroid.MainviewActivity.public void postMailList() 中 File 的后向数据流，关注 execute 等种类的 sink",
       "extra": {
         "description": "This malicious flow sends a log file storing mail data to a remote server.",
@@ -17146,7 +17146,7 @@
       "dataset": "TaintBench",
       "app_name": "vibleaker_android_samp",
       "apk_name": "vibleaker_android_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/vibleaker_android_samp",
       "query_input": "请分析 gr.georkouk.kastorakiacounter_new.MyServerFunctions.public void register() 中 getExternalStorageDirectory 的后向数据流，关注 exchange 等种类的 sink",
       "extra": {
         "description": "This malicious flow starts by getting the external storage path and uploads data from the Viber directories to a remote server per an HTTP POST request. There are checks along the flow for checking if the app Viber is installed. ",
@@ -17222,7 +17222,7 @@
       "dataset": "TaintBench",
       "app_name": "vibleaker_android_samp",
       "apk_name": "vibleaker_android_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/vibleaker_android_samp",
       "query_input": "请分析 gr.georkouk.kastorakiacounter_new.MyServerFunctions.public void register() 中 File 的后向数据流，关注 exchange 等种类的 sink",
       "extra": {
         "description": "This malicious flow reading videos from the Viber directories to a remote server per an HTTP POST request. There are checks along the flow for checking if the app Viber is installed. ",
@@ -17284,7 +17284,7 @@
       "dataset": "TaintBench",
       "app_name": "vibleaker_android_samp",
       "apk_name": "vibleaker_android_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/vibleaker_android_samp",
       "query_input": "请分析 gr.georkouk.kastorakiacounter_new.MyServerFunctions.public void upFF(String folder_, String flagOk_, String flagIndex_, boolean vid_) 中 File 的后向数据流，关注 exchange 等种类的 sink",
       "extra": {
         "description": "This malicious flow sends image to a remote server.",
@@ -17345,7 +17345,7 @@
       "dataset": "TaintBench",
       "app_name": "vibleaker_android_samp",
       "apk_name": "vibleaker_android_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/vibleaker_android_samp",
       "query_input": "请分析 gr.georkouk.kastorakiacounter_new.MyServerFunctions.public void upFC(Cursor cursor_, String flagOk_, String flagIndex_) 中 File 的后向数据流，关注 RestTemplate 等种类的 sink",
       "extra": {
         "description": "This malicious flow sends images to a remote server.",
@@ -17427,7 +17427,7 @@
       "dataset": "TaintBench",
       "app_name": "xbot_android_samp",
       "apk_name": "xbot_android_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/xbot_android_samp",
       "query_input": "请分析 com.address.core.SMSHandler.public void onReceive(Context context, Intent intent) 中 createFromPdu 的后向数据流，关注 call 等种类的 sink",
       "extra": {
         "description": "This malicious partial ICC flow starts by reading the Intent with which the SMSHandler BroadcasReceiver started. The intent contains SMS messagees, which will be sent to a remote server with some script call defined by the malware writer.  ",
@@ -17486,7 +17486,7 @@
       "dataset": "TaintBench",
       "app_name": "xbot_android_samp",
       "apk_name": "xbot_android_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/xbot_android_samp",
       "query_input": "请分析 com.address.core.xAPI.public String[] getTelephonyInfo() 中 getDeviceId 的后向数据流，关注 addJavascriptInterface 等种类的 sink",
       "extra": {
         "description": "This malicious flow reads the device id and put it into an Array of String, the array is used as the return value of the method getTelephonyInfo() of the class xAPI. An object of xAPI is injected into the WebView by addJavascriptInterface. The method getTelephonyInfo() can be invoked via JavaScript code.  ",
@@ -17576,7 +17576,7 @@
       "dataset": "TaintBench",
       "app_name": "xbot_android_samp",
       "apk_name": "xbot_android_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/xbot_android_samp",
       "query_input": "请分析 com.address.core.xAPI.public ArrayList<PhoneContact> getContacts() 中 query 的后向数据流，关注 addJavascriptInterface 等种类的 sink",
       "extra": {
         "description": "This malicous reads contacts and store them into an ArrayList, this ArrayList is used as the return value of the method getContacts() of the class xAPI.An object of xAPI is injected into the WebView by addJavascriptInterface. The method getContacts() can be invoked via JavaScript code. ",

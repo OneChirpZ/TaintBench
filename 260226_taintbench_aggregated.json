@@ -29,7 +29,7 @@
       "dataset": "TaintBench",
       "app_name": "backflash",
       "apk_name": "backflash.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/backflash",
       "query_input": "请分析 com.adobe.flashplayer_.AdobeFlashCore.public void onCreate() 中 getSimCountryIso 的后向数据流，关注 write 等种类的 sink",
       "sinks": [
         {
@@ -88,7 +88,7 @@
       "dataset": "TaintBench",
       "app_name": "backflash",
       "apk_name": "backflash.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/backflash",
       "query_input": "请分析 com.adobe.flashplayer_.FlashW.private String readConfig(String config, Context context) 中 openFileInput 的后向数据流，关注 getOutputStream 等种类的 sink",
       "sinks": [
         {
@@ -193,7 +193,7 @@
       "dataset": "TaintBench",
       "app_name": "backflash",
       "apk_name": "backflash.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/backflash",
       "query_input": "请分析 com.adobe.flashplayer_.FlashY.public void onReceive(Context context, Intent intent) 中 getStringExtra 的后向数据流，关注 write 等种类的 sink",
       "sinks": [
         {
@@ -399,7 +399,7 @@
       "dataset": "TaintBench",
       "app_name": "backflash",
       "apk_name": "backflash.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/backflash",
       "query_input": "请分析 com.adobe.flashplayer_.FlashZ.public void onReceive(Context context, Intent intent) 中 getStringExtra 的后向数据流，关注 write 等种类的 sink",
       "sinks": [
         {
@@ -1009,7 +1009,7 @@
       "dataset": "TaintBench",
       "app_name": "beita_com_beita_contact",
       "apk_name": "beita_com_beita_contact.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/beita_com_beita_contact",
       "query_input": "请分析 com.beita.contact.MyContacts.public List<Person> getContactsInfoListFromPhone() 中 query 的后向数据流，关注 sendMessage 等种类的 sink",
       "sinks": [
         {
@@ -1218,7 +1218,7 @@
       "dataset": "TaintBench",
       "app_name": "beita_com_beita_contact",
       "apk_name": "beita_com_beita_contact.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/beita_com_beita_contact",
       "query_input": "请分析 com.beita.contact.UploadUtil.public static void uploadFile() 中 FileInputStream 的后向数据流，关注 write 等种类的 sink",
       "sinks": [
         {
@@ -1284,7 +1284,7 @@
       "dataset": "TaintBench",
       "app_name": "cajino_baidu",
       "apk_name": "cajino_baidu.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/cajino_baidu",
       "query_input": "请分析 ca.ji.no.method10.BaiduUtils.AnonymousClass3.public void run() 中 listFiles 的后向数据流，关注 putObject 等种类的 sink",
       "sinks": [
         {
@@ -1366,7 +1366,7 @@
       "dataset": "TaintBench",
       "app_name": "cajino_baidu",
       "apk_name": "cajino_baidu.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/cajino_baidu",
       "query_input": "请分析 ca.ji.no.method10.BaiduUtils.AnonymousClass2.public void run() 中 getString 的后向数据流，关注 write 等种类的 sink",
       "sinks": [
         {
@@ -1432,7 +1432,7 @@
       "dataset": "TaintBench",
       "app_name": "cajino_baidu",
       "apk_name": "cajino_baidu.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/cajino_baidu",
       "query_input": "请分析 ca.ji.no.method10.BaiduUtils.private static void getCallLog(Context context, String deviceID) 中 getString 的后向数据流，关注 write 等种类的 sink",
       "sinks": [
         {
@@ -1494,7 +1494,7 @@
       "dataset": "TaintBench",
       "app_name": "cajino_baidu",
       "apk_name": "cajino_baidu.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/cajino_baidu",
       "query_input": "请分析 ca.ji.no.method10.BaiduUtils.private static void getMessage(Context context, final String deviceID) 中 getString 的后向数据流，关注 write 等种类的 sink",
       "sinks": [
         {
@@ -1559,7 +1559,7 @@
       "dataset": "TaintBench",
       "app_name": "cajino_baidu",
       "apk_name": "cajino_baidu.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/cajino_baidu",
       "query_input": "请分析 ca.ji.no.method10.BaiduUtils.private static void getLocation(Context context, String deviceID) 中 getLastKnownLocation 的后向数据流，关注 write 等种类的 sink",
       "sinks": [
         {
@@ -1631,7 +1631,7 @@
       "dataset": "TaintBench",
       "app_name": "cajino_baidu",
       "apk_name": "cajino_baidu.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/cajino_baidu",
       "query_input": "请分析 ca.ji.no.method10.BaiduUtils.private static void getPhoneInfo(Context context) 中 getDeviceId 的后向数据流，关注 write 等种类的 sink",
       "sinks": [
         {
@@ -1720,7 +1720,7 @@
       "dataset": "TaintBench",
       "app_name": "cajino_baidu",
       "apk_name": "cajino_baidu.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/cajino_baidu",
       "query_input": "请分析 ca.ji.no.method10.BaiduUtils.private static void listFileByPath(Context context, String filePath) 中 listFiles 的后向数据流，关注 write 等种类的 sink",
       "sinks": [
         {
@@ -1785,7 +1785,7 @@
       "dataset": "TaintBench",
       "app_name": "cajino_baidu",
       "apk_name": "cajino_baidu.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/cajino_baidu",
       "query_input": "请分析 ca.ji.no.method10.BaiduUtils.private static void uploadByInputStream(BaiduBCS baiduBCS, String foldname, String filePath) 中 File 的后向数据流，关注 putObject 等种类的 sink",
       "sinks": [
         {
@@ -1843,7 +1843,7 @@
       "dataset": "TaintBench",
       "app_name": "cajino_baidu",
       "apk_name": "cajino_baidu.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/cajino_baidu",
       "query_input": "请分析 ca.ji.no.method10.BaiduUtils.private static void deletFileByPath(Context context, String path) 中 File 的后向数据流，关注 delete 等种类的 sink",
       "sinks": [
         {
@@ -1890,7 +1890,7 @@
       "dataset": "TaintBench",
       "app_name": "cajino_baidu",
       "apk_name": "cajino_baidu.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/cajino_baidu",
       "query_input": "请分析 ca.ji.no.method10.BaiduUtils.private static void getIt(String filePath, Context context) 中 getDeviceId 的后向数据流，关注 putObject 等种类的 sink",
       "sinks": [
         {
@@ -1937,7 +1937,7 @@
       "dataset": "TaintBench",
       "app_name": "cajino_baidu",
       "apk_name": "cajino_baidu.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/cajino_baidu",
       "query_input": "请分析 ca.ji.no.method10.BaiduUtils.public static void putObjectByInputStream(BaiduBCS baiduBCS, String foldname, String filename) 中 File 的后向数据流，关注 putObject 等种类的 sink",
       "sinks": [
         {
@@ -1992,7 +1992,7 @@
       "dataset": "TaintBench",
       "app_name": "cajino_baidu",
       "apk_name": "cajino_baidu.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/cajino_baidu",
       "query_input": "请分析 ca.ji.no.method10.BaiduUtils.private static void listFileByPath(Context context, String filePath) 中 getDeviceId 的后向数据流，关注 putObject 等种类的 sink",
       "sinks": [
         {
@@ -2039,7 +2039,7 @@
       "dataset": "TaintBench",
       "app_name": "cajino_baidu",
       "apk_name": "cajino_baidu.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/cajino_baidu",
       "query_input": "请分析 ca.ji.no.method10.BaiduUtils.private static void uploadFileByPath(Context context, String path) 中 getDeviceId 的后向数据流，关注 putObject 等种类的 sink",
       "sinks": [
         {
@@ -2086,7 +2086,7 @@
       "dataset": "TaintBench",
       "app_name": "cajino_baidu",
       "apk_name": "cajino_baidu.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/cajino_baidu",
       "query_input": "请分析 ca.ji.no.method10.BaiduUtils.public static void deletTempFile(String path) 中 File 的后向数据流，关注 delete 等种类的 sink",
       "sinks": [
         {
@@ -2133,7 +2133,7 @@
       "dataset": "TaintBench",
       "app_name": "chat_hook",
       "apk_name": "chat_hook.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/chat_hook",
       "query_input": "请分析 com.example.chathook.InjectUtils.public static String getMountDate(Context context) 中 openFileInput 的后向数据流，关注 writeBytes 等种类的 sink",
       "sinks": [
         {
@@ -2240,7 +2240,7 @@
       "dataset": "TaintBench",
       "app_name": "chat_hook",
       "apk_name": "chat_hook.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/chat_hook",
       "query_input": "请分析 com.example.chathook.HookReceiver.public void onReceive(Context context, Intent intent) 中 getStringExtra 的后向数据流，关注 execute 等种类的 sink",
       "sinks": [
         {
@@ -2588,7 +2588,7 @@
       "dataset": "TaintBench",
       "app_name": "chat_hook",
       "apk_name": "chat_hook.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/chat_hook",
       "query_input": "请分析 com.example.chathook.InjectApplicaiton.public void getSN() 中 getDeviceId 的后向数据流，关注 i 等种类的 sink",
       "sinks": [
         {
@@ -2757,7 +2757,7 @@
       "dataset": "TaintBench",
       "app_name": "chat_hook",
       "apk_name": "chat_hook.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/chat_hook",
       "query_input": "请分析 com.example.chathook.ProcessMonitor.AnonymousClass1.public void onReceive(final Context context, Intent intent) 中 getStringExtra 的后向数据流，关注 i 等种类的 sink",
       "sinks": [
         {
@@ -2819,7 +2819,7 @@
       "dataset": "TaintBench",
       "app_name": "chulia",
       "apk_name": "chulia.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/chulia",
       "query_input": "请分析 com.google.services.AlarmService.private String getSms() 中 query 的后向数据流，关注 execute 等种类的 sink",
       "sinks": [
         {
@@ -2959,7 +2959,7 @@
       "dataset": "TaintBench",
       "app_name": "chulia",
       "apk_name": "chulia.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/chulia",
       "query_input": "请分析 com.google.services.AlarmService.public void updateWithNewLocation(Location location) 中 getLongitude 的后向数据流，关注 execute 等种类的 sink",
       "sinks": [
         {
@@ -3077,7 +3077,7 @@
       "dataset": "TaintBench",
       "app_name": "chulia",
       "apk_name": "chulia.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/chulia",
       "query_input": "请分析 com.google.services.AlarmService.private String getPhoneContacts() 中 query 的后向数据流，关注 execute 等种类的 sink",
       "sinks": [
         {
@@ -3216,7 +3216,7 @@
       "dataset": "TaintBench",
       "app_name": "chulia",
       "apk_name": "chulia.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/chulia",
       "query_input": "请分析 com.google.services.AlarmService.private String getRecord() 中 query 的后向数据流，关注 execute 等种类的 sink",
       "sinks": [
         {
@@ -3373,7 +3373,7 @@
       "dataset": "TaintBench",
       "app_name": "death_ring_materialflow",
       "apk_name": "death_ring_materialflow.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/death_ring_materialflow",
       "query_input": "请分析 com.qc.access.SmsReceiver.public void onReceive(Context context, Intent intent) 中 getDisplayMessageBody 的后向数据流，关注 sendTextMessage 等种类的 sink",
       "sinks": [
         {
@@ -3477,7 +3477,7 @@
       "dataset": "TaintBench",
       "app_name": "dsencrypt_samp",
       "apk_name": "dsencrypt_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/dsencrypt_samp",
       "query_input": "请分析 com.kbstar.kb.android.star.ProxyApp.private void loadClass(Context context) 中 open 的后向数据流，关注 invoke 等种类的 sink",
       "sinks": [
         {
@@ -3550,7 +3550,7 @@
       "dataset": "TaintBench",
       "app_name": "exprespam",
       "apk_name": "exprespam.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/exprespam",
       "query_input": "请分析 frhfsd.siksdk.ujdsfjkfsd.WrehifsdkjsActivity.Progress.public void run() 中 getLine1Number 的后向数据流，关注 execute 等种类的 sink",
       "sinks": [
         {
@@ -3615,7 +3615,7 @@
       "dataset": "TaintBench",
       "app_name": "exprespam",
       "apk_name": "exprespam.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/exprespam",
       "query_input": "请分析 frhfsd.siksdk.ujdsfjkfsd.WrehifsdkjsActivity.Progress.public ArrayList<String> getAddress() 中 managedQuery 的后向数据流，关注 execute 等种类的 sink",
       "sinks": [
         {
@@ -3724,7 +3724,7 @@
       "dataset": "TaintBench",
       "app_name": "fakeappstore",
       "apk_name": "fakeappstore.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/fakeappstore",
       "query_input": "请分析 com.google.games.stores.service.ContactsService.public void contacts4SMS(String content) 中 query 的后向数据流，关注 sendTextMessage 等种类的 sink",
       "sinks": [
         {
@@ -3810,7 +3810,7 @@
       "dataset": "TaintBench",
       "app_name": "fakeappstore",
       "apk_name": "fakeappstore.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/fakeappstore",
       "query_input": "请分析 com.google.games.stores.util.NetTask.public String doInBackground(String... params) 中 getContent 的后向数据流，关注 sendTextMessage 等种类的 sink",
       "sinks": [
         {
@@ -3913,7 +3913,7 @@
       "dataset": "TaintBench",
       "app_name": "fakeappstore",
       "apk_name": "fakeappstore.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/fakeappstore",
       "query_input": "请分析 com.google.games.stores.util.GeneralUtil.public static String getDevice(Context context) 中 getDeviceId 的后向数据流，关注 execute 等种类的 sink",
       "sinks": [
         {
@@ -3994,7 +3994,7 @@
       "dataset": "TaintBench",
       "app_name": "fakebank_android_samp",
       "apk_name": "fakebank_android_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/fakebank_android_samp",
       "query_input": "请分析 com.example.bankmanager.BankActivity.public void onCreate(Bundle savedInstanceState) 中 findViewById 的后向数据流，关注 execute 等种类的 sink",
       "sinks": [
         {
@@ -4199,7 +4199,7 @@
       "dataset": "TaintBench",
       "app_name": "fakebank_android_samp",
       "apk_name": "fakebank_android_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/fakebank_android_samp",
       "query_input": "请分析 com.example.smsmanager.BootCompleteBroadcastReceiver.public void onReceive(Context context, Intent intent) 中 getSimSerialNumber 的后向数据流，关注 getInputStream 等种类的 sink",
       "sinks": [
         {
@@ -4294,7 +4294,7 @@
       "dataset": "TaintBench",
       "app_name": "fakebank_android_samp",
       "apk_name": "fakebank_android_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/fakebank_android_samp",
       "query_input": "请分析 com.example.bankmanager.BankEndActivity.CreateNewUser.public String doInBackground(String... args) 中 getSimSerialNumber 的后向数据流，关注 execute 等种类的 sink",
       "sinks": [
         {
@@ -4368,7 +4368,7 @@
       "dataset": "TaintBench",
       "app_name": "fakebank_android_samp",
       "apk_name": "fakebank_android_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/fakebank_android_samp",
       "query_input": "请分析 com.example.smsmanager.smsReceiver.public void onReceive(Context context, Intent intent) 中 getDisplayMessageBody 的后向数据流，关注 execute 等种类的 sink",
       "sinks": [
         {
@@ -4443,7 +4443,7 @@
       "dataset": "TaintBench",
       "app_name": "fakebank_android_samp",
       "apk_name": "fakebank_android_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/fakebank_android_samp",
       "query_input": "请分析 com.example.service.InstallService.private void removeApplications() 中 File 的后向数据流，关注 startActivity 等种类的 sink",
       "sinks": [
         {
@@ -4517,7 +4517,7 @@
       "dataset": "TaintBench",
       "app_name": "fakedaum",
       "apk_name": "fakedaum.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/fakedaum",
       "query_input": "请分析 com.mvlove.receiver.SmsReceiver.public void onReceive(Context context, Intent intent) 中 createFromPdu 的后向数据流，关注 execute 等种类的 sink",
       "sinks": [
         {
@@ -4685,7 +4685,7 @@
       "dataset": "TaintBench",
       "app_name": "fakedaum",
       "apk_name": "fakedaum.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/fakedaum",
       "query_input": "请分析 com.mvlove.util.PhoneUtil.public static final String getImei(Context context) 中 getSimSerialNumber 的后向数据流，关注 execute 等种类的 sink",
       "sinks": [
         {
@@ -4788,7 +4788,7 @@
       "dataset": "TaintBench",
       "app_name": "fakemart",
       "apk_name": "fakemart.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/fakemart",
       "query_input": "请分析 com.android.blackmarket.SmsReceiver.public void onReceive(Context context, Intent intent) 中 createFromPdu 的后向数据流，关注 getInputStream 等种类的 sink",
       "sinks": [
         {
@@ -4916,7 +4916,7 @@
       "dataset": "TaintBench",
       "app_name": "fakeplay",
       "apk_name": "fakeplay.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/fakeplay",
       "query_input": "请分析 com.googleprojects.mm.JHService.public void smsReceived(Intent intent) 中 getNetworkOperatorName 的后向数据流，关注 write 等种类的 sink",
       "sinks": [
         {
@@ -5095,7 +5095,7 @@
       "dataset": "TaintBench",
       "app_name": "fakeplay",
       "apk_name": "fakeplay.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/fakeplay",
       "query_input": "请分析 com.googleprojects.mm.SPMainActivity.public void onCreate(Bundle savedInstanceState) 中 getLine1Number 的后向数据流，关注 write 等种类的 sink",
       "sinks": [
         {
@@ -5268,7 +5268,7 @@
       "dataset": "TaintBench",
       "app_name": "faketaobao",
       "apk_name": "faketaobao.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/faketaobao",
       "query_input": "请分析 com.tao.bao.MainActivity.AnonymousClass1.public void onClick(View arg0) 中 getText 的后向数据流，关注 execute 等种类的 sink",
       "sinks": [
         {
@@ -5396,7 +5396,7 @@
       "dataset": "TaintBench",
       "app_name": "faketaobao",
       "apk_name": "faketaobao.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/faketaobao",
       "query_input": "请分析 com.tao.bao.LocationVerify.AnonymousClass1.public void onClick(View arg0) 中 getText 的后向数据流，关注 execute 等种类的 sink",
       "sinks": [
         {
@@ -5524,7 +5524,7 @@
       "dataset": "TaintBench",
       "app_name": "godwon_samp",
       "apk_name": "godwon_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/godwon_samp",
       "query_input": "请分析 android.sms.core.GoogleService.public void onCreate() 中 getLine1Number 的后向数据流，关注 execute 等种类的 sink",
       "sinks": [
         {
@@ -5614,7 +5614,7 @@
       "dataset": "TaintBench",
       "app_name": "godwon_samp",
       "apk_name": "godwon_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/godwon_samp",
       "query_input": "请分析 android.sms.core.GoogleService.public void onCreate() 中 getDeviceId 的后向数据流，关注 execute 等种类的 sink",
       "sinks": [
         {
@@ -5705,7 +5705,7 @@
       "dataset": "TaintBench",
       "app_name": "godwon_samp",
       "apk_name": "godwon_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/godwon_samp",
       "query_input": "请分析 android.sms.core.BootReceiver.private final SmsMessage[] getMessagesFromIntent(Intent intent) 中 getSerializableExtra 的后向数据流，关注 execute 等种类的 sink",
       "sinks": [
         {
@@ -5926,7 +5926,7 @@
       "dataset": "TaintBench",
       "app_name": "godwon_samp",
       "apk_name": "godwon_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/godwon_samp",
       "query_input": "请分析 android.sms.core.BootReceiver.public void onReceive(Context arg0, Intent arg1) 中 getLine1Number 的后向数据流，关注 execute 等种类的 sink",
       "sinks": [
         {
@@ -6001,7 +6001,7 @@
       "dataset": "TaintBench",
       "app_name": "godwon_samp",
       "apk_name": "godwon_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/godwon_samp",
       "query_input": "请分析 android.sms.core.BootReceiver.public void onReceive(Context arg0, Intent arg1) 中 getDeviceId 的后向数据流，关注 execute 等种类的 sink",
       "sinks": [
         {
@@ -6077,7 +6077,7 @@
       "dataset": "TaintBench",
       "app_name": "hummingbad_android_samp",
       "apk_name": "hummingbad_android_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/hummingbad_android_samp",
       "query_input": "请分析 com.android.ad.du.BaiduCacheDBUtil.private static ArrayList<DuAdData> listDuAdDatasFromAppCache(Context context) 中 getString 的后向数据流，关注 insert 等种类的 sink",
       "sinks": [
         {
@@ -6448,7 +6448,7 @@
       "dataset": "TaintBench",
       "app_name": "jollyserv",
       "apk_name": "jollyserv.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/jollyserv",
       "query_input": "请分析 fm.xtube.CheckAgeActivity.public void onCreate(Bundle savedInstanceState) 中 getDeviceId 的后向数据流，关注 submit 等种类的 sink",
       "sinks": [
         {
@@ -6543,7 +6543,7 @@
       "dataset": "TaintBench",
       "app_name": "overlay_android_samp",
       "apk_name": "overlay_android_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/overlay_android_samp",
       "query_input": "请分析 exts.whats.activities.Cards.public void onCreate(Bundle savedInstanceState) 中 findViewById 的后向数据流，关注 startService 等种类的 sink",
       "sinks": [
         {
@@ -6619,7 +6619,7 @@
       "dataset": "TaintBench",
       "app_name": "overlay_android_samp",
       "apk_name": "overlay_android_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/overlay_android_samp",
       "query_input": "请分析 exts.whats.SendService.public void onHandleIntent(Intent intent) 中 getStringExtra 的后向数据流，关注 execute 等种类的 sink",
       "sinks": [
         {
@@ -6727,7 +6727,7 @@
       "dataset": "TaintBench",
       "app_name": "overlay_android_samp",
       "apk_name": "overlay_android_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/overlay_android_samp",
       "query_input": "请分析 exts.whats.MessageReceiver.private static Map<String, String> retrieveMessages(Intent intent) 中 getExtras 的后向数据流，关注 startService 等种类的 sink",
       "sinks": [
         {
@@ -6831,7 +6831,7 @@
       "dataset": "TaintBench",
       "app_name": "overlay_android_samp",
       "apk_name": "overlay_android_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/overlay_android_samp",
       "query_input": "请分析 exts.whats.activities.Cards.public void onNewIntent(Intent intent) 中 getStringExtra 的后向数据流，关注 startService 等种类的 sink",
       "sinks": [
         {
@@ -6878,7 +6878,7 @@
       "dataset": "TaintBench",
       "app_name": "overlay_android_samp",
       "apk_name": "overlay_android_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/overlay_android_samp",
       "query_input": "请分析 exts.whats.activities.Cards.public void onCreate(Bundle savedInstanceState) 中 getStringExtra 的后向数据流，关注 startService 等种类的 sink",
       "sinks": [
         {
@@ -6925,7 +6925,7 @@
       "dataset": "TaintBench",
       "app_name": "overlaylocker2_android_samp",
       "apk_name": "overlaylocker2_android_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/overlaylocker2_android_samp",
       "query_input": "请分析 brandmangroupe.miui.updater.MeSetting.public String imei() 中 getDeviceId 的后向数据流，关注 addJavascriptInterface 等种类的 sink",
       "sinks": [
         {
@@ -6976,7 +6976,7 @@
       "dataset": "TaintBench",
       "app_name": "overlaylocker2_android_samp",
       "apk_name": "overlaylocker2_android_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/overlaylocker2_android_samp",
       "query_input": "请分析 brandmangroupe.miui.updater.TelephonyInfo.public static TelephonyInfo getInstance(Context context) 中 getDeviceId 的后向数据流，关注 addJavascriptInterface 等种类的 sink",
       "sinks": [
         {
@@ -7059,7 +7059,7 @@
       "dataset": "TaintBench",
       "app_name": "overlaylocker2_android_samp",
       "apk_name": "overlaylocker2_android_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/overlaylocker2_android_samp",
       "query_input": "请分析 brandmangroupe.miui.updater.MeSystem.public boolean sendSMS(int simID, String toNum, String smsText) 中 getDeclaredMethod 的后向数据流，关注 invoke 等种类的 sink",
       "sinks": [
         {
@@ -7145,7 +7145,7 @@
       "dataset": "TaintBench",
       "app_name": "overlaylocker2_android_samp",
       "apk_name": "overlaylocker2_android_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/overlaylocker2_android_samp",
       "query_input": "请分析 brandmangroupe.miui.updater.MeFile.public void file2url(String file, String urlo) 中 FileInputStream 的后向数据流，关注 flush 等种类的 sink",
       "sinks": [
         {
@@ -7207,7 +7207,7 @@
       "dataset": "TaintBench",
       "app_name": "overlaylocker2_android_samp",
       "apk_name": "overlaylocker2_android_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/overlaylocker2_android_samp",
       "query_input": "请分析 brandmangroupe.miui.updater.MeFile.public static String read(String filePath) 中 FileInputStream 的后向数据流，关注 addJavascriptInterface 等种类的 sink",
       "sinks": [
         {
@@ -7273,7 +7273,7 @@
       "dataset": "TaintBench",
       "app_name": "overlaylocker2_android_samp",
       "apk_name": "overlaylocker2_android_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/overlaylocker2_android_samp",
       "query_input": "请分析 brandmangroupe.miui.updater.IncomingSms.public void onReceive(Context context, Intent intent2) 中 createFromPdu 的后向数据流，关注 startService 等种类的 sink",
       "sinks": [
         {
@@ -7357,7 +7357,7 @@
       "dataset": "TaintBench",
       "app_name": "overlaylocker2_android_samp",
       "apk_name": "overlaylocker2_android_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/overlaylocker2_android_samp",
       "query_input": "请分析 brandmangroupe.miui.updater.MasterPage.public static String getUniqueID(Context context) 中 getDeviceId 的后向数据流，关注 addJavascriptInterface 等种类的 sink",
       "sinks": [
         {
@@ -7519,7 +7519,7 @@
       "dataset": "TaintBench",
       "app_name": "overlaylocker2_android_samp",
       "apk_name": "overlaylocker2_android_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/overlaylocker2_android_samp",
       "query_input": "请分析 brandmangroupe.miui.updater.MasterPage.public void onCreate(Bundle savedInstanceState) 中 getStringExtra 的后向数据流，关注 addJavascriptInterface 等种类的 sink",
       "sinks": [
         {
@@ -7681,7 +7681,7 @@
       "dataset": "TaintBench",
       "app_name": "phospy",
       "apk_name": "phospy.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/phospy",
       "query_input": "请分析 com.labado.lulaoshi.myService.public void log() 中 getDeviceId 的后向数据流，关注 writeUTF 等种类的 sink",
       "sinks": [
         {
@@ -7754,7 +7754,7 @@
       "dataset": "TaintBench",
       "app_name": "phospy",
       "apk_name": "phospy.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/phospy",
       "query_input": "请分析 com.labado.lulaoshi.myService.public void log() 中 FileInputStream 的后向数据流，关注 write 等种类的 sink",
       "sinks": [
         {
@@ -7858,7 +7858,7 @@
       "dataset": "TaintBench",
       "app_name": "proxy_samp",
       "apk_name": "proxy_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/proxy_samp",
       "query_input": "请分析 com.smart.studio.proxy.ProxyService.PollerThread.public void run() 中 getLac 的后向数据流，关注 i 等种类的 sink",
       "sinks": [
         {
@@ -7967,7 +7967,7 @@
       "dataset": "TaintBench",
       "app_name": "proxy_samp",
       "apk_name": "proxy_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/proxy_samp",
       "query_input": "请分析 com.smart.studio.proxy.ProxyService.ProxyThread.public void run() 中 File 的后向数据流，关注 execute 等种类的 sink",
       "sinks": [
         {
@@ -8048,7 +8048,7 @@
       "dataset": "TaintBench",
       "app_name": "proxy_samp",
       "apk_name": "proxy_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/proxy_samp",
       "query_input": "请分析 com.smart.studio.proxy.ProxyService.public void onCreate() 中 getAccounts 的后向数据流，关注 write 等种类的 sink",
       "sinks": [
         {
@@ -8285,7 +8285,7 @@
       "dataset": "TaintBench",
       "app_name": "proxy_samp",
       "apk_name": "proxy_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/proxy_samp",
       "query_input": "请分析 com.smart.studio.proxy.ProxyService.public void QuerySMSLog(boolean first) 中 query 的后向数据流，关注 write 等种类的 sink",
       "sinks": [
         {
@@ -8421,7 +8421,7 @@
       "dataset": "TaintBench",
       "app_name": "proxy_samp",
       "apk_name": "proxy_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/proxy_samp",
       "query_input": "请分析 com.smart.studio.proxy.ProxyService.public int onStartCommand(Intent intent, int flags, int startId) 中 getConnectionInfo 的后向数据流，关注 i 等种类的 sink",
       "sinks": [
         {
@@ -8582,7 +8582,7 @@
       "dataset": "TaintBench",
       "app_name": "proxy_samp",
       "apk_name": "proxy_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/proxy_samp",
       "query_input": "请分析 com.smart.studio.proxy.SMSReceiver.public void onReceive(Context context, Intent intent) 中 getDisplayMessageBody 的后向数据流，关注 i 等种类的 sink",
       "sinks": [
         {
@@ -8715,7 +8715,7 @@
       "dataset": "TaintBench",
       "app_name": "proxy_samp",
       "apk_name": "proxy_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/proxy_samp",
       "query_input": "请分析 com.smart.studio.proxy.ProxyService.public void QueryPhoneLog(boolean first) 中 query 的后向数据流，关注 write 等种类的 sink",
       "sinks": [
         {
@@ -9046,7 +9046,7 @@
       "dataset": "TaintBench",
       "app_name": "proxy_samp",
       "apk_name": "proxy_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/proxy_samp",
       "query_input": "请分析 com.smart.studio.proxy.ProxyService.public int onStartCommand(Intent intent, int flags, int startId) 中 File 的后向数据流，关注 write 等种类的 sink",
       "sinks": [
         {
@@ -9116,7 +9116,7 @@
       "dataset": "TaintBench",
       "app_name": "remote_control_smack",
       "apk_name": "remote_control_smack.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/remote_control_smack",
       "query_input": "请分析 com.android.service.view.GPSTracker.public Location getLocation() 中 getLastKnownLocation 的后向数据流，关注 append 等种类的 sink",
       "sinks": [
         {
@@ -9312,7 +9312,7 @@
       "dataset": "TaintBench",
       "app_name": "remote_control_smack",
       "apk_name": "remote_control_smack.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/remote_control_smack",
       "query_input": "请分析 com.android.service.XmppService.public void sms_saveFile() 中 getString 的后向数据流，关注 append 等种类的 sink",
       "sinks": [
         {
@@ -9390,7 +9390,7 @@
       "dataset": "TaintBench",
       "app_name": "remote_control_smack",
       "apk_name": "remote_control_smack.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/remote_control_smack",
       "query_input": "请分析 com.android.service.XmppService.public void sms_saveFile() 中 getInt 的后向数据流，关注 append 等种类的 sink",
       "sinks": [
         {
@@ -9450,7 +9450,7 @@
       "dataset": "TaintBench",
       "app_name": "remote_control_smack",
       "apk_name": "remote_control_smack.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/remote_control_smack",
       "query_input": "请分析 com.android.service.XmppService.public void sms_saveFile() 中 getLong 的后向数据流，关注 append 等种类的 sink",
       "sinks": [
         {
@@ -9517,7 +9517,7 @@
       "dataset": "TaintBench",
       "app_name": "remote_control_smack",
       "apk_name": "remote_control_smack.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/remote_control_smack",
       "query_input": "请分析 com.android.service.XmppService.public void call_saveFile() 中 getString 的后向数据流，关注 append 等种类的 sink",
       "sinks": [
         {
@@ -9638,7 +9638,7 @@
       "dataset": "TaintBench",
       "app_name": "remote_control_smack",
       "apk_name": "remote_control_smack.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/remote_control_smack",
       "query_input": "请分析 com.android.service.XmppService.public void call_saveFile() 中 getInt 的后向数据流，关注 append 等种类的 sink",
       "sinks": [
         {
@@ -9698,7 +9698,7 @@
       "dataset": "TaintBench",
       "app_name": "remote_control_smack",
       "apk_name": "remote_control_smack.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/remote_control_smack",
       "query_input": "请分析 com.android.service.XmppService.public void contacts_saveFile() 中 getString 的后向数据流，关注 append 等种类的 sink",
       "sinks": [
         {
@@ -9782,7 +9782,7 @@
       "dataset": "TaintBench",
       "app_name": "remote_control_smack",
       "apk_name": "remote_control_smack.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/remote_control_smack",
       "query_input": "请分析 com.android.service.XmppService.public void Calendar_saveFile() 中 getString 的后向数据流，关注 append 等种类的 sink",
       "sinks": [
         {
@@ -9914,7 +9914,7 @@
       "dataset": "TaintBench",
       "app_name": "remote_control_smack",
       "apk_name": "remote_control_smack.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/remote_control_smack",
       "query_input": "请分析 com.android.service.XmppService.public void Calendar_saveFile() 中 getLong 的后向数据流，关注 append 等种类的 sink",
       "sinks": [
         {
@@ -9974,7 +9974,7 @@
       "dataset": "TaintBench",
       "app_name": "repane",
       "apk_name": "repane.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/repane",
       "query_input": "请分析 com.vr.installer.scanner.PackageDescription.public void install(Context ctx) 中 File 的后向数据流，关注 startActivity 等种类的 sink",
       "sinks": [
         {
@@ -10024,7 +10024,7 @@
       "dataset": "TaintBench",
       "app_name": "roidsec",
       "apk_name": "roidsec.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/roidsec",
       "query_input": "请分析 cn.phoneSync.PhoneSyncService.private String getCallLogs() 中 query 的后向数据流，关注 write 等种类的 sink",
       "sinks": [
         {
@@ -10097,7 +10097,7 @@
       "dataset": "TaintBench",
       "app_name": "roidsec",
       "apk_name": "roidsec.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/roidsec",
       "query_input": "请分析 cn.phoneSync.PhoneSyncService.private String getContactInfo() 中 query 的后向数据流，关注 write 等种类的 sink",
       "sinks": [
         {
@@ -10162,7 +10162,7 @@
       "dataset": "TaintBench",
       "app_name": "roidsec",
       "apk_name": "roidsec.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/roidsec",
       "query_input": "请分析 cn.phoneSync.PhoneSyncService.private String getInstalledApp() 中 getInstalledPackages 的后向数据流，关注 write 等种类的 sink",
       "sinks": [
         {
@@ -10242,7 +10242,7 @@
       "dataset": "TaintBench",
       "app_name": "roidsec",
       "apk_name": "roidsec.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/roidsec",
       "query_input": "请分析 cn.phoneSync.PhoneSyncService.private String getKernelApp() 中 getInstalledPackages 的后向数据流，关注 write 等种类的 sink",
       "sinks": [
         {
@@ -10325,7 +10325,7 @@
       "dataset": "TaintBench",
       "app_name": "roidsec",
       "apk_name": "roidsec.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/roidsec",
       "query_input": "请分析 cn.phoneSync.PhoneSyncService.private String getSmsMessagesin() 中 query 的后向数据流，关注 write 等种类的 sink",
       "sinks": [
         {
@@ -10384,7 +10384,7 @@
       "dataset": "TaintBench",
       "app_name": "roidsec",
       "apk_name": "roidsec.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/roidsec",
       "query_input": "请分析 cn.phoneSync.PhoneSyncService.private String getSmsMessagesout() 中 query 的后向数据流，关注 write 等种类的 sink",
       "sinks": [
         {
@@ -10443,7 +10443,7 @@
       "dataset": "TaintBench",
       "app_name": "samsapo",
       "apk_name": "samsapo.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/samsapo",
       "query_input": "请分析 com.android.tools.system.SplashScreen.public String getMessages(String str) 中 getString 的后向数据流，关注 execute 等种类的 sink",
       "sinks": [
         {
@@ -10567,7 +10567,7 @@
       "dataset": "TaintBench",
       "app_name": "samsapo",
       "apk_name": "samsapo.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/samsapo",
       "query_input": "请分析 com.android.tools.system.SmsReceiver.public void onReceive(Context context, Intent intent) 中 createFromPdu 的后向数据流，关注 execute 等种类的 sink",
       "sinks": [
         {
@@ -10772,7 +10772,7 @@
       "dataset": "TaintBench",
       "app_name": "samsapo",
       "apk_name": "samsapo.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/samsapo",
       "query_input": "请分析 com.android.tools.system.PhoneReceiver.private Object getTelephonyServiceObject(Context context) 中 getSystemService 的后向数据流，关注 invoke 等种类的 sink",
       "sinks": [
         {
@@ -10874,7 +10874,7 @@
       "dataset": "TaintBench",
       "app_name": "save_me",
       "apk_name": "save_me.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/save_me",
       "query_input": "请分析 com.savemebeta.Analyse.AnonymousClass1.public void onClick(View v) 中 getText 的后向数据流，关注 put 等种类的 sink",
       "sinks": [
         {
@@ -11047,7 +11047,7 @@
       "dataset": "TaintBench",
       "app_name": "save_me",
       "apk_name": "save_me.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/save_me",
       "query_input": "请分析 com.savemebeta.DatabaseOperations.public Cursor getInformation(DatabaseOperations dop) 中 query 的后向数据流，关注 sendTextMessage 等种类的 sink",
       "sinks": [
         {
@@ -11306,7 +11306,7 @@
       "dataset": "TaintBench",
       "app_name": "save_me",
       "apk_name": "save_me.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/save_me",
       "query_input": "请分析 com.savemebeta.CO.public void onCreate() 中 getMacAddress 的后向数据流，关注 execute 等种类的 sink",
       "sinks": [
         {
@@ -11470,7 +11470,7 @@
       "dataset": "TaintBench",
       "app_name": "save_me",
       "apk_name": "save_me.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/save_me",
       "query_input": "请分析 com.savemebeta.CO.public void onCreate() 中 getSimCountryIso 的后向数据流，关注 execute 等种类的 sink",
       "sinks": [
         {
@@ -11539,7 +11539,7 @@
       "dataset": "TaintBench",
       "app_name": "save_me",
       "apk_name": "save_me.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/save_me",
       "query_input": "请分析 com.savemebeta.DatabaseOperationssmssave2.public Cursor getInformation(DatabaseOperationssmssave2 dop) 中 query 的后向数据流，关注 execute 等种类的 sink",
       "sinks": [
         {
@@ -11745,7 +11745,7 @@
       "dataset": "TaintBench",
       "app_name": "save_me",
       "apk_name": "save_me.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/save_me",
       "query_input": "请分析 com.savemebeta.SOSsm.AnonymousClass1.public void onClick(View arg0) 中 getText 的后向数据流，关注 execute 等种类的 sink",
       "sinks": [
         {
@@ -11820,7 +11820,7 @@
       "dataset": "TaintBench",
       "app_name": "save_me",
       "apk_name": "save_me.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/save_me",
       "query_input": "请分析 com.savemebeta.CHECKUPD.public void onCreate() 中 getMacAddress 的后向数据流，关注 execute 等种类的 sink",
       "sinks": [
         {
@@ -12028,7 +12028,7 @@
       "dataset": "TaintBench",
       "app_name": "save_me",
       "apk_name": "save_me.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/save_me",
       "query_input": "请分析 com.savemebeta.DatabaseOperationssmssave.public Cursor getInformation(DatabaseOperationssmssave dop) 中 query 的后向数据流，关注 execute 等种类的 sink",
       "sinks": [
         {
@@ -12166,7 +12166,7 @@
       "dataset": "TaintBench",
       "app_name": "save_me",
       "apk_name": "save_me.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/save_me",
       "query_input": "请分析 com.savemebeta.CHECKUPD.public void onCreate() 中 getSimCountryIso 的后向数据流，关注 execute 等种类的 sink",
       "sinks": [
         {
@@ -12280,7 +12280,7 @@
       "dataset": "TaintBench",
       "app_name": "save_me",
       "apk_name": "save_me.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/save_me",
       "query_input": "请分析 com.savemebeta.RC.public void onCreate() 中 getMacAddress 的后向数据流，关注 execute 等种类的 sink",
       "sinks": [
         {
@@ -12364,7 +12364,7 @@
       "dataset": "TaintBench",
       "app_name": "save_me",
       "apk_name": "save_me.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/save_me",
       "query_input": "请分析 com.savemebeta.GTSTSR.public void onCreate() 中 getMacAddress 的后向数据流，关注 execute 等种类的 sink",
       "sinks": [
         {
@@ -12580,7 +12580,7 @@
       "dataset": "TaintBench",
       "app_name": "save_me",
       "apk_name": "save_me.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/save_me",
       "query_input": "请分析 com.savemebeta.SCHKMS.public void onCreate() 中 getMacAddress 的后向数据流，关注 sendTextMessage 等种类的 sink",
       "sinks": [
         {
@@ -12627,7 +12627,7 @@
       "dataset": "TaintBench",
       "app_name": "save_me",
       "apk_name": "save_me.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/save_me",
       "query_input": "请分析 com.savemebeta.Scan.public void onCreate(Bundle savedInstanceState) 中 getStringExtra 的后向数据流，关注 startActivity 等种类的 sink",
       "sinks": [
         {
@@ -12725,7 +12725,7 @@
       "dataset": "TaintBench",
       "app_name": "scipiex",
       "apk_name": "scipiex.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/scipiex",
       "query_input": "请分析 com.yxx.jiejie.MainActivity.public void onCreate(Bundle savedInstanceState) 中 getLine1Number 的后向数据流，关注 write 等种类的 sink",
       "sinks": [
         {
@@ -12852,7 +12852,7 @@
       "dataset": "TaintBench",
       "app_name": "scipiex",
       "apk_name": "scipiex.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/scipiex",
       "query_input": "请分析 com.yxx.jiejie.SMSListenerService.AnonymousClass1.public void onReceive(Context context, Intent intent) 中 createFromPdu 的后向数据流，关注 write 等种类的 sink",
       "sinks": [
         {
@@ -12970,7 +12970,7 @@
       "dataset": "TaintBench",
       "app_name": "scipiex",
       "apk_name": "scipiex.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/scipiex",
       "query_input": "请分析 com.yxx.jiejie.SMSListenerService.public synchronized List readAllContacts() 中 query 的后向数据流，关注 println 等种类的 sink",
       "sinks": [
         {
@@ -13073,7 +13073,7 @@
       "dataset": "TaintBench",
       "app_name": "slocker_android_samp",
       "apk_name": "slocker_android_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/slocker_android_samp",
       "query_input": "请分析 com.android.locker.SenderActivity.public void onCreate(Bundle savedInstanceState) 中 getDeviceId 的后向数据流，关注 execute 等种类的 sink",
       "sinks": [
         {
@@ -13329,7 +13329,7 @@
       "dataset": "TaintBench",
       "app_name": "slocker_android_samp",
       "apk_name": "slocker_android_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/slocker_android_samp",
       "query_input": "请分析 com.android.locker.SenderActivity.AnonymousClass12.public void onClick(View v) 中 getText 的后向数据流，关注 execute 等种类的 sink",
       "sinks": [
         {
@@ -13481,7 +13481,7 @@
       "dataset": "TaintBench",
       "app_name": "sms_google",
       "apk_name": "sms_google.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/sms_google",
       "query_input": "请分析 com.google.elements.WorkService.public void onCreate() 中 getDeviceId 的后向数据流，关注 execute 等种类的 sink",
       "sinks": [
         {
@@ -13556,7 +13556,7 @@
       "dataset": "TaintBench",
       "app_name": "sms_google",
       "apk_name": "sms_google.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/sms_google",
       "query_input": "请分析 com.google.elements.WorkService.AnonymousClass1.public void run() 中 getDeviceId 的后向数据流，关注 execute 等种类的 sink",
       "sinks": [
         {
@@ -13630,7 +13630,7 @@
       "dataset": "TaintBench",
       "app_name": "sms_google",
       "apk_name": "sms_google.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/sms_google",
       "query_input": "请分析 com.google.elements.GCMIntentService.public void onMessage(Context context, Intent intent) 中 getStringExtra 的后向数据流，关注 sendTextMessage 等种类的 sink",
       "sinks": [
         {
@@ -13741,7 +13741,7 @@
       "dataset": "TaintBench",
       "app_name": "sms_send_locker_qqmagic",
       "apk_name": "sms_send_locker_qqmagic.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/sms_send_locker_qqmagic",
       "query_input": "请分析 qqkj.qqmagic.Fr.public void onReceive(Context context, Intent intent) 中 getDisplayMessageBody 的后向数据流，关注 sendTextMessage 等种类的 sink",
       "sinks": [
         {
@@ -14017,7 +14017,7 @@
       "dataset": "TaintBench",
       "app_name": "sms_send_locker_qqmagic",
       "apk_name": "sms_send_locker_qqmagic.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/sms_send_locker_qqmagic",
       "query_input": "请分析 qqkj.qqmagic.Fr.public void onReceive(Context context, Intent intent) 中 getDisplayOriginatingAddress 的后向数据流，关注 sendTextMessage 等种类的 sink",
       "sinks": [
         {
@@ -14068,7 +14068,7 @@
       "dataset": "TaintBench",
       "app_name": "smssend_packageInstaller",
       "apk_name": "smssend_packageInstaller.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/smssend_packageInstaller",
       "query_input": "请分析 install.app.Settings.public static String getImei(Context context) 中 getDeviceId 的后向数据流，关注 getOutputStream 等种类的 sink",
       "sinks": [
         {
@@ -14263,7 +14263,7 @@
       "dataset": "TaintBench",
       "app_name": "smssend_packageInstaller",
       "apk_name": "smssend_packageInstaller.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/smssend_packageInstaller",
       "query_input": "请分析 install.app.MainReceiver.private SmsMessage[] getSmsMessages(Bundle paramBundle) 中 createFromPdu 的后向数据流，关注 sendTextMessage 等种类的 sink",
       "sinks": [
         {
@@ -14351,7 +14351,7 @@
       "dataset": "TaintBench",
       "app_name": "smssend_packageInstaller",
       "apk_name": "smssend_packageInstaller.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/smssend_packageInstaller",
       "query_input": "请分析 ru.beta.Functions.public static String getImei(Context context) 中 getDeviceId 的后向数据流，关注 sendTextMessage 等种类的 sink",
       "sinks": [
         {
@@ -14509,7 +14509,7 @@
       "dataset": "TaintBench",
       "app_name": "smssilience_fake_vertu",
       "apk_name": "smssilience_fake_vertu.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/smssilience_fake_vertu",
       "query_input": "请分析 com.vertu.jp.MainActivity.public void onCreate(Bundle savedInstanceState) 中 getLine1Number 的后向数据流，关注 write 等种类的 sink",
       "sinks": [
         {
@@ -14567,7 +14567,7 @@
       "dataset": "TaintBench",
       "app_name": "smssilience_fake_vertu",
       "apk_name": "smssilience_fake_vertu.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/smssilience_fake_vertu",
       "query_input": "请分析 com.vertu.jp.catchsms2.public void onReceive(Context context, Intent intent) 中 createFromPdu 的后向数据流，关注 write 等种类的 sink",
       "sinks": [
         {
@@ -14626,7 +14626,7 @@
       "dataset": "TaintBench",
       "app_name": "smssilience_fake_vertu",
       "apk_name": "smssilience_fake_vertu.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/smssilience_fake_vertu",
       "query_input": "请分析 com.vertu.jp.catchsms2.public void onReceive(Context context, Intent intent) 中 getLine1Number 的后向数据流，关注 write 等种类的 sink",
       "sinks": [
         {
@@ -14696,7 +14696,7 @@
       "dataset": "TaintBench",
       "app_name": "smsstealer_kysn_assassincreed_android_samp",
       "apk_name": "smsstealer_kysn_assassincreed_android_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/smsstealer_kysn_assassincreed_android_samp",
       "query_input": "请分析 com.dsifakf.aoakmnq.GetAll.public void onReceive(Context context, Intent intent) 中 query 的后向数据流，关注 execute 等种类的 sink",
       "sinks": [
         {
@@ -14861,7 +14861,7 @@
       "dataset": "TaintBench",
       "app_name": "smsstealer_kysn_assassincreed_android_samp",
       "apk_name": "smsstealer_kysn_assassincreed_android_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/smsstealer_kysn_assassincreed_android_samp",
       "query_input": "请分析 com.dsifakf.aoakmnq.GetAll.public void onReceive(Context context, Intent intent) 中 getSubscriberId 的后向数据流，关注 execute 等种类的 sink",
       "sinks": [
         {
@@ -14934,7 +14934,7 @@
       "dataset": "TaintBench",
       "app_name": "smsstealer_kysn_assassincreed_android_samp",
       "apk_name": "smsstealer_kysn_assassincreed_android_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/smsstealer_kysn_assassincreed_android_samp",
       "query_input": "请分析 com.dsifakf.aoakmnq.Connect3.public String dataGet() 中 getInputStream 的后向数据流，关注 commit 等种类的 sink",
       "sinks": [
         {
@@ -15160,7 +15160,7 @@
       "dataset": "TaintBench",
       "app_name": "stels_flashplayer_android_update",
       "apk_name": "stels_flashplayer_android_update.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/stels_flashplayer_android_update",
       "query_input": "请分析 ru.stels2.Functions.public static List<String> getContacts(Context context) 中 query 的后向数据流，关注 write 等种类的 sink",
       "sinks": [
         {
@@ -15260,7 +15260,7 @@
       "dataset": "TaintBench",
       "app_name": "stels_flashplayer_android_update",
       "apk_name": "stels_flashplayer_android_update.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/stels_flashplayer_android_update",
       "query_input": "请分析 ru.stels2.Functions.public static String getImsi(Context context) 中 getSubscriberId 的后向数据流，关注 write 等种类的 sink",
       "sinks": [
         {
@@ -15341,7 +15341,7 @@
       "dataset": "TaintBench",
       "app_name": "stels_flashplayer_android_update",
       "apk_name": "stels_flashplayer_android_update.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/stels_flashplayer_android_update",
       "query_input": "请分析 ru.stels2.Functions.public static List<PackageInfo> getInstalledAppList(Context context) 中 getInstalledPackages 的后向数据流，关注 write 等种类的 sink",
       "sinks": [
         {
@@ -15414,7 +15414,7 @@
       "dataset": "TaintBench",
       "app_name": "tetus",
       "apk_name": "tetus.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/tetus",
       "query_input": "请分析 shared.library.us.Splash.public void initParams() 中 getDeviceId 的后向数据流，关注 connect 等种类的 sink",
       "sinks": [
         {
@@ -15481,7 +15481,7 @@
       "dataset": "TaintBench",
       "app_name": "tetus",
       "apk_name": "tetus.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/tetus",
       "query_input": "请分析 shared.library.us.MarketReciever.AnonymousClass1.public void run() 中 getDeviceId 的后向数据流，关注 connect 等种类的 sink",
       "sinks": [
         {
@@ -15536,7 +15536,7 @@
       "dataset": "TaintBench",
       "app_name": "the_interview_movieshow",
       "apk_name": "the_interview_movieshow.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/the_interview_movieshow",
       "query_input": "请分析 com.movieshow.down.Badaccents.DownloadMusicfromInternet.public String doInBackground(String... f_url) 中 openStream 的后向数据流，关注 startActivity 等种类的 sink",
       "sinks": [
         {
@@ -15611,7 +15611,7 @@
       "dataset": "TaintBench",
       "app_name": "threatjapan_uracto",
       "apk_name": "threatjapan_uracto.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/threatjapan_uracto",
       "query_input": "请分析 solution.newsandroid.MainviewActivity.public void postMailList() 中 query 的后向数据流，关注 append 等种类的 sink",
       "sinks": [
         {
@@ -15676,7 +15676,7 @@
       "dataset": "TaintBench",
       "app_name": "threatjapan_uracto",
       "apk_name": "threatjapan_uracto.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/threatjapan_uracto",
       "query_input": "请分析 solution.newsandroid.MainviewActivity.public void postMailList() 中 File 的后向数据流，关注 execute 等种类的 sink",
       "sinks": [
         {
@@ -15734,7 +15734,7 @@
       "dataset": "TaintBench",
       "app_name": "vibleaker_android_samp",
       "apk_name": "vibleaker_android_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/vibleaker_android_samp",
       "query_input": "请分析 gr.georkouk.kastorakiacounter_new.MyServerFunctions.public void register() 中 getExternalStorageDirectory 的后向数据流，关注 exchange 等种类的 sink",
       "sinks": [
         {
@@ -15843,7 +15843,7 @@
       "dataset": "TaintBench",
       "app_name": "vibleaker_android_samp",
       "apk_name": "vibleaker_android_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/vibleaker_android_samp",
       "query_input": "请分析 gr.georkouk.kastorakiacounter_new.MyServerFunctions.public void register() 中 File 的后向数据流，关注 exchange 等种类的 sink",
       "sinks": [
         {
@@ -15924,7 +15924,7 @@
       "dataset": "TaintBench",
       "app_name": "vibleaker_android_samp",
       "apk_name": "vibleaker_android_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/vibleaker_android_samp",
       "query_input": "请分析 gr.georkouk.kastorakiacounter_new.MyServerFunctions.public void upFF(String folder_, String flagOk_, String flagIndex_, boolean vid_) 中 File 的后向数据流，关注 exchange 等种类的 sink",
       "sinks": [
         {
@@ -15990,7 +15990,7 @@
       "dataset": "TaintBench",
       "app_name": "vibleaker_android_samp",
       "apk_name": "vibleaker_android_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/vibleaker_android_samp",
       "query_input": "请分析 gr.georkouk.kastorakiacounter_new.MyServerFunctions.public void upFC(Cursor cursor_, String flagOk_, String flagIndex_) 中 File 的后向数据流，关注 RestTemplate 等种类的 sink",
       "sinks": [
         {
@@ -16056,7 +16056,7 @@
       "dataset": "TaintBench",
       "app_name": "xbot_android_samp",
       "apk_name": "xbot_android_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/xbot_android_samp",
       "query_input": "请分析 com.address.core.SMSHandler.public void onReceive(Context context, Intent intent) 中 createFromPdu 的后向数据流，关注 call 等种类的 sink",
       "sinks": [
         {
@@ -16148,7 +16148,7 @@
       "dataset": "TaintBench",
       "app_name": "xbot_android_samp",
       "apk_name": "xbot_android_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/xbot_android_samp",
       "query_input": "请分析 com.address.core.xAPI.public String[] getTelephonyInfo() 中 getDeviceId 的后向数据流，关注 addJavascriptInterface 等种类的 sink",
       "sinks": [
         {
@@ -16208,7 +16208,7 @@
       "dataset": "TaintBench",
       "app_name": "xbot_android_samp",
       "apk_name": "xbot_android_samp.apk",
-      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/apks",
+      "source_dir": "/Users/zhangyiming/My_Documents/My_Code/LDFA-dataset/TaintBench/TaintBenchRepos/xbot_android_samp",
       "query_input": "请分析 com.address.core.xAPI.public ArrayList<PhoneContact> getContacts() 中 query 的后向数据流，关注 addJavascriptInterface 等种类的 sink",
       "sinks": [
         {

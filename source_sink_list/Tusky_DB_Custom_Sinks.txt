@@ -1,0 +1,16 @@
+# Tusky custom DB sinks (minimal)
+# Focus: EventHub -> CacheUpdater -> Room DAO writes/deletes
+# App: com.keylesspalace.tusky
+
+<com.keylesspalace.tusky.db.dao.TimelineDao: void removeAllByUser(long,java.lang.String)> -> _SINK_
+<com.keylesspalace.tusky.db.dao.TimelineDao: void removeStatusesAndReblogsByUser(long,java.lang.String)> -> _SINK_
+<com.keylesspalace.tusky.db.dao.TimelineDao: void deleteAllWithStatus(long,java.lang.String)> -> _SINK_
+<com.keylesspalace.tusky.db.dao.TimelineDao: void deleteAllFromInstance(long,java.lang.String)> -> _SINK_
+
+<com.keylesspalace.tusky.db.dao.NotificationsDao: void removeAllByUser(long,java.lang.String)> -> _SINK_
+<com.keylesspalace.tusky.db.dao.NotificationsDao: void deleteAllWithStatus(long,java.lang.String)> -> _SINK_
+<com.keylesspalace.tusky.db.dao.NotificationsDao: void deleteAllFromInstance(long,java.lang.String)> -> _SINK_
+
+<com.keylesspalace.tusky.db.dao.TimelineStatusDao: void update(long,com.keylesspalace.tusky.entity.Status)> -> _SINK_
+<com.keylesspalace.tusky.db.dao.TimelineStatusDao: void setVoted(long,java.lang.String,com.keylesspalace.tusky.entity.Poll)> -> _SINK_
+<com.keylesspalace.tusky.db.dao.TimelineStatusDao: void setShowResults(long,java.lang.String)> -> _SINK_

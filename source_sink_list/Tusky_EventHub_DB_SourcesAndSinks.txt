@@ -1,0 +1,56 @@
+# Tusky EventHub -> CacheUpdater -> DB (FlowDroid)
+# Target app: com.keylesspalace.tusky
+# Goal: detect custom-framework flows from event sources to Room DAO sinks.
+# Note: Kotlin suspend methods are compiled as Object-return with Continuation arg.
+# This list includes both human-readable (void) and compiled-style signatures when needed.
+
+# ---------------------- Sources ----------------------
+# Event constructors (custom framework entry points)
+<com.keylesspalace.tusky.appstore.BlockEvent: void <init>(java.lang.String)> -> _SOURCE_
+<com.keylesspalace.tusky.appstore.MuteEvent: void <init>(java.lang.String)> -> _SOURCE_
+<com.keylesspalace.tusky.appstore.UnfollowEvent: void <init>(java.lang.String)> -> _SOURCE_
+<com.keylesspalace.tusky.appstore.StatusDeletedEvent: void <init>(java.lang.String)> -> _SOURCE_
+<com.keylesspalace.tusky.appstore.DomainMuteEvent: void <init>(java.lang.String)> -> _SOURCE_
+<com.keylesspalace.tusky.appstore.StatusChangedEvent: void <init>(com.keylesspalace.tusky.entity.Status)> -> _SOURCE_
+<com.keylesspalace.tusky.appstore.PollVoteEvent: void <init>(java.lang.String,com.keylesspalace.tusky.entity.Poll)> -> _SOURCE_
+<com.keylesspalace.tusky.appstore.PollShowResultsEvent: void <init>(java.lang.String)> -> _SOURCE_
+
+# Optional upstream Android sources frequently used in Tusky entry paths
+<android.content.Intent: java.lang.String getStringExtra(java.lang.String)> -> _SOURCE_
+<android.content.Intent: android.os.Bundle getExtras()> -> _SOURCE_
+<android.os.Bundle: java.lang.String getString(java.lang.String)> -> _SOURCE_
+<android.os.Bundle: java.lang.Object get(java.lang.String)> -> _SOURCE_
+
+# ---------------------- Sinks ----------------------
+# TimelineDao
+<com.keylesspalace.tusky.db.dao.TimelineDao: void removeAllByUser(long,java.lang.String)> -> _SINK_
+<com.keylesspalace.tusky.db.dao.TimelineDao: java.lang.Object removeAllByUser(long,java.lang.String,kotlin.coroutines.Continuation)> -> _SINK_
+
+<com.keylesspalace.tusky.db.dao.TimelineDao: void removeStatusesAndReblogsByUser(long,java.lang.String)> -> _SINK_
+<com.keylesspalace.tusky.db.dao.TimelineDao: java.lang.Object removeStatusesAndReblogsByUser(long,java.lang.String,kotlin.coroutines.Continuation)> -> _SINK_
+
+<com.keylesspalace.tusky.db.dao.TimelineDao: void deleteAllWithStatus(long,java.lang.String)> -> _SINK_
+<com.keylesspalace.tusky.db.dao.TimelineDao: java.lang.Object deleteAllWithStatus(long,java.lang.String,kotlin.coroutines.Continuation)> -> _SINK_
+
+<com.keylesspalace.tusky.db.dao.TimelineDao: void deleteAllFromInstance(long,java.lang.String)> -> _SINK_
+<com.keylesspalace.tusky.db.dao.TimelineDao: java.lang.Object deleteAllFromInstance(long,java.lang.String,kotlin.coroutines.Continuation)> -> _SINK_
+
+# NotificationsDao
+<com.keylesspalace.tusky.db.dao.NotificationsDao: void removeAllByUser(long,java.lang.String)> -> _SINK_
+<com.keylesspalace.tusky.db.dao.NotificationsDao: java.lang.Object removeAllByUser(long,java.lang.String,kotlin.coroutines.Continuation)> -> _SINK_
+
+<com.keylesspalace.tusky.db.dao.NotificationsDao: void deleteAllWithStatus(long,java.lang.String)> -> _SINK_
+<com.keylesspalace.tusky.db.dao.NotificationsDao: java.lang.Object deleteAllWithStatus(long,java.lang.String,kotlin.coroutines.Continuation)> -> _SINK_
+
+<com.keylesspalace.tusky.db.dao.NotificationsDao: void deleteAllFromInstance(long,java.lang.String)> -> _SINK_
+<com.keylesspalace.tusky.db.dao.NotificationsDao: java.lang.Object deleteAllFromInstance(long,java.lang.String,kotlin.coroutines.Continuation)> -> _SINK_
+
+# TimelineStatusDao (status update path)
+<com.keylesspalace.tusky.db.dao.TimelineStatusDao: void update(long,com.keylesspalace.tusky.entity.Status)> -> _SINK_
+<com.keylesspalace.tusky.db.dao.TimelineStatusDao: java.lang.Object update(long,com.keylesspalace.tusky.entity.Status,kotlin.coroutines.Continuation)> -> _SINK_
+
+<com.keylesspalace.tusky.db.dao.TimelineStatusDao: void setVoted(long,java.lang.String,com.keylesspalace.tusky.entity.Poll)> -> _SINK_
+<com.keylesspalace.tusky.db.dao.TimelineStatusDao: java.lang.Object setVoted(long,java.lang.String,com.keylesspalace.tusky.entity.Poll,kotlin.coroutines.Continuation)> -> _SINK_
+
+<com.keylesspalace.tusky.db.dao.TimelineStatusDao: void setShowResults(long,java.lang.String)> -> _SINK_
+<com.keylesspalace.tusky.db.dao.TimelineStatusDao: java.lang.Object setShowResults(long,java.lang.String,kotlin.coroutines.Continuation)> -> _SINK_
